@@ -1,0 +1,8 @@
+.env
+data/raw/
+.venv/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+*.jpeg
+*.jpg

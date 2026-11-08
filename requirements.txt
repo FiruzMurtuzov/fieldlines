@@ -1,0 +1,10 @@
+pandas>=2.2
+pyarrow>=17
+requests>=2.32
+requests-cache>=1.2
+networkx>=3.3
+scikit-learn>=1.5
+google-genai>=1.0
+streamlit>=1.40
+plotly>=5.24
+python-dotenv>=1.0
