@@ -59,6 +59,7 @@ def compute_subfield_metrics(sf, n, pt, cooc) -> pd.DataFrame:
     for p in P:
         df[f"interdisc_{p}"] = inter[p] if p in inter else np.nan
     df["established"] = df[f"n_P3"] >= config.MIN_SUBFIELD_SIZE
+    df["artifact"] = df.index.isin(list(config.ARTIFACT_SUBFIELDS))
     return df.reset_index().rename(columns={"index": "subfield_id"})
 
 
@@ -90,7 +91,19 @@ def compute_pair_metrics(sm: pd.DataFrame, pt, cooc) -> pd.DataFrame:
         grid[f"{col}_j"] = grid.j.map(s[col])
     grid["same_field"] = grid.field_id_i == grid.field_id_j
     grid["same_domain"] = grid.domain_id_i == grid.domain_id_j
+    art = set(config.ARTIFACT_SUBFIELDS)
+    grid["artifact_pair"] = grid.i.isin(art) | grid.j.isin(art)
     return grid
+
+
+def rising_pairs(pm: pd.DataFrame) -> pd.DataFrame:
+    """Cross-field pairs whose association rose most P3 -> P5 (pair must already exist in P3)."""
+    p3 = pm[pm.period == "P3"].set_index(["i", "j"])
+    p5 = pm[pm.period == "P5"].set_index(["i", "j"])
+    x = p5.assign(c_P3=p3.c, logAS_P3=p3.logAS)
+    x["rise_P3_P5"] = x.logAS - x.logAS_P3
+    x = x[~x.same_field & ~x.artifact_pair & (x.c_P3 >= config.EDGE_MIN_COUNT) & (x.c >= config.LABEL_MIN_COUNT)]
+    return x.sort_values("rise_P3_P5", ascending=False).reset_index()
 
 
 def main():
@@ -103,16 +116,15 @@ def main():
     pm.to_parquet(config.PROCESSED / "pair_metrics.parquet", index=False)
 
     pd.set_option("display.width", 200)
-    em = sm[sm.n_P5 >= config.MIN_SUBFIELD_SIZE].nlargest(10, "acceleration")
+    em = sm[(sm.n_P5 >= config.MIN_SUBFIELD_SIZE) & ~sm.artifact].nlargest(10, "acceleration")
     print("\nTop 10 emerging subfields (acceleration, n_P5 >= %d):" % config.MIN_SUBFIELD_SIZE)
     print(em[["subfield", "field", "n_P3", "n_P4", "n_P5", "growth_P3_P4", "growth_P4_P5", "acceleration"]].to_string(index=False))
 
-    cross = pm[(pm.period == "P5") & ~pm.same_field & (pm.c >= config.LABEL_MIN_COUNT)]
-    # Rise over two periods (P3 -> P5) for robustness.
-    p3 = pm[pm.period == "P3"].set_index(["i", "j"]).logAS
-    cross = cross.assign(rise_P3_P5=cross.set_index(["i", "j"]).logAS.values - p3.reindex(cross.set_index(["i", "j"]).index).values)
-    print("\nTop 10 fastest-rising cross-field pairs (Δ log AS P3→P5, c_P5 >= %d):" % config.LABEL_MIN_COUNT)
-    print(cross.nlargest(10, "rise_P3_P5")[["subfield_i", "subfield_j", "c", "logAS", "rise_P3_P5"]].to_string(index=False))
+    rp = rising_pairs(pm)
+    rp.to_parquet(config.PROCESSED / "rising_pairs.parquet", index=False)
+    print("\nTop 10 fastest-rising cross-field pairs (Δ log AS P3→P5, c_P3 >= %d, c_P5 >= %d):"
+          % (config.EDGE_MIN_COUNT, config.LABEL_MIN_COUNT))
+    print(rp.head(10)[["subfield_i", "subfield_j", "c_P3", "c", "logAS", "rise_P3_P5"]].to_string(index=False))
 
 
 if __name__ == "__main__":

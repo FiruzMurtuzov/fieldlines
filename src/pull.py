@@ -37,12 +37,12 @@ def pull_taxonomy(oa: OpenAlex) -> pd.DataFrame:
 
 
 def pull_totals(oa: OpenAlex) -> pd.DataFrame:
-    d = oa.get("/works", {"filter": f"publication_year:{config.YEAR_MIN}-{config.YEAR_MAX}",
+    d = oa.get("/works", {"filter": f"publication_year:{config.YEAR_MIN}-{config.YEAR_MAX},{config.WORK_FILTER}",
                           "group_by": "publication_year"})
     yr = pd.DataFrame([{"year": int(g["key"]), "N": g["count"]} for g in d["group_by"]])
     yr = yr[(yr.year >= config.YEAR_MIN) & (yr.year <= config.YEAR_MAX)].sort_values("year")
     # Also the number of works with at least one topic (the proper denominator for AS).
-    d2 = oa.get("/works", {"filter": f"publication_year:{config.YEAR_MIN}-{config.YEAR_MAX},primary_topic.id:!null",
+    d2 = oa.get("/works", {"filter": f"publication_year:{config.YEAR_MIN}-{config.YEAR_MAX},primary_topic.id:!null,{config.WORK_FILTER}",
                            "group_by": "publication_year"})
     yt = pd.DataFrame([{"year": int(g["key"]), "N_topic": g["count"]} for g in d2["group_by"]])
     yr = yr.merge(yt, on="year", how="left")
@@ -58,14 +58,14 @@ def pull_totals(oa: OpenAlex) -> pd.DataFrame:
 
 
 def _size_call(oa: OpenAlex, sid: int):
-    d = oa.get("/works", {"filter": f"topics.subfield.id:{sid},publication_year:{config.YEAR_MIN}-{config.YEAR_MAX}",
+    d = oa.get("/works", {"filter": f"topics.subfield.id:{sid},publication_year:{config.YEAR_MIN}-{config.YEAR_MAX},{config.WORK_FILTER}",
                           "group_by": "publication_year"})
     return [{"subfield_id": sid, "year": int(g["key"]), "n": g["count"]} for g in d["group_by"]]
 
 
 def _cooc_call(oa: OpenAlex, sid: int, period: str):
     a, b = config.PERIODS[period]
-    d = oa.get("/works", {"filter": f"topics.subfield.id:{sid},publication_year:{a}-{b}",
+    d = oa.get("/works", {"filter": f"topics.subfield.id:{sid},publication_year:{a}-{b},{config.WORK_FILTER}",
                           "group_by": "topics.subfield.id", "per_page": 200})
     out = [{"period": period, "src": sid, "dst": short_id(g["key"]), "c": g["count"]} for g in d["group_by"]]
     return out, d["meta"].get("groups_count")

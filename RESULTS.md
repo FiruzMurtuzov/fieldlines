@@ -33,3 +33,41 @@ Spent so far: totals + sizes = $0.025, all from the keyless budget.
 - 1,260 co-occurrence calls; 845 hit the 200-group cap. Pairs per period: P1 25,144 · P2 25,395 · P3 25,513 · P4 25,512 · P5 25,351.
 - Symmetry: 108,263 pairs seen from both sides, max relative difference **0.0**.
 - Spot check, AI × Molecular Biology: 4,062 → 4,209 → 4,515 → 5,017 → 6,552. AI × Biomedical Engineering: 2,317 → 9,128 (P1→P5).
+
+### Data-quality fixes (02:25–02:33)
+
+The first metrics run showed artefacts, so the whole pull was redone twice. Total spend is now about **$0.43**, with about $1.64 left today across 2 keys.
+
+1. **Datasets:** Ecology jumped 241k → 535k works in 2024 alone, driven by 370k PlutoF biodiversity *dataset* records. Fixed with `type:article|review`.
+2. **Zenodo spam:** "General Materials Science × Anthropology" went from 2 to 664 works in P5. All 664 were Indonesian SEO spam on Zenodo. "Business × Clinical Psychology" went 27 → 6,009, and 5,922 of those were Zenodo uploads. Fixed with `primary_location.source.type:journal`.
+3. **COVID taxonomy quirk:** Modeling and Simulation tripled in 2020 because OpenAlex maps "COVID-19 epidemiological studies" into it. It stays on the map but is excluded from the rankings, candidates and labels (`config.ARTIFACT_SUBFIELDS`).
+
+Final corpus is **journal articles and reviews**: P1 11.9M · P2 13.2M · P3 13.2M · P4 15.0M · P5 16.3M topic-tagged works. Symmetry is still exact (0.0 max difference). AI × Biomedical Engineering: 1,156 (P1) → 4,366 (P5).
+
+## Phase 2: Metrics (done)
+
+**Top emerging subfields** (acceleration = growth P4→P5 − growth P3→P4; n_P5 ≥ 2,000):
+
+| Subfield | n P3 → P4 → P5 | Acceleration |
+| --- | --- | --- |
+| Business and International Management | 21k → 39k → 88k | +0.39 |
+| Health Informatics | 10k → 21k → 53k | +0.34 |
+| Computer Graphics and CAD | 34k → 37k → 50k | +0.28 |
+| General Engineering | 6k → 8k → 12k | +0.17 |
+| Software | 45k → 52k → 67k | +0.15 |
+| Energy Engineering and Power Technology | 28k → 34k → 45k | +0.13 |
+
+Caveat: Business growth is mostly the topic "SMEs and Digital Marketing" (7k → 73k), likely a coverage expansion of regional journals.
+
+**Fastest-rising cross-field pairs** (Δ log AS P3→P5, already ≥ 20 papers in P3, ≥ 50 in P5):
+
+| Pair | Papers P3 → P5 | Δ log AS |
+| --- | --- | --- |
+| Global and Planetary Change × Infectious Diseases | 25 → 286 | +1.91 |
+| Information Systems × General Dentistry | 27 → 363 | +1.90 |
+| Infectious Diseases × Sensory Systems (COVID smell loss) | 78 → 714 | +1.86 |
+| Artificial Intelligence × Infectious Diseases | 50 → 901 | +1.80 |
+| Aquatic Science × Electrical and Electronic Eng. | 155 → 1,041 | +1.80 |
+| Oncology × Library and Information Sciences | 80 → 581 | +1.77 |
+| Health Informatics × Education | 229 → 9,334 | +1.74 |
+| Artificial Intelligence × Oral Surgery | 50 → 604 | +1.66 |

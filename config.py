@@ -43,3 +43,14 @@ SEED = 42
 LABEL_TOP_FRAC = 0.10
 LABEL_MIN_COUNT = 50
 FORECAST_TOP_N = 25
+
+# Only journal articles and reviews. Without this, 2024 is flooded by datasets
+# (370k PlutoF biodiversity records tagged Ecology) and Zenodo SEO spam
+# (e.g. 5.9k "Business x Clinical Psychology" uploads) creates fake bridges.
+WORK_FILTER = "type:article|review,primary_location.source.type:journal"
+
+# Subfields whose series are distorted by taxonomy quirks. Kept on the map but
+# excluded from rankings, labels and candidates.
+ARTIFACT_SUBFIELDS = {
+    2611: "Modeling and Simulation: absorbs the COVID-19 epidemiology topics from 2020 (3x jump in one year)",
+}
