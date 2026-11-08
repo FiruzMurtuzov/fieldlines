@@ -111,8 +111,12 @@ class OpenAlex:
         url = config.OPENALEX_BASE + path
         if use_cache:
             # Cache lookup without spending budget or touching the rate limiter.
-            key = self.session.cache.create_key(requests.Request("GET", url, params=params).prepare())
-            cached = self.session.cache.get_response(key)
+            # Build the request the way the session would (api_key is in ignored_parameters).
+            p = dict(params)
+            if self.keys:
+                p["api_key"] = self.keys[0]
+            req = self.session.prepare_request(requests.Request("GET", url, params=p))
+            cached = self.session.cache.get_response(self.session.cache.create_key(req))
             if cached is not None:
                 with self._log_lock:
                     self.calls_cached += 1

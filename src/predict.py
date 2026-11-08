@@ -200,8 +200,9 @@ def main():
     base = metrics[is_strict & metrics.model.isin(["current_AS", "pref_attach", "recent_growth"])]
     best_base = base.sort_values("p@20", ascending=False).iloc[0]
 
-    top = test.assign(score=strict_scores[best]).nlargest(20, "score")
-    top = top[["i", "j", "subfield_i", "subfield_j", "field_i", "field_j", "c", "logAS", "d_logAS",
+    top = test.assign(score=strict_scores[best]).nlargest(100, "score")
+    top["rank"] = np.arange(1, len(top) + 1)
+    top = top[["rank", "i", "j", "subfield_i", "subfield_j", "field_i", "field_j", "c", "logAS", "d_logAS",
                "c_future", "logAS_future", "rise", "y", "score"]]
     top.to_parquet(config.PROCESSED / "backtest_top.parquet", index=False)
 
@@ -250,7 +251,7 @@ def main():
     hm = ml.set_index("model").loc[best]
     print(f"\nHeadline ({best}, strict): top 20 had {hm['hits@20']} take-offs vs "
           f"{int(best_base['hits@20'])} for best baseline ({best_base.model}); base rate {test.y.mean():.3f}")
-    print("\nBacktest top 20:\n", top[["subfield_i", "subfield_j", "c", "c_future", "rise", "y"]].to_string(index=False))
+    print("\nBacktest top 20:\n", top.head(20)[["subfield_i", "subfield_j", "c", "c_future", "rise", "y"]].to_string(index=False))
     print("\nForecast top 10:\n", fc.head(10)[["subfield_i", "subfield_j", "c", "logAS", "d_logAS", "score"]].to_string(index=False))
     print("\nLogReg coefficients:", coefs)
 

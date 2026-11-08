@@ -1,0 +1,1327 @@
+{
+ "models": [
+  "gemini-3.8-flash",
+  "gemini-3.7-flash",
+  "gemini-3.6-flash",
+  "gemini-3.5-flash",
+  "gemini-2.5-flash"
+ ],
+ "cards": [
+  {
+   "kind": "forecast",
+   "rank": 2,
+   "i": 2305,
+   "j": 3104,
+   "subfield_i": "Environmental Engineering",
+   "subfield_j": "Condensed Matter Physics",
+   "field_i": "Environmental Science",
+   "field_j": "Physics and Astronomy",
+   "period_before": "2016–18",
+   "period_after": "2022–24",
+   "c_before": 60,
+   "c_after": 94,
+   "AS_before": 0.04695556955411674,
+   "AS_after": 0.07608308189068688,
+   "score": 0.9154096511633087,
+   "drivers": [
+    "recent rise in association",
+    "different domains",
+    "growth of slower field"
+   ],
+   "papers": [
+    {
+     "id": "W4319296534",
+     "doi": "https://doi.org/10.1038/s44222-023-00025-9",
+     "title": "Smart micro- and nanorobots for water purification",
+     "year": 2023,
+     "cited_by": 209,
+     "abstract": ""
+    },
+    {
+     "id": "W4308625949",
+     "doi": "https://doi.org/10.1126/sciadv.ade1731",
+     "title": "Self-driven magnetorobots for recyclable and scalable micro/nanoplastic removal from nonmarine waters",
+     "year": 2022,
+     "cited_by": 134,
+     "abstract": "Micro/nanoplastic (MNP) contamination in nonmarine waters has evolved into a notable ecotoxicological threat to the global ecosystem. However, existing strategies for MNP removal are typically limited to chemical flocculation or physical filtering that often fails to decontaminate plastic particulates with ultrasmall sizes or ultralow concentrations. Here, we report a self-driven magnetorobot comprising magnetizable ion-exchange resin sphere that can be used to dynamically remove or separate MNPs from nonmarine waters. As a result of the long-range electrophoretic attraction established by recyclable ion-exchange resin, the magnetorobot shows sustainable removal efficiency of >90% over 100 treatment cycles, with verified broad applicability to varying plastic compositions, sizes, and shapes as well as nonmarine water samples. Our work may facilitate industry-scale MNP removal with affordable cost and minimal secondary pollution and suggests an appealing strategy based on self-propelled micro/nanorobots to sample and assess nanoplastics in aqueous environment."
+    },
+    {
+     "id": "W4284689380",
+     "doi": "https://doi.org/10.1038/s41467-022-31467-1",
+     "title": "Engineering consortia by polymeric microbial swarmbots",
+     "year": 2022,
+     "cited_by": 101,
+     "abstract": "Synthetic microbial consortia represent a new frontier for synthetic biology given that they can solve more complex problems than monocultures. However, most attempts to co-cultivate these artificial communities fail because of the winner-takes-all in nutrients competition. In soil, multiple species can coexist with a spatial organization. Inspired by nature, here we show that an engineered spatial segregation method can assemble stable consortia with both flexibility and precision. We create microbial swarmbot consortia (MSBC) by encapsulating subpopulations with polymeric microcapsules. The crosslinked structure of microcapsules fences microbes, but allows the transport of small molecules and proteins. MSBC method enables the assembly of various synthetic communities and the precise control over the subpopulations. These capabilities can readily modulate the division of labor and communication. Our work integrates the synthetic biology and material science to offer insights into consortia assembly and serve as foundation to diverse applications from biomanufacturing to engineered photosynthesis."
+    },
+    {
+     "id": "W4214529479",
+     "doi": "https://doi.org/10.1038/s41467-022-28406-5",
+     "title": "Pick up and dispose of pollutants from water via temperature-responsive micellar copolymers on magnetite nanorobots",
+     "year": 2022,
+     "cited_by": 100,
+     "abstract": "Abstract Nano/micromotor technology is evolving as an effective method for water treatment applications in comparison to existing static mechanisms. The dynamic nature of the nano/micromotor particles enable faster mass transport and a uniform mixing ensuring an improved pollutant degradation and removal. Here we develop thermosensitive magnetic nanorobots (TM nanorobots) consisting of a pluronic tri-block copolymer (PTBC) that functions as hands for pollutant removal. These TM nanorobots are incorporated with iron oxide (Fe 3 O 4 ) nanoparticles as an active material to enable magnetic propulsion. The pickup and disposal of toxic pollutants are monitored by intermicellar agglomeration and separation of PTBC at different temperatures. The as-prepared TM nanorobots show excellent arsenic and atrazine removal efficiency. Furthermore, the adsorbed toxic contaminants on the TM nanorobots can be disposed by a simple cooling process and exhibit good recovery retention after multiple reuse cycles. This combination of temperature sensitive aggregation/separation coupled with magnetic propulsion opens a plethora of opportunities in the applicability of nanorobots in water treatment and targeted pollutant removal approaches."
+    },
+    {
+     "id": "W4391099298",
+     "doi": "https://doi.org/10.3390/su16020901",
+     "title": "Cradle-to-Gate Life Cycle Assessment (LCA) of GaN Power Semiconductor Device",
+     "year": 2024,
+     "cited_by": 55,
+     "abstract": "Wide Band Gap (WBG) semiconductors have the potential to provide significant improvements in energy efficiency over conventional silicon (Si) semiconductors. While the potential for energy efficiency gains is widely researched, the relation to the energy and resource use during manufacturing processes remains insufficiently studied. In order to appraise the performance of the technology thoroughly, issues such as raw material scarcity, toxicity and environmental impacts need to be investigated in detail. However, sparse Life Cycle Assessment (LCA) data are available for the two currently most widespread WBG semiconductor materials, gallium nitride (GaN or GaN/Si) and silicon carbide (SiC). This paper, for the first time, presents a cradle-to-gate life cycle assessment for a GaN/Si power device. To allow for a full range of indicators, life cycle assessment method EF 3.1 was used to analyze the results. The results identify environmental hotspots associated with different materials and processes: electricity consumption for the processes and clean room facilities, direct emissions of greenhouse gases, gold (when used), and volatile organic chemicals. Finally, we compare this result with publicly available data for Si, GaN and SiC power devices."
+    },
+    {
+     "id": "W4361297367",
+     "doi": "https://doi.org/10.1021/acsnano.2c11258",
+     "title": "A Dual-Biomineralized Yeast Micro-/Nanorobot with Self-Driving Penetration for Gastritis Therapy and Motility Recovery",
+     "year": 2023,
+     "cited_by": 55,
+     "abstract": "Micro-/nanorobots have attracted great interest in the field of drug delivery and treatment, while preparations for biocompatible robots are extremely challenging. Here, a self-driving yeast micro-/nanorobot (Cur@CaY-robot) is designed via dual biomineralization and acid catalysis of calcium carbonate (CaCO 3 ). Inner nano-CaCO 3 inside yeast cells (CaY) is biomineralized through cell respiration and provides nanoscaffolds for highly encapsulating curcumin (Cur). Meanwhile, the CaCO 3 crystals outside yeast cells (outer-CaCO 3 ) through uniaxial growth offer an asymmetric power source for self-propelled motility. The Cur@CaY-robot displays an efficient motion in gastric acid, with the potential for deep penetration to the thick gastric mucus, which significantly improves the accumulation of drug agents in the stomach wall tissue for robust gastritis therapy. More importantly, Ca 2+ cations released from the Cur@CaY-robot also synergistically repair the gastric motility of gastritis mice. Such yeast micro-/nanorobots exhibit desirable biocompatibility and biodegradability with a good loading capacity for drugs. This work provides an idea for the design of micro-/nanorobots through an environmentally friendly biosynthesis strategy for active drug delivery and precise therapy."
+    },
+    {
+     "id": "W4385077736",
+     "doi": "https://doi.org/10.1016/j.snb.2023.134319",
+     "title": "Room temperature and anti-humidity NH3 detection based on GaN nanorods/Ti3C2Tx MXene composite gas sensor",
+     "year": 2023,
+     "cited_by": 51,
+     "abstract": ""
+    },
+    {
+     "id": "W4310696841",
+     "doi": "https://doi.org/10.1016/j.colsurfa.2022.130712",
+     "title": "Dual-propelled PDA@MnO2 nanomotors with NIR light and H2O2 for effective removal of heavy metal and organic dye",
+     "year": 2022,
+     "cited_by": 43,
+     "abstract": ""
+    },
+    {
+     "id": "W4318070568",
+     "doi": "https://doi.org/10.1021/acsami.2c16592",
+     "title": "Precisely Navigated Biobot Swarms of Bacteria Magnetospirillum magneticum for Water Decontamination",
+     "year": 2023,
+     "cited_by": 41,
+     "abstract": "High Resolution Image Download MS PowerPoint Slide Hybrid biological robots (biobots) prepared from living cells are at the forefront of micro-/nanomotor research due to their biocompatibility and versatility toward multiple applications. However, their precise maneuverability is essential for practical applications. Magnetotactic bacteria are hybrid biobots that produce magnetosome magnetite crystals, which are more stable than synthesized magnetite and can orient along the direction of earth’s magnetic field. Herein, we used Magnetospirillum magneticum strain AMB-1 ( M. magneticum AMB-1) for the effective removal of chlorpyrifos (an organophosphate pesticide) in various aqueous solutions by naturally binding with organic matter. Precision control of M. magneticum AMB-1 was achieved by applying a magnetic field. Under a programed clockwise magnetic field, M. magneticum AMB-1 exhibit swarm behavior and move in a circular direction. Consequently, we foresee that M. magneticum AMB-1 can be applied in various environments to remove and retrieve pollutants by directional control magnetic actuation."
+    },
+    {
+     "id": "W4309513609",
+     "doi": "https://doi.org/10.1002/smtd.202201014",
+     "title": "Soft Magnetic Microrobots for Photoactive Pollutant Removal",
+     "year": 2022,
+     "cited_by": 41,
+     "abstract": "Abstract “Soft” robotics based on hydrogels appears as an alternative to the traditional technology of “hard” robotics. Soft microrobots are employed for drug delivery and cell manipulation. This work develops magnetic hydrogel‐based microrobots using chitosan (CHI) as the body of the micromotor and Fe3O4 nanoparticles to allow for its magnetic actuation. In addition, ZnO nanoparticles are incorporated inside the CHI body of the microrobot to act as an active component for pollutants photodegradation. CHI@Fe3O4‐ZnO microrobots are used for the efficient photodegradation of persistent organic pollutants (POPs). The high absorption of CHI hydrogel enhances the POP photodegradation, degrading it 75% in just 30 min. The adsorption‐degradation and magnetic properties of CHI@Fe3O4‐ZnO microrobots are used in five cycles while maintaining up to 60% photodegradation efficiency. The proof‐of‐concept present in this work represents a simple way to obtain soft microrobots with magnetic actuation and photodegradation functionalities for several water purification applications."
+    }
+   ],
+   "card": {
+    "area_name": "Magnetic Nanorobots for Water Remediation",
+    "connection": "Researchers apply physical mechanisms from condensed matter physics, such as magnetic actuation of iron oxide nanoparticles and responsive polymer phase behaviors, to engineer self-propelled micro- and nanorobots that enhance mass transport. Environmental engineers deploy these dynamic robotic systems to capture, degrade, and remove persistent aquatic contaminants, including microplastics, heavy metals, dyes, and pesticides.",
+    "why_now": "Conventional static filtering and chemical flocculation techniques increasingly fail to capture ultrasmall or low-concentration pollutants, driving the adoption of externally propelled, recyclable nanomaterials for efficient decontamination.",
+    "open_questions": [
+     "How can magnetic and stimuli-responsive nanorobots maintain stable pollutant removal efficiency and material recovery over hundreds of continuous cycles in diverse natural water compositions?",
+     "What control strategies can best coordinate the collective swarm behavior of magnetic biobots and synthetic microrobots to achieve scalable decontamination in large fluid volumes?",
+     "How can photoactive and thermally responsive micro/nanomotor components be synthesized at low cost without introducing secondary toxic chemical emissions into treated water systems?"
+    ],
+    "bridge_paper_ids": [
+     "W4308625949",
+     "W4214529479",
+     "W4309513609"
+    ]
+   },
+   "model": "gemini-3.8-flash"
+  },
+  {
+   "kind": "forecast",
+   "rank": 3,
+   "i": 1104,
+   "j": 2208,
+   "subfield_i": "Aquatic Science",
+   "subfield_j": "Electrical and Electronic Engineering",
+   "field_i": "Agricultural and Biological Sciences",
+   "field_j": "Engineering",
+   "period_before": "2016–18",
+   "period_after": "2022–24",
+   "c_before": 155,
+   "c_after": 1041,
+   "AS_before": 0.03886871078786643,
+   "AS_after": 0.23523885820495946,
+   "score": 0.8642336254553776,
+   "drivers": [
+    "recent rise in association",
+    "current overlap (papers)",
+    "acceleration of slower field"
+   ],
+   "papers": [
+    {
+     "id": "W4392024251",
+     "doi": "https://doi.org/10.1016/j.jssas.2024.02.001",
+     "title": "High-technology agriculture system to enhance food security: A concept of smart irrigation system using Internet of Things and cloud computing",
+     "year": 2024,
+     "cited_by": 167,
+     "abstract": "CONTEXT: Food security is highly reliant on agricultural activity to drive the world economy. However, this activity is in great danger due to climatic changes and improper use of irrigation techniques. Consequently, the lives of numerous individuals worldwide are in jeopardy. In light, this paper investigates the promise of smart irrigation systems based on new technology. OBJECTIVE: To meet the growing demand for water in agriculture, this study presents an intelligent irrigation system that uses cutting-edge technologies of 1) cloud computing, 2) embedded systems, and 3) Internet-of-Things (IoT). The main objective is to demonstrate how this innovative strategy can effectively manage water resources, supporting food security through cutting-edge agricultural technology. METHODS: This paper proposes a smart irrigation system based on cutting-edge technologies like the embedded system, Internet of Things (IoT), and cloud computing as a groundbreaking strategy to improve food security through the implementation of advanced agricultural technology. This system supervises real-time monitoring of crucial environmental factors such as 1) moisture, 2) humidity, 3) temperature, and 4) water levels, in smart agriculture practices. In addition, this system employs the latest sensors, including the module (DHT22), water level sensor, and moisture sensors, which are connected to the widely used embedded system (ESP32). The system uses the ThingSpeak cloud and ThingView app to enable wi"
+    },
+    {
+     "id": "W4383721730",
+     "doi": "https://doi.org/10.3390/iot4030012",
+     "title": "IoT-Enabled Smart Drip Irrigation System Using ESP32",
+     "year": 2023,
+     "cited_by": 131,
+     "abstract": "Agriculture, or farming, is the science of cultivating the soil, growing crops, and raising livestock. Ever since the days of the first plow from sticks over ten thousand years ago, agriculture has always depended on technology. As technology and science improved, so did the scale at which farming was possible. With the popularity and growth of the Internet of Things (IoT) in recent years, there are even more avenues for technology to make agriculture more efficient and help farmers in every nation. In this paper, we designed a smart IoT-enabled drip irrigation system using ESP32 to automate the irrigation process, and we tested it. The ESP32 communicates with the Blynk app, which is used to collect irrigation data, manually water the plants, switch off the automatic watering function, and plot graphs based on the readings of the sensors. We connected the ESP32 to a soil moisture sensor, temperature sensor, air humidity sensor, and water flow sensor. The ESP32 regularly checks if the soil is dry. If the soil is dry and the soil temperature is appropriate for watering, the ESP32 opens a solenoid valve and waters the plants. The amount of time to run the drip irrigation system is determined based on the flow rate measured by the water flow sensor. The ESP32 reads the humidity sensor values and notifies the user when the humidity is too high or too low. The user can switch off the automatic watering system according to the humidity value. In both primary and field tests, we foun"
+    },
+    {
+     "id": "W4401548428",
+     "doi": "https://doi.org/10.1016/j.mex.2024.102906",
+     "title": "IoT-enabled effective real-time water quality monitoring method for aquaculture",
+     "year": 2024,
+     "cited_by": 97,
+     "abstract": "Aquaculture is growing industry from the perspective of sustainable food fulfillment and county's economic development. Technology oriented aquafarming is the solution for effective water quality monitoring and high yield production. Internet of Things (IoT) integrated aquaculture can cater to such requirements. This research article introduces a comprehensive method aimed at seamlessly incorporate IoT sensors into aquafarming environments, utilizing Arduino boards and communication modules. The proposed method measures accurate water quality parameters, such as temperature, pH levels, and Dissolved Oxygen (DO), which are essential for maintaining optimal conditions for suitable aquaculture environment. This method enables the real-time collection of critical data points that are essential prevent fish diseases and mortality with low human intervention and maintenance cost. The key contributions of the methodology are mentioned below.•Design and development of a compact and efficient Printed Circuit Board (PCB) to achieve accurate sensor data readings and reliable communication in an aqua environment.•Prevent fish disease and mortality rate through data-driven decision incorporating correlation of DO, pH, and temperature sensor data.•Conducted instrument calibration checks and cross-validated automated system data with manual observations through repeatability tests to ensure precise measurements of sensor parameters."
+    },
+    {
+     "id": "W4386884832",
+     "doi": "https://doi.org/10.3390/su151813968",
+     "title": "IoT-Based Mushroom Cultivation System with Solar Renewable Energy Integration: Assessing the Sustainable Impact of the Yield and Quality",
+     "year": 2023,
+     "cited_by": 84,
+     "abstract": "The conventional method of mushroom cultivation can be labor-intensive and produce limited yields. Due to the humidity and temperature in the summer season, mushroom production is significantly diminished. The growth of each mushroom species depends on the consistency of care, the skill of experienced farmers, and crucial cultivation parameters such as temperature, humidity, irrigation, and exposure to sunlight. This study aims to implement an IoT-enabled cultivation system to control and monitor the environmental parameters of Indian mushroom cultivation within the proposed innovative framework, as compared to conventional methods. The IoT-based cultivation system consists of hardware components, circuit connections, software, and algorithms. This study confirms that consistent control of environmental parameters, such as temperature and relative humidity, by a dynamic climate promotes mushroom growth that is superior to conventional cultivation. Our findings reveal a substantial increase in the yield and quality of mushrooms, demonstrating the tangible advantages of applying an innovative approach. Traditional cultivation yielded an average of 4.118 kg, whereas IoT-based cultivation systems produced an average of 5.306 kg. The t-test statistic comparing yields has highlighted the significance of the observed differences with a p-value of 0.0000. The research contributions are to design and demonstrate the IoT-enabled system innovation with solar renewable energy, illustrati"
+    },
+    {
+     "id": "W4323344462",
+     "doi": "https://doi.org/10.37385/jaets.v4i1.1074",
+     "title": "Implementation of IoT-Based Hydroponics for SLB Pembina Pekanbaru students",
+     "year": 2022,
+     "cited_by": 79,
+     "abstract": "Special schools are special schools for children with special needs who aims to provide opportunities for children in obtaining education. SLB Pekanbaru Pembina State is a special education and special service (PK-LK) which has goals and targets to a) Produce students who are able to compete in this era of globalization globalization b) Produce students who are able to apply the utilization of science and technology optimally. This school handles students who have mental and physical limitations and intellectuals or called with disabilities, this school is located at Jalan Segar No. 46 Rejosari Village, Tenayan Raya District, Pekanbaru City, was founded by the Ministry of Education and Culture National Education in 1998, the Decree on the Appointment of the Pembina State SLB was issued by Minister of National Education No.13a/O/1998. On January 29, 1998, SLB Negeri The supervisor of Pekanbaru is currently led by Mr. Moelya Eko Suseno, S.Kom, M.TI, M.Pd. This school has teacher educators from graduates of Special Education (S1, S2 and even S3) the current number of SLB teachers is 55 people (all majors of visual impairment), administrative staff 7 people. For students from the level (SDLB, SMPLB and SMALB) totaling 367 people (all disabilities). The development of the Pekanbaru Pembina State SLB from year to year experienced an increase, especially in the students, then the infrastructure, facilities and infrastructure other infrastructure. This SLB is in accordance with its v"
+    },
+    {
+     "id": "W4392508428",
+     "doi": "https://doi.org/10.1186/s43067-024-00139-z",
+     "title": "Design and development of an IoT-based intelligent water quality management system for aquaculture",
+     "year": 2024,
+     "cited_by": 59,
+     "abstract": "Abstract Water quality is generally known to directly affect the health and growth rate of aquatic organisms and determines the success of any aquaculture fish production. However, water quality problems are difficult to detect early in aquaculture production facilities, largely because it requires a high level of technical understanding of the physio-chemical properties of water. In this research, an IoT-based intelligent water quality management system for aquaculture was designed and developed to monitor temperature, pH, and turbidity. ESP32 Microcontroller programmed with the C programming language was used to implement the smart control module which received data from the sensors and transmitted to a cloud database. A web application was also developed which enabled real-time monitoring and control of the system by a user from anywhere in the world, via any internet-connected device. Alarms and notifications could be received via WhatsApp Messenger. The system demonstrated capacity to improve the efficiency and productivity of aquaculture production."
+    },
+    {
+     "id": "W4411401585",
+     "doi": "https://doi.org/10.1016/j.atech.2025.101081",
+     "title": "Smart agriculture using IoT for automated irrigation, water and energy efficiency",
+     "year": 2025,
+     "cited_by": 55,
+     "abstract": "This study presents an innovative smart agriculture system that integrates Internet of Things (IoT) technologies, predictive algorithms, and automated control mechanisms to optimize irrigation and enhance resource efficiency. The proposed solution leverages soil moisture, temperature, and humidity sensors connected to an Arduino-based microcontroller to automate irrigation based on real-time data. Farmers can remotely monitor and manage irrigation schedules through mobile devices, ensuring precision and convenience. The predictive algorithm combines historical and real-time data to forecast irrigation requirements, ensuring water is applied only when necessary. Field trials demonstrated a 30% reduction in water usage compared to traditional irrigation methods, while maintaining optimal soil moisture levels. Additionally, the system significantly reduced labor and energy costs, contributing to operational efficiency. By addressing water scarcity and promoting sustainable resource utilization, this smart system has the potential to improve crop yields, reduce greenhouse gas emissions, and advance ecological farming practices. In regions with limited water resources, the implementation of this technology represents a significant step toward sustainable agriculture, showcasing immense potential for broader adoption."
+    },
+    {
+     "id": "W4312411277",
+     "doi": "https://doi.org/10.1016/j.ifacol.2022.10.125",
+     "title": "Smart Irrigation System",
+     "year": 2022,
+     "cited_by": 50,
+     "abstract": "Nowadays, evolving technologies have contributed significantly to enriching the field of agriculture. The automation process is integrated to drive devices to work independently and communicate by including smart technologies and devices with which a multitude of tasks are executed without a human hand. Thus, this work introduces an automatic irrigation system based on smart sensors that can be used in a moderate and economic way to monitor the mint or any kind of plant by integrating some connected electronic devices and other advantageous instruments widely used in the field of IoT. This system includes a soil moisture sensor placed in the root zone of the plant, a temperature sensor, and a water flow sensor connected to the valve of the water pumping motor. These sensors are integrated with an Arduino UNO microcontroller, relay module, DC pumping motor, and power battery. In other words, the behavior of this automated system is encapsulated in detecting the soil moisture and the temperature level and automatically switching the pumping motor to ON or OFF in relation to the soil moisture state at a controlled timing. The sensed data is transmitted to a computer to be included in the CSV dataset from which graphs are generated for analysis during one day of recording. Generally, this kind of automated irrigation system could be easily applied to small gardens, nurseries, or greenhouses. Recently, innovative solutions have been incorporated for reducing costs, saving time, an"
+    },
+    {
+     "id": "W4390533621",
+     "doi": "https://doi.org/10.1016/j.jafr.2023.100952",
+     "title": "A low-cost centralized IoT ecosystem for enhancing oyster mushroom cultivation",
+     "year": 2024,
+     "cited_by": 49,
+     "abstract": "The consumption of mushrooms has skyrocketed in recent years worldwide. The majority of farmers in developing countries still rely on the traditional approach to mushroom cultivation. So, modern technology needs to be adopted to enhance productivity to meet local demand. In addition, farmers face complex supply chain problems, a lack of direct communication with agronomists, and frequent outbreaks of diseases. This paper presents a low-cost centralized IoT ecosystem for addressing the aforementioned issues. The ecosystem provides real-time monitoring and automation of mushroom farmhouses, agro-eCommerce for convenient trade, agronomist advisory support, and disease detection with recommendations for early disease diagnosis and remedy. A small farmhouse with two rooms was built to validate the system's performance. The favorable climatic condition was maintained for oyster mushroom cultivation in the controlled room, whereas the traditional method was followed in the ordinary room. The mushroom was cultivated for three consecutive seasons throughout the year in both rooms. We found that the total production in the controlled room exceeded the yield in the ordinary room by around 49%, provided the same batch of seeds was used in both cases. The disease detection model achieved an accuracy of 98.33%, where farmers can upload the suspected image to the IoT ecosystem and get the predicted disease with relevant suggestions. By utilizing this IoT ecosystem can assist farmers in main"
+    },
+    {
+     "id": "W4283391679",
+     "doi": "https://doi.org/10.11591/ijeecs.v27.i1.pp52-61",
+     "title": "Instrumentation system for data acquisition and monitoring of hydroponic farming using ESP32 via Google Firebase",
+     "year": 2022,
+     "cited_by": 45,
+     "abstract": "This article discusses the design of a hydroponic planting process monitoring system based on the internet of things. This device uses an ESP32 microcontroller board as the main controller. The parameters that were monitored and acquired were the conditions of the hydroponic growing media. Those parameters are; water pH, water temperature, water turbidity level, and ambient air temperature and humidity. The five parameters are measured by analog sensors integrated with the ESP32. These parameters affect the growth process and the quality of crop yields. This article also describes the calibration method for each sensor used for parameter measurement. Then the monitoring of these parameters is carried out by utilizing a real-time database, namely Google Firebase. This platform is very suitable for all IoT-based monitoring and control applications. Measurement result data is uploaded and saved to the real-time database. Then paired by Android-based applications. This application was created to be used by hydroponic farmers who use this device. Thus the results of monitoring can be used to optimize the process of growing hydroponic plants."
+    }
+   ],
+   "card": {
+    "area_name": "IoT Water Quality and Aquaculture Instrumentation",
+    "connection": "Electrical and electronic engineering contributes embedded microcontrollers, custom printed circuit boards, and sensory modules to automate the continuous acquisition of physio-chemical water data like dissolved oxygen, pH, and turbidity. In turn, aquatic science utilizes these electronic telemetry and cloud-connected platforms to monitor aquatic environments, prevent fish disease, and optimize hydroponic growth media.",
+    "why_now": "The convergence is accelerating due to urgent food security demands, water scarcity challenges, and the accessibility of low-cost microcontrollers and cloud platforms that enable automated real-time water monitoring.",
+    "open_questions": [
+     "How can sensor calibration and measurement accuracy for parameters like dissolved oxygen and pH be maintained over long-term deployment in aqua environments without frequent manual cross-validation?",
+     "How can predictive control algorithms be integrated with microcontroller hardware to dynamically automate water treatment and aeration while minimizing energy consumption?",
+     "What hardware packaging and PCB design strategies best ensure long-term durability and signal integrity for electronic components submerged in corrosive aquatic farming environments?"
+    ],
+    "bridge_paper_ids": [
+     "W4401548428",
+     "W4392508428",
+     "W4283391679"
+    ]
+   },
+   "model": "gemini-3.8-flash"
+  },
+  {
+   "kind": "forecast",
+   "rank": 1,
+   "i": 2746,
+   "j": 3104,
+   "subfield_i": "Surgery",
+   "subfield_j": "Condensed Matter Physics",
+   "field_i": "Medicine",
+   "field_j": "Physics and Astronomy",
+   "period_before": "2016–18",
+   "period_after": "2022–24",
+   "c_before": 31,
+   "c_after": 65,
+   "AS_before": 0.005661605256873348,
+   "AS_after": 0.0153564318683728,
+   "score": 0.9162288573206305,
+   "drivers": [
+    "recent rise in association",
+    "preferential attachment (size product)",
+    "size of larger field"
+   ],
+   "papers": [
+    {
+     "id": "W4399047483",
+     "doi": "https://doi.org/10.1038/s41565-024-01681-7",
+     "title": "Oral mitochondrial transplantation using nanomotors to treat ischaemic heart disease",
+     "year": 2024,
+     "cited_by": 167,
+     "abstract": ""
+    },
+    {
+     "id": "W4308688159",
+     "doi": "https://doi.org/10.1002/smll.202204617",
+     "title": "Microalgae‐Based Biohybrid Microrobot for Accelerated Diabetic Wound Healing",
+     "year": 2022,
+     "cited_by": 103,
+     "abstract": "Abstract A variety of wound healing platforms have been proposed to alleviate the hypoxic condition and/or to modulate the immune responses for the treatment of chronic wounds in diabetes. However, these platforms with the passive diffusion of therapeutic agents through the blood clot result in the relatively low delivery efficiency into the deep wound site. Here, a microalgae‐based biohybrid microrobot for accelerated diabetic wound healing is developed. The biohybrid microrobot autonomously moves at velocity of 33.3 µm s −1 and generates oxygen for the alleviation of hypoxic condition. In addition, the microrobot efficiently bound with inflammatory chemokines of interleukin‐8 (IL‐8) and monocyte chemoattractant protein‐1 (MCP‐1) for modulating the immune responses. The enhanced penetration of microrobot is corroborated by measuring fibrin clots in biomimetic wound using microfluidic devices and the enhanced retention of microrobot is confirmed in the real wounded mouse skin tissue. After deposition on the chronic wound in diabetic mice without wound dressing, the wounds treated with microrobots are completely healed after 9 days with the significant decrease of inflammatory cytokines below 31% of the control level and the upregulated angiogenesis above 20 times of CD31 + cells. These results confirm the feasibility of microrobots as a next‐generation platform for diabetic wound healing."
+    },
+    {
+     "id": "W4404402023",
+     "doi": "https://doi.org/10.1038/s41467-024-54293-z",
+     "title": "Urease-powered nanomotor containing STING agonist for bladder cancer immunotherapy",
+     "year": 2024,
+     "cited_by": 82,
+     "abstract": "Most non-muscle invasive bladder cancers have been treated by transurethral resection and following intravesical injection of immunotherapeutic agents. However, the delivery efficiency of therapeutic agents into bladder wall is low due to frequent urination, which leads to the failure of treatment with side effects. Here, we report a urease-powered nanomotor containing the agonist of stimulator of interferon genes (STING) for the efficient activation of immune cells in the bladder wall. After characterization, we perform in vitro motion analysis and assess in vivo swarming behaviors of nanomotors. The intravesical instillation results in the effective penetration and retention of nanomotors in the bladder. In addition, we confirm the anti-tumor effect of nanomotor containing the STING agonist (94.2% of inhibition), with recruitment of CD8+ T cells (11.2-fold compared with PBS) and enhanced anti-tumor immune responses in bladder cancer model in female mice. Furthermore, we demonstrate the better anti-tumor effect of nanomotor containing the STING agonist than those of the gold standard Bacille Calmette-Guerin therapy and the anti-PD-1 inhibitor pembrolizumab in bladder cancer model. Taken together, the urease-powered nanomotor would provide a paradigm as a next-generation platform for bladder cancer immunotherapy. Self-propelling micro/nanomotors represent a therapeutic option for drug delivery. Here the authors report the design and characterization of a biodegradable urease-"
+    },
+    {
+     "id": "W4220728185",
+     "doi": "https://doi.org/10.1021/acsnano.2c00833",
+     "title": "Magnetically Actuated Biohybrid Microswimmers for Precise Photothermal Muscle Contraction",
+     "year": 2022,
+     "cited_by": 75,
+     "abstract": "Various strategies have been designed for myotube contraction and skeletal muscle stimulation in recent years, aiming in the field of skeletal muscle tissue engineering and bionics. However, most of the current approaches lack controllability and adaptability for precise stimulation, especially at the microlevel. Herein, wireless and precise activation of muscle by using magnetic biohybrid microswimmers in combination with near-infrared (NIR) laser irradiation is successfully demonstrated. Biohybrid microswimmers are fabricated by dip-coating superparamagnetic Fe 3 O 4 nanoparticles onto the chlorella microalgae, thus endowing robust navigation in various biological media due to magnetic actuation. Under the guidance of a rotating magnetic field, the engineered microswimmer can achieve precise motion toward a single C2C12-derived myotube. Upon NIR irradiation, the photothermal effect from the incorporated Fe 3 O 4 nanoparticles results in local temperature increments of approximately 5 °C in the targeted myotube, which could efficiently trigger the contraction of myotube. The mechanism underlying this phenomenon is a Ca 2+ -independent case involving direct actin–myosin interactions. In vivo muscle fiber contraction and histological test further demonstrate the effectiveness and biosafety of our design. The as-developed biohybrid microswimmer-based strategy is possible to provide a renovation for tissue engineering and bionics."
+    },
+    {
+     "id": "W4285588870",
+     "doi": "https://doi.org/10.1002/adhm.202201323",
+     "title": "Self‐Propelling Nanomotors Integrated with Biofilm Microenvironment‐Activated NO Release to Accelerate Healing of Bacteria‐Infected Diabetic Wounds",
+     "year": 2022,
+     "cited_by": 65,
+     "abstract": "Abstract Diabetic foot ulcer (DFU) treatment is challenged by persistent bacterial infection and hyperglycemia‐caused vascular dysplasia. Herein, self‐propelled nanomotors are designed to achieve biofilm microenvironment (BME)‐activated multistage release of NO for effective sterilization and subsequent angiogenesis promotion. CaO2 nanoparticles (NPs) are capped with PDA layers, followed by complexation with Fe2+ and surface grafting of cysteine‐NO to obtain Janus Ca@PDAFe‐CNO NPs. In response to low pH in BME, the decomposition of CaO2 cores generates O2 from one side of Janus NPs to propel biofilm penetration, and the released H2O2 and Fe2+ produce •OH through Fenton reaction. The concurrent glutathione‐triggered release of NO can be converted into reactive nitrogen species, which exhibit significantly higher bactericidal efficacy than those with only generation of •OH or NO. The slow release of NO for an extended time period promotes endothelial cell proliferation and migration. On Staphylococcus aureus‐infected skin wounds of diabetic mice, NP treatment eliminates bacterial infections and significantly elevates blood vessel densities, leading to full wound recovery and regeneration of arranged collagen fibers and skin accessories. Thus, the self‐propelling and multistage release of NO provide a feasible strategy to combat biofilm infection without using any antibiotics and accelerate angiogenesis and wound healing for DFU treatment."
+    },
+    {
+     "id": "W4389178904",
+     "doi": "https://doi.org/10.1002/advs.202303575",
+     "title": "Motile Living Biobots Self‐Construct from Adult Human Somatic Progenitor Seed Cells",
+     "year": 2023,
+     "cited_by": 63,
+     "abstract": "Abstract Fundamental knowledge gaps exist about the plasticity of cells from adult soma and the potential diversity of body shape and behavior in living constructs derived from genetically wild‐type cells. Here anthrobots are introduced, a spheroid‐shaped multicellular biological robot (biobot) platform with diameters ranging from 30 to 500 microns and cilia‐powered locomotive abilities. Each Anthrobot begins as a single cell, derived from the adult human lung, and self‐constructs into a multicellular motile biobot after being cultured in extra cellular matrix for 2 weeks and transferred into a minimally viscous habitat. Anthrobots exhibit diverse behaviors with motility patterns ranging from tight loops to straight lines and speeds ranging from 5–50 microns s −1 . The anatomical investigations reveal that this behavioral diversity is significantly correlated with their morphological diversity. Anthrobots can assume morphologies with fully polarized or wholly ciliated bodies and spherical or ellipsoidal shapes, each related to a distinct movement type. Anthrobots are found to be capable of traversing, and inducing rapid repair of scratches in, cultured human neural cell sheets in vitro. By controlling microenvironmental cues in bulk, novel structures, with new and unexpected behavior and biomedically‐relevant capabilities, can be discovered in morphogenetic processes without direct genetic editing or manual sculpting."
+    },
+    {
+     "id": "W4387705768",
+     "doi": "https://doi.org/10.3390/s23208503",
+     "title": "Microsurgery Robots: Applications, Design, and Development",
+     "year": 2023,
+     "cited_by": 56,
+     "abstract": "Microsurgical techniques have been widely utilized in various surgical specialties, such as ophthalmology, neurosurgery, and otolaryngology, which require intricate and precise surgical tool manipulation on a small scale. In microsurgery, operations on delicate vessels or tissues require high standards in surgeons' skills. This exceptionally high requirement in skills leads to a steep learning curve and lengthy training before the surgeons can perform microsurgical procedures with quality outcomes. The microsurgery robot (MSR), which can improve surgeons' operation skills through various functions, has received extensive research attention in the past three decades. There have been many review papers summarizing the research on MSR for specific surgical specialties. However, an in-depth review of the relevant technologies used in MSR systems is limited in the literature. This review details the technical challenges in microsurgery, and systematically summarizes the key technologies in MSR with a developmental perspective from the basic structural mechanism design, to the perception and human-machine interaction methods, and further to the ability in achieving a certain level of autonomy. By presenting and comparing the methods and technologies in this cutting-edge research, this paper aims to provide readers with a comprehensive understanding of the current state of MSR research and identify potential directions for future development in MSR."
+    },
+    {
+     "id": "W4386883235",
+     "doi": "https://doi.org/10.1126/scirobotics.adf7614",
+     "title": "Autonomous medical needle steering in vivo",
+     "year": 2023,
+     "cited_by": 56,
+     "abstract": "The use of needles to access sites within organs is fundamental to many interventional medical procedures both for diagnosis and treatment. Safely and accurately navigating a needle through living tissue to a target is currently often challenging or infeasible because of the presence of anatomical obstacles, high levels of uncertainty, and natural tissue motion. Medical robots capable of automating needle-based procedures have the potential to overcome these challenges and enable enhanced patient care and safety. However, autonomous navigation of a needle around obstacles to a predefined target in vivo has not been shown. Here, we introduce a medical robot that autonomously navigates a needle through living tissue around anatomical obstacles to a target in vivo. Our system leverages a laser-patterned highly flexible steerable needle capable of maneuvering along curvilinear trajectories. The autonomous robot accounts for anatomical obstacles, uncertainty in tissue/needle interaction, and respiratory motion using replanning, control, and safe insertion time windows. We applied the system to lung biopsy, which is critical for diagnosing lung cancer, the leading cause of cancer-related deaths in the United States. We demonstrated successful performance of our system in multiple in vivo porcine studies achieving targeting errors less than the radius of clinically relevant lung nodules. We also demonstrated that our approach offers greater accuracy compared with a standard manual b"
+    },
+    {
+     "id": "W4280582778",
+     "doi": "https://doi.org/10.1039/d2tb00555g",
+     "title": "Nitric oxide-propelled nanomotors for bacterial biofilm elimination and endotoxin removal to treat infected burn wounds",
+     "year": 2022,
+     "cited_by": 52,
+     "abstract": ", and NM treatment almost fully destroyed the bacteria in the wounds. IO@PMB-SNO NMs absorb LPS and remove it from the wounds under a magnetic field, which downregulates the interleukin-6 and tumor necrosis factor-α levels in tissues. The infected wounds were completely healed with the deposition and arrangement of collagen fibers and the generation of skin features similar to those of normal skin. Thus, IO@PMB-SNO NMs achieved multiple-mode effects, including GSH-triggered NO release and self-propelled motion, the NO-induced non-antibiotic elimination of biofilms and bacteria, and PMB-induced endotoxin removal. This study offers a feasible strategy, with integrated antibiofilm and anti-inflammatory effects, for accelerating the healing of infected burn wounds."
+    },
+    {
+     "id": "W4295936481",
+     "doi": "https://doi.org/10.1039/d2mh00693f",
+     "title": "Multi-target cell therapy using a magnetoelectric microscale biorobot for targeted delivery and selective differentiation of SH-SY5Y cells via magnetically driven cell stamping",
+     "year": 2022,
+     "cited_by": 45,
+     "abstract": "magnetoelectric (ME) stimulation. This ensures rapid colonization and enhances efficacy. SMMBs were fabricated using SH-SY5Y cells. Magnetoelectric nanoparticles for ME stimulation responded to an alternating magnetic field that ensured targeted cell differentiation. Multi-target cell therapy facilitated the targeted delivery and selective differentiation of SH-SY5Y cells to multiple regions using a single SMMB with rotating and alternating magnetic fields for delivery and ME stimulation. This promising tool may overcome the limitations of existing cell therapy for neurodegenerative diseases."
+    }
+   ],
+   "card": {
+    "area_name": "Medical Microrobotics and Autonomous Surgical Systems",
+    "connection": "Condensed matter physics principles—such as magnetic actuation, magnetoelectric dynamics, and self-propelling micro/nanomotors—are increasingly leveraged to construct smart materials and biohybrid microswimmers capable of navigating complex biological fluids. Surgical and medical researchers apply these physical constructs to achieve autonomous needle steering, targeted drug delivery, biofilm removal, and precise tissue repair in minimally invasive procedures.",
+    "why_now": "Recent advances in self-propelled nanomotors, biohybrid actuation, and autonomous navigation have enabled real-time targeted therapy in living tissues, driving a rapid rise in co-tagged publications and model take-off scores.",
+    "open_questions": [
+     "How can self-propelling nanomotors and microrobots maintain precise navigation and active propulsion inside dynamic biological environments subject to high uncertainty and motion?",
+     "What strategies will ensure the long-term biosafety, non-toxic clearance, or complete biodegradation of magnetic and synthetic materials used in surgical microrobots?",
+     "How can autonomous needle-steering systems and microsurgery robots seamlessly integrate real-time sensor feedback to adapt to natural organ motion and complex human tissue architectures?"
+    ],
+    "bridge_paper_ids": [
+     "W4308688159",
+     "W4220728185",
+     "W4404402023"
+    ]
+   },
+   "model": "gemini-3.6-flash"
+  },
+  {
+   "kind": "forecast",
+   "rank": 5,
+   "i": 2735,
+   "j": 3305,
+   "subfield_i": "Pediatrics, Perinatology and Child Health",
+   "subfield_j": "Geography, Planning and Development",
+   "field_i": "Medicine",
+   "field_j": "Social Sciences",
+   "period_before": "2016–18",
+   "period_after": "2022–24",
+   "c_before": 69,
+   "c_after": 348,
+   "AS_before": 0.03415179139134433,
+   "AS_after": 0.1289072849721097,
+   "score": 0.8612916240493012,
+   "drivers": [
+    "recent rise in association",
+    "shared neighbour fields",
+    "acceleration of slower field"
+   ],
+   "papers": [
+    {
+     "id": "W4210738248",
+     "doi": "https://doi.org/10.1371/journal.pone.0262743",
+     "title": "Understanding the role of village fund and administrative capacity in stunting reduction: Empirical evidence from Indonesia",
+     "year": 2022,
+     "cited_by": 100,
+     "abstract": "The Indonesian government launched various programs to handle stunting cases, including village funds. This paper examined the effects of village fund programs and village apparatuses' capacities to combat stunting based on aggregate data at the district level in Indonesia. Using descriptive data analysis and fixed effect panel regression, we observed that village fund programs could significantly reduce Indonesia's stunting prevalence, especially outside Java. It also revealed that the increasing education of regional leaders does not necessarily positively impact leaders' skills in handling stunting. At the same time, the number of village officials has a statistically significant influence on reducing stunting prevalence. It advised that the village budget fund can support national priorities in tackling the prevalence of stunting. Furthermore, it is essential to build the capacity of the village head for increasing awareness of health activities, especially early prevention of stunting, in addition to an adequate number of officials."
+    },
+    {
+     "id": "W4293412058",
+     "doi": "https://doi.org/10.1016/j.econedurev.2022.102304",
+     "title": "Natural disasters and human capital accumulation: Evidence from the 1976 Tangshan earthquake",
+     "year": 2022,
+     "cited_by": 36,
+     "abstract": ""
+    },
+    {
+     "id": "W4283788017",
+     "doi": "https://doi.org/10.1016/j.socscimed.2022.115189",
+     "title": "In utero exposure to natural disasters and later-life mortality: Evidence from earthquakes in the early twentieth century",
+     "year": 2022,
+     "cited_by": 21,
+     "abstract": ""
+    },
+    {
+     "id": "W4395087270",
+     "doi": "https://doi.org/10.33558/devosi.v5i1.9284",
+     "title": "SINERGITAS DAN KOLABORASI TERHADAP PEMBANGUNAN DESA MELALUI PROGRAM KULIAH KERJA NYATA DI KABUPATEN BEKASI",
+     "year": 2024,
+     "cited_by": 17,
+     "abstract": "Kuliah Kerja Nyata (KKN) is an education where students have the opportunity to learn in a community setting. KKN helps students discover potential and address problems so that they can build on the potential of the village or area and find solutions to existing problems in the village. The problem analysis obtained through the Bekasi Regency BAPPEDA institution is that the high stunting rate and the behaviour patterns of people who are accustomed to open defecation are still common in the Cabangbungin and Pebayuran sub-districts of Bekasi Regency. The purpose of KKN service is to improve the welfare of village communities in contributing to building creative and innovative villages in the field of business and entrepreneurship in accordance with the Vision of the Government of West Java Juara, Mandiri, Maju, and Sejahtera. The KKN service method of applying community education and mentoring with target participants is relevant. Overall, the service programme through KKN helps the community understand the importance of good sanitation and a healthy diet to prevent stunting, get the changes needed for regional development, and build development cadres in the community to ensure continued village development."
+    },
+    {
+     "id": "W4313389309",
+     "doi": "https://doi.org/10.30656/sawala.v10i2.5168",
+     "title": "Strategi Pemerintah Desa dalam Pencegahan Stunting di Desa Kedungkendo Kecamatan Candi Kabupaten Sidoarjo",
+     "year": 2022,
+     "cited_by": 17,
+     "abstract": "This study aims to determine the village government's strategy in preventing cases of stunting risk. This research method is descriptive qualitative. The type of data used in this study is qualitative data, which is divided into primary data and secondary data. The village government's strategy in preventing cases of stunting risk is the focus of this research. Sources of data obtained from interviews and observations. The results of this study indicate that the village government's strategy in preventing stunting has not been achieved, this is due to a lack of public awareness of stunting, and the community does not understand stunting. With the village government's strategy of carrying out stunting prevention activities by implementing the Healthy Living Community Movement through nutrition improvement training and acupressure massage"
+    },
+    {
+     "id": "W4309608761",
+     "doi": "https://doi.org/10.33087/jiubj.v22i3.2789",
+     "title": "Peranan Pemerintah Desa dalam Pencegahan Stunting Di Desa Kencana Kecamatan Balai Jaya Tahun 2022",
+     "year": 2022,
+     "cited_by": 17,
+     "abstract": "Based on the 2019 Basic Health Research data, the stunting rate in Indonesia is 27.67%. According to WHO, a public health problem is considered chronic when the prevalence of stunting exceeds 20%. 6 of 2014, villages are required to develop programs or activities related to stunting prevention. So in this Real Work Lecture activity, the researcher wanted to know how the role of the Kencana village government in stunting prevention was, so the researchers conducted research on the Role of the Village Government in Preventing Stunting in Kencana Village, Balai Jaya District in 2022. The technique for selecting research subjects was carried out purposively which obtained several The subjects were Kencana Village Apparatus, mothers with toddlers, and Village Midwives. Data collection techniques were carried out by direct interviews with informants using interview guidelines. From the results of our research, it can be concluded that the role of the village government in preventing stunting, especially health, has been carried out well. Both the allocation of funds and the actions and ideas made by the Kencana village government have made the Kencana village avoid stunting, the village government's efforts such as providing additional food, sweeping kids, immunization of children and providing additional food to pregnant women."
+    },
+    {
+     "id": "W4309518803",
+     "doi": "https://doi.org/10.1186/s12889-022-14371-7",
+     "title": "Geographic inequalities in health intervention coverage – mapping the composite coverage index in Peru using geospatial modelling",
+     "year": 2022,
+     "cited_by": 16,
+     "abstract": "BACKGROUND: The composite coverage index (CCI) provides an integrated perspective towards universal health coverage in the context of reproductive, maternal, newborn and child health. Given the sample design of most household surveys does not provide coverage estimates below the first administrative level, approaches for achieving more granular estimates are needed. We used a model-based geostatistical approach to estimate the CCI at multiple resolutions in Peru. METHODS: We generated estimates for the eight indicators on which the CCI is based for the departments, provinces, and areas of 5 × 5 km of Peru using data from two national household surveys carried out in 2018 and 2019 plus geospatial covariates. Bayesian geostatistical models were fit using the INLA-SPDE approach. We assessed model fit using cross-validation at the survey cluster level and by comparing modelled and direct survey estimates at the department-level. RESULTS: CCI coverage in the provinces along the coast was consistently higher than in the remainder of the country. Jungle areas in the north and east presented the lowest coverage levels and the largest gaps between and within provinces. The greatest inequalities were found, unsurprisingly, in the largest provinces where populations are scattered in jungle territory and are difficult to reach. CONCLUSIONS: Our study highlighted provinces with high levels of inequality in CCI coverage indicating areas, mostly low-populated jungle areas, where more attent"
+    },
+    {
+     "id": "W4362503927",
+     "doi": "https://doi.org/10.20473/mgi.v17i1sp.239-243",
+     "title": "SINERGI LINTAS SEKTOR DALAM PERCEPATAN PENURUNAN STUNTING DI KABUPATEN NGANJUK, JAWA TIMUR",
+     "year": 2022,
+     "cited_by": 15,
+     "abstract": "Stunting merupakan salah satu masalah pembangunan kesehatan di Indonesia. Survei Status Gizi Indonesia (2021) mencatat, prevalensi stunting di Kabupaten Nganjuk mencapai 25,3%. Penanganan stunting harus melibatkan komitmen bersama dan peran lintas sektor. Penelitian ini bertujuan mendeskripsikan peran sosial lintas sektoral dalam percepatan penurunan stunting di Kabupaten Nganjuk. Penelitian ini menggunakan konsep collaborative governance Ansell & Gash sebagai pisau bedah analisis. Penelitian ini menggunakan pendekatan kualitatif dengan pengumpulan data melalui teknik wawancara model focus group discussion kepada aparat desa, bidan dan penyuluh KB. Penelitian ini mengungkapkan bahwa peran sosial antar aktor dalam konteks tata kelola kolaboratif cukup efektif dalam mempercepat penurunan stunting di Kabupaten Nganjuk. Pemerintah desa berperan dalam merumuskan kebijakan penganggaran melalui alokasi dana desa untuk mendukung program tersebut. Bidan dan penyuluh KB bekerja sama merumuskan program yang efektif untuk disampaikan pada musyawarah perencanaan pembangunan desa. Pendampingan terhadap keluarga stunting dan berisiko stunting terus dilakukan melalui peran serta aktif bidan dan Tim Pendamping Keluarga. Kendala yang dialami pelaku sinergi lintas sektor dalam percepatan penurunan stunting adalah konstruksi pengetahuan dan perilaku orangtua tentang pola asuh anak yang masih lemah. Oleh karena itu, dalam memperkuat implementasi tata kelola kolaboratif dalam percepatan penguranga"
+    },
+    {
+     "id": "W4389246991",
+     "doi": "https://doi.org/10.47441/jkp.v18i2.346",
+     "title": "PENGEMBANGAN MODEL PENANGANAN STUNTING DI NTB: STUDI KEBIJAKAN DI DESA BILEBANTE, LOMBOK TENGAH",
+     "year": 2023,
+     "cited_by": 14,
+     "abstract": "Stunting merupakan gangguan pertumbuhan linear dalam status gizi rendah yang dapat diartikan sebagai kondisi pada seseorang dengan tubuh pendek atau sangat pendek karena malnutrisi. Prevalensi stunting di Provinsi Nusa Tenggara Barat (NTB) naik dari 31,4% pada tahun 2021 menjadi 32,7% pada tahun 2022. Penelitian ini bertujuan untuk mengeksplorasi strategi yang dikembangkan pemerintah desa di Bilebante dalam mengatasi permasalahan stunting, yang mana Desa Bilebante, Lombok Tengah, yang mana sukses dalam mengembangkan program kampung Keluarga Berencana yang erat kaitannya dengan pengendalian pola hidup sehat dan manajemen keluarga di masyarakatnya. Penelitian ini juga melakukan stakeholder mapping dan pemetaan modal sosial untuk menemukan formulasi kebijakan yang tepat dalam mengatasi isu stunting di NTB, sehingga dapat dihasilkan suatu rekomendasi kebijakan yang dapat di replikasi pada sejumlah desa lainnya yang ada di wilayah provinsi NTB. Penelitian ini dilakukan selama 3 bulan (Juni-Agustus 2023) dengan menggunakan metode kualitatif dengan pendekatan fenomenologi. Adapun teknik pengambilan data melalui observasi, wawancara mendalam, focus group discussion (FGD) dan dokumentasi. Informan dalam penelitian ini meliputi, pemerintah desa, bidan desa, kader posyandu, karang taruna, kelompok sadar wisata (Pokdarwis), tokoh adat, ibu hamil, ibu bayi dua tahun, dan masyarakat lokal lainnya. Hasil penelitian menunjukkan bahwa elaborasi kebijakan dan penguatan modal sosial oleh pemeri"
+    },
+    {
+     "id": "W4411007935",
+     "doi": "https://doi.org/10.35308/jpp.v11i2.11024",
+     "title": "Zero Stunting Villages: Analyzing the Challenges and Imperatives of Actor Collaboration",
+     "year": 2025,
+     "cited_by": 12,
+     "abstract": "The purpose of this study is to determine the role of the Krebet village government in making Krebet village a zero stunting village in Ponorogo Regency. This type of research uses qualitative methods woth data collection technique of interviews, observation, and documentation. The key informants in this study were the village head, health cadres, and community leaders. The results of this study show that. the Krebet village governments carries out its role by conducting educational socialization, nutrional intervention, increasing access to clean water and sanitation, empowering the family economy, and collaboration with various parties. Krebet village has shown full commitment to reducing stunting rates. Various programs, ranging from counseling, coachong, and socialization, have been implemented. However, the village government realizes that these efforts are not enaough if they only rel yon the budget. The conclusion that can be drawn from the research conducted is that is its implementation, the zero stunting designation was not balanced with role of the actors, so the Krebet village government still has dificulties in making the vallage a zero stunting village. The village government needs active participation from all parties in an effort to solve the stunting problem."
+    }
+   ],
+   "card": {
+    "area_name": "Decentralized Planning and Child Health",
+    "connection": "Researchers in these fields are connecting local development policies, village-level fiscal allocations, and geospatial analysis directly to child health outcomes such as stunting and healthcare intervention coverage. This includes evaluating how administrative capacity, spatial inequalities, and multi-actor collaborative governance within communities influence pediatric health interventions, water and sanitation improvements, and nutritional status.",
+    "why_now": "This surge is driven by decentralized public development initiatives, such as village funds targeting national stunting reduction priorities, alongside the adoption of granular geospatial mapping to pinpoint regional child health disparities.",
+    "open_questions": [
+     "How can village administrative capacity and leadership skills be effectively strengthened so that local development funds reliably lead to reductions in child stunting?",
+     "How can granular geospatial modeling be best applied to reduce coverage inequalities in maternal and child health interventions in hard-to-reach, geographically isolated regions?",
+     "What collaborative governance models between village officials, health workers, and community cadres are most successful at overcoming behavioral barriers related to child parenting and sanitation?"
+    ],
+    "bridge_paper_ids": [
+     "W4210738248",
+     "W4309518803",
+     "W4362503927"
+    ]
+   },
+   "model": "gemini-3.8-flash"
+  },
+  {
+   "kind": "forecast",
+   "rank": 4,
+   "i": 2916,
+   "j": 3107,
+   "subfield_i": "Nutrition and Dietetics",
+   "subfield_j": "Atomic and Molecular Physics, and Optics",
+   "field_i": "Nursing",
+   "field_j": "Physics and Astronomy",
+   "period_before": "2016–18",
+   "period_after": "2022–24",
+   "c_before": 58,
+   "c_after": 123,
+   "AS_before": 0.017325189154652688,
+   "AS_after": 0.03826823612225786,
+   "score": 0.8631953565636639,
+   "drivers": [
+    "recent rise in association",
+    "size of smaller field",
+    "preferential attachment (size product)"
+   ],
+   "papers": [
+    {
+     "id": "W4213285897",
+     "doi": "https://doi.org/10.1016/j.crfs.2022.02.007",
+     "title": "Cold plasma technologies: Their effect on starch properties and industrial scale-up for starch modification",
+     "year": 2022,
+     "cited_by": 154,
+     "abstract": "Native starches have limited applications in the food industry due to their unreactive and insoluble nature. Cold plasma technology, including plasma-activated water (PAW), has been explored to modify starches to enhance their functional, thermal, molecular, morphological, and physicochemical properties. Atmospheric cold plasma and low-pressure plasma systems have been used to alter starches and have proven successful. This review provides an in-depth analysis of the different cold plasma setups employed for starch modifications. The effect of cold plasma technology application on starch characteristics is summarized. We also discussed the potential of plasma-activated water as a novel alternative for starch modification. This review provides information needed for the industrial scale-up of cold plasma technologies as an eco-friendly method of starch modification."
+    },
+    {
+     "id": "W4214502987",
+     "doi": "https://doi.org/10.1016/j.ifset.2022.102957",
+     "title": "Effect of multipin atmospheric cold plasma discharge on functional properties of little millet (Panicum miliare) flour",
+     "year": 2022,
+     "cited_by": 97,
+     "abstract": ""
+    },
+    {
+     "id": "W4224087338",
+     "doi": "https://doi.org/10.1016/j.foodhyd.2022.107732",
+     "title": "Insight into the improving effect on multi-scale structure, physicochemical and rheology properties of granular cold water soluble rice starch by dielectric barrier discharge cold plasma processing",
+     "year": 2022,
+     "cited_by": 96,
+     "abstract": ""
+    },
+    {
+     "id": "W4386483845",
+     "doi": "https://doi.org/10.1016/j.ijbiomac.2023.126772",
+     "title": "Effect of high voltage dielectric barrier discharge (DBD) atmospheric cold plasma treatment on physicochemical and functional properties of taro (Colocasia esculenta) starch",
+     "year": 2023,
+     "cited_by": 91,
+     "abstract": ""
+    },
+    {
+     "id": "W4324381148",
+     "doi": "https://doi.org/10.1111/jfpe.14317",
+     "title": "Impact of cold plasma treatment on nutritional, antinutritional, functional, thermal, rheological, and structural properties of pearl millet flour",
+     "year": 2023,
+     "cited_by": 89,
+     "abstract": "Abstract This study was planned to investigate the effect of atmospheric cold plasma (CP) treatment at different power levels (20–30 kV) for 10–20 min on physicochemical, technofunctional, and intermolecular changes of pearl millet flour (PMF). It was observed that exposure to plasma significantly modified the sample's proximate, antinutritional, functional, thermal, rheological, and morphological properties. A concomitant (p < 0.05) decreases in antinutritional factors (tannin and phytic acid) was noticed in CP‐treated PMF compared to the control sample. Maximum reduction in tannin and phytic acid was observed at 30 kV for 20 min‐treated PMF. However, scanning electron microscopy revealed significant changes in flour starch granular structure, while decreases in relative crystallinity were also observed in CP‐treated samples from 23.45% to 19.31%. In addition, an increase in water absorption capacity (1.32–1.62 g/g), oil absorption capacity (1.11–1.31 g/g), emulsifying capacity (EC; 86.58%–91.25%) and foaming capacity (FC; 10.67–12.84%), as well as a decrease in pH (7.83–6.97) were found at 30 kV for 20 min. Apart from this, high intensity CP‐treated samples showed shear thinning behavior. At the same time, the power–law model was more appropriate for determine the flow behavior index (n) and consistency coefficient (k). On the other hand, CP‐treated samples exhibit higher storage modulus values (G′), indicating an elastic response. Based on the observations, the 30 kV‐20 mi"
+    },
+    {
+     "id": "W4377145677",
+     "doi": "https://doi.org/10.1016/j.lwt.2023.114889",
+     "title": "Effect of atmospheric cold plasma (pin type) on hydration and structure properties of kodo-millet starch",
+     "year": 2023,
+     "cited_by": 88,
+     "abstract": "Kodo millet is an underutilized crop that could be used as a new starch source. Raw starch has many flaws that must be modified through treatment. Cold plasma is a well-adopted nonthermal technology for starch modification. In the current study, millet starch was treated in a plasma reactor at different voltages of 10 kV, 20 kV, and 30 kV for a duration of 10 min, 20 min, and 30 min. The effects of treatments on their hydration, structural, and physicochemical properties were explored. Water absorption and oil absorption capacities increased from 1.43 to 1.55 g/g and 1.01–1.34 g/g respectively. On the other hand, amylose content and pH of starch declined from 31.06 to 25.94 g/hg and 7.5 to 6.9 respectively. Whiteness index value increased from 82.71 to 84.45. IR spectra exhibited functional groups present in the starch. X-ray diffractogram showed changes in crystallinity along with treatment. Relative crystallinity decreased from 23.06 to 21.63%. The significance of the results was assessed at a 95% confidence level (α) at p ≤ 0.05. Scanning electron microscope (SEM) and Bright field microscopy (BFM) showed microstructural changes in the starch. Plasma improved the hydration and structural properties of kodo millet starch, and it can be useful for preparing various food products with good quality characteristics."
+    },
+    {
+     "id": "W4362696751",
+     "doi": "https://doi.org/10.1016/j.foodres.2023.112790",
+     "title": "Atmospheric cold plasma induced nutritional & anti-nutritional, molecular modifications and in-vitro protein digestibility of guar seed (Cyamopsis tetragonoloba L.) flour",
+     "year": 2023,
+     "cited_by": 71,
+     "abstract": ""
+    },
+    {
+     "id": "W4396792153",
+     "doi": "https://doi.org/10.1016/j.carbpol.2024.122254",
+     "title": "The effect of cold plasma on starch: Structure and performance",
+     "year": 2024,
+     "cited_by": 66,
+     "abstract": ""
+    },
+    {
+     "id": "W4367679825",
+     "doi": "https://doi.org/10.1016/j.foodres.2023.112930",
+     "title": "Effects of pin-to-plate atmospheric cold plasma for modification of pearl millet (Pennisetum glaucum) starch",
+     "year": 2023,
+     "cited_by": 66,
+     "abstract": ""
+    },
+    {
+     "id": "W4226076040",
+     "doi": "https://doi.org/10.1007/s11947-022-02801-8",
+     "title": "Impact of Cold Plasma on Extraction of Polyphenol From De-Oiled Rice and Corn Bran: Improvement in Extraction Efficiency, In Vitro Digestibility, Antioxidant Activity, Cytotoxicity and Anti-Inflammatory Responses",
+     "year": 2022,
+     "cited_by": 64,
+     "abstract": ""
+    }
+   ],
+   "card": {
+    "area_name": "Cold Plasma Food Starch Modification",
+    "connection": "Techniques from atomic, molecular, and plasma physics—such as atmospheric dielectric barrier discharge and pin-type cold plasma—are utilized to induce structural and intermolecular alterations in food materials. In nutrition and food science, these treatments modify starch properties, enhance hydration and functional capacities, and reduce antinutritional factors such as tannins and phytic acid.",
+    "why_now": "Recent interest has surged as researchers seek eco-friendly, nonthermal physical alternatives to conventional chemical processing and explore the industrial scale-up of atmospheric cold plasma and plasma-activated water systems.",
+    "open_questions": [
+     "How can atmospheric cold plasma and plasma-activated water systems be scaled up effectively for industrial-scale starch modification?",
+     "What specific plasma-induced reaction mechanisms drive the reduction of antinutritional factors such as tannins and phytic acid in treated flours?",
+     "How do cold-plasma-induced decreases in relative crystallinity and amylose content correlate with the long-term functional stability of modified starches in food formulations?"
+    ],
+    "bridge_paper_ids": [
+     "W4213285897",
+     "W4324381148",
+     "W4377145677"
+    ]
+   },
+   "model": "gemini-3.8-flash"
+  },
+  {
+   "kind": "forecast",
+   "rank": 6,
+   "i": 2730,
+   "j": 3309,
+   "subfield_i": "Oncology",
+   "subfield_j": "Library and Information Sciences",
+   "field_i": "Medicine",
+   "field_j": "Social Sciences",
+   "period_before": "2016–18",
+   "period_after": "2022–24",
+   "c_before": 80,
+   "c_after": 581,
+   "AS_before": 0.02803972862803864,
+   "AS_after": 0.1638711882872559,
+   "score": 0.8594026319858823,
+   "drivers": [
+    "recent rise in association",
+    "shared neighbour fields",
+    "preferential attachment (size product)"
+   ],
+   "papers": [
+    {
+     "id": "W4377245871",
+     "doi": "https://doi.org/10.1097/js9.0000000000000492",
+     "title": "Evolutionary patterns and research frontiers in neoadjuvant immunotherapy: a bibliometric analysis",
+     "year": 2023,
+     "cited_by": 205,
+     "abstract": "Research has shown that neoadjuvant immunotherapy may provide more significant clinical benefits to cancer patients undergoing surgery than adjuvant therapy. This study examines the development of neoadjuvant immunotherapy research using bibliometric analysis. As of 12 February 2023, articles on neoadjuvant immunotherapy in the Web of Science Core Collection were collected. Co-authorship and keyword co-occurrence analyses and visualizations were performed using VOSviewer, while CiteSpace was used to identify bursting keywords and references. The study analyzed a total of 1222 neoadjuvant immunotherapy publications. The top contributors to this field were the United States, China, and Italy, and the journal with the most publications was Frontiers in Oncology. Francesco Montorsi had the highest H-index. The most common keywords were 'immunotherapy' and 'neoadjuvant therapy'. The study conducted a bibliometric analysis of over 20 years of neoadjuvant immunotherapy research, identifying the countries, institutions, authors, journals, and publications involved in this field. The findings provide a comprehensive overview of neoadjuvant immunotherapy research."
+    },
+    {
+     "id": "W4210557083",
+     "doi": "https://doi.org/10.3389/fimmu.2022.815575",
+     "title": "Knowledge Mapping of Immunotherapy for Hepatocellular Carcinoma: A Bibliometric Study",
+     "year": 2022,
+     "cited_by": 142,
+     "abstract": "Background Hepatocellular carcinoma (HCC) is one of the most common malignant tumors, and many patients are diagnosed with advanced disease. The treatment of advanced liver cancer has made significant strides in recent years, owing to the practice of immunotherapy drugs. Numerous studies have been published on immunotherapy for HCC; however, no relevant bibliometric study has been published. This study aims to gain a better understanding of the current situation and to identify potential new research directions by conducting a bibliometric analysis on immunotherapy for HCC. Methods We searched the Web of Science Core Collection (WoSCC) for articles related to immunotherapy for HCC. Three software (VOSviewer, CiteSpace, and python) were primarily used to assess the contribution and co-occurrence relationships of various countries/regions, institutes, journals, and, authors as well as to identify research hotspots and promising future trends in this research field. Results A total of 1,641 English articles published between 2011 and 2020 were collected, with the number of articles increasing nearly every year. The majority of publications originated from China (n = 893, 54.42%), followed by the United States and Japan. The Sun Yat-sen University contributed the most publications (n = 97, 5.91%). Nakatsura Tetsuya (n = 26) and Llovet JM (n = 366) were ranked first in the top ten authors and co-cited authors. Cancer Immunology Immunotherapy was the most productive academic journa"
+    },
+    {
+     "id": "W4390603619",
+     "doi": "https://doi.org/10.1097/js9.0000000000001022",
+     "title": "Worldwide research trends on tumor burden and immunotherapy: a bibliometric analysis",
+     "year": 2024,
+     "cited_by": 117,
+     "abstract": "Various immunotherapy has been greatly applied to comprehensive treatment of malignant cancer under different degrees of tumor burden. Scientific researchers have gained considerable progress in the relationship between immunotherapy and tumor burden in recent years. This review aimed to explore the prospect and developing trends in the field of tumor burden and immunotherapy from a bibliometric perspective. Articles about tumor burden and immunotherapy were collected from the Web of Science Core Collection (WoSCC) (retrieved on 3 January 2023). The R package 'Bibliometrix' analyzed the primary bibliometric features and created a three-filed plot to display the relationship between institutions, countries, and keywords. VOSviewer was used for co-authorship analysis, co-occurrence analysis, and their visualization. And CiteSpace calculated the citation burst references and keywords. A total of 1030 publications were retrieved from 35 years of scientific researches. The United States (US) and China published the most articles. The most productive journals were Cancer Immunology Immunotherapy and Journal for ImmunoTherapy of Cancer . The top one institution of the highest output was University of Texas MD Anderson Cancer Center. The hot keywords of strong citation burst strength in recent years were 'nivolumab', 'tumor microenvironment', and 'immune checkpoint inhibitor'. The most popular tumor type is melanoma. This bibliometric analysis mapped a basic knowledge structure. The "
+    },
+    {
+     "id": "W4221023312",
+     "doi": "https://doi.org/10.3389/fimmu.2022.840956",
+     "title": "A Bibliometric and Knowledge-Map Analysis of CAR-T Cells From 2009 to 2021",
+     "year": 2022,
+     "cited_by": 75,
+     "abstract": "Objectives A bibliometric and knowledge-map analysis is used to explore hotspots’ evolution and development trends in the CAR-T cell field. By looking for research hotspots and new topics, we can provide new clues and ideas for researchers in this field. Methods The articles and reviews regarding CAR-T cells were retrieved and obtained from the Web of Science Core Collection (WOSCC) on October 28th, 2021. CtieSpace [version 5.8.R3 (64-bit)] and VOSviewer (version 1.6.17) were used to conduct the bibliometric and knowledge-map analysis. Results 660 authors from 488 institutions in 104 countries/regions published 6,867 papers in 1,212 academic journals. The United States was absolutely in the leading position in this research field. The institution that contributed the most publications was the University of Pennsylvania. Carl H June published the most articles, while Shannon L Maude had the most co-citations. However, there was little cooperation between countries. After 2012, cooperation among various institutions was also small. The journals that published the most CAR-T cell-related papers were Frontiers in immunology and Cancers . Nevertheless, Blood and The New England Journal of Medicine were the most commonly co-cited journals. The most influential research hotspots were the research of CAR-T cells in hematological malignancies, the related research of cytokine release syndrome (CRS), CD19, and the anti-tumor activity and efficacy of CAR-T cells. The latest hotspots and"
+    },
+    {
+     "id": "W4220782105",
+     "doi": "https://doi.org/10.1186/s13018-022-03068-7",
+     "title": "Knowledge structure and emerging trends on osteonecrosis of the femoral head: a bibliometric and visualized study",
+     "year": 2022,
+     "cited_by": 73,
+     "abstract": "BACKGROUND: Osteonecrosis of the femoral head (ONFH) is a common disabling disease with considerable social and economic impacts. Although extensive studies related to ONFH have been conducted in recent years, a specific bibliometric analysis on this topic has not yet been performed. Our study attempted to summarize the comprehensive knowledge map, development landscape, and future directions of ONFH research with the bibliometric approach. METHODS: All publications concerning ONFH published from 2001 to 2020 were identified from Web of Science Core Collection. Key bibliometric indicators were calculated and evaluated using CiteSpace, VOSviewer, and the online bibliometric analysis platform. RESULTS: = 0.9663). China, the USA, and Japan were the major contributors both from the quality and quantity points of view. Correlation analysis indicated that there was a high positive correlation between the number of publications and gross domestic product (r = 0.774), and a moderate positive correlation between publications and demographic factor (r = 0.673). All keywords were categorized into four clusters including Cluster 1 (etiology and risk factors study); Cluster 2 (basic research and stem cell therapy); cluster 3 (hip-preserving study); and Cluster 4 (hip replacement study). Stem cell therapy-related research has been recognized as an important research hotspot in this field. Several topics including exosomes, autophagy, biomarkers, osteogenic differentiation, microRNAs, stero"
+    },
+    {
+     "id": "W4220773495",
+     "doi": "https://doi.org/10.3389/fimmu.2022.843106",
+     "title": "Visual Analysis of Colorectal Cancer Immunotherapy: A Bibliometric Analysis From 2012 to 2021",
+     "year": 2022,
+     "cited_by": 72,
+     "abstract": "An increasing number of studies have shown that immunotherapy serves a significant role in treating colorectal cancer (CRC) and has become a hotspot. However, few studies used the bibliometric method to analyze this field comprehensively. This study collected 1,899 records of CRC immunotherapy from 2012 to October 31, 2021, and used CiteSpace to analyze regions, institutions, journals, authors, and keywords to predict the latest trends in CRC immunotherapy research. The United States and China, contributing more than 60% of publications, were the main drivers in this field. Sun Yat-sen University was the most active institution, while the National Cancer Institute had the highest frequency of citations. Most publications were published in the Journal for Immunotherapy of Cancer. Adam E Snook was the most prolific writer, while Dung T. Le was the most commonly co-cited author. “T cell”, “MMI” and “PD-1blocked” were the most widely studied aspects of CRC immunotherapy. “Immune checkpoint inhibitor”, “combination therapy”, “drug therapy” and “liver metastases” were current research hotspots. “Tumor microenvironment”, “neutrophils”, “tumor-associated macrophages”, and “suppressor cell” have emerged as research hotspots in recent years. “Gut microbiota”, “nanoparticle” and “tumor mutational burden” as recently emerged frontiers of research that should be closely monitored."
+    },
+    {
+     "id": "W4206120443",
+     "doi": "https://doi.org/10.3390/jcdd9010019",
+     "title": "Impact of the COVID-19 Pandemic on Non-COVID-19 Clinical Trials",
+     "year": 2022,
+     "cited_by": 62,
+     "abstract": "Randomized controlled trials (RCT) were impacted by the COVID-19 pandemic, but no systematic analysis has evaluated the overall impact of COVID-19 on non-COVID-19-related RCTs. The ClinicalTrials.gov database was queried in February 2020. Eligible studies included all randomized trials with a start date after 1 January 2010 and were active during the period from 1 January 2015 to 31 December 2020. The effect of the pandemic period on non-COVID-19 trials was determined by piece-wise regression models using 11 March 2020 as the start of the pandemic and by time series analysis (models fitted using 2015–2018 data and forecasted for 2019–2020). The study endpoints were early trial stoppage, normal trial completion, and trial activation. There were 161,377 non-COVID-19 trials analyzed. The number of active trials increased annually through 2019 but decreased in 2020. According to the piece-wise regression models, trial completion was not affected by the pandemic (p = 0.56) whereas trial stoppage increased (p = 0.001). There was a pronounced decrease in trial activation early during the pandemic (p < 0.001) which then recovered. The findings from the time series models were consistent comparing forecasted and observed results (trial completion p = 0.22; trial stoppage p < 0.01; trial activation, p = 0.01). During the pandemic, there was an increase in non-COVID-19 RCTs stoppage without changes in RCT completion. There was a sharp decline in new RCTs at the beginning of the pandemic"
+    },
+    {
+     "id": "W4390819458",
+     "doi": "https://doi.org/10.1097/js9.0000000000001068",
+     "title": "A bibliometric analysis of gastric cancer liver metastases: advances in mechanisms of occurrence and treatment options",
+     "year": 2024,
+     "cited_by": 49,
+     "abstract": "BACKGROUND: Gastric cancer (GC) is the fifth most commonly diagnosed cancer worldwide, and its poor prognosis is predominantly attributed to distant metastasis. The liver is the primary site of GC metastasis. However, there is no universally approved treatment regimen for liver metastasis in GC. The aim of this article is to review the current research status and trends of liver metastasis of GC worldwide. METHODS: The authors utilized the Web of Science Core Collection database to identify articles on liver metastasis from GC published between 2000 and 2022. The authors used bibliometric methods to analyze authors, institutions, countries, journals, and references through CiteSpace and VOSviewer. A total of 1003 articles were included in this study. RESULTS: Japan published the most articles in the field, followed by China. Nagoya University is the leading institution in the field of liver metastases in GC. Yasuhiro Kodera from Japan has made significant achievements in this area. The authors identified GC to be the most influential journal in this field. Using cluster analysis, the keywords were divided into four major clusters:(1) the molecular mechanism of GC liver metastasis, (2) prognosis, (3) liver resection, and (4) chemotherapy. CONCLUSION: Our study systematically summarizes the results of GC liver metastasis research from 2000 to 2022 and describes and predicts research hotspots and trends on a global scale. Research on the molecular mechanisms of GC liver metastas"
+    },
+    {
+     "id": "W4315706025",
+     "doi": "https://doi.org/10.3389/fonc.2022.1051482",
+     "title": "Breast cancer and physical activity: A bibliometric analysis",
+     "year": 2023,
+     "cited_by": 41,
+     "abstract": "Breast cancer is a pathology suffered by millions of women worldwide, affecting the mental health, quality of life (QoL), physical functioning, cognitive functioning, and social and work life of surviving patients. Moreover, breast cancer is associated with weight gain, muscle atrophy, and weakness. Physical exercise appears to be an effective non-pharmacological treatment to improve short-term self-esteem, QoL, fatigue, and psychological factors such as depression, anxiety, happiness, and body image. The practice of physical activity is also associated with a reduction in the side effects of treatment. This bibliometric analysis analyzed the trend followed by publications on breast cancer and physical activity. The Web of Science database was used, and bibliometric laws were applied to identify the most prolific authors, the journals most involved in the field, and the countries, institutions, and keywords most used by the authors. Breast cancer and physical activity have an exponential trend in the number of publications, with Psycho-Oncology being the journal with the highest number of publications."
+    },
+    {
+     "id": "W4366595541",
+     "doi": "https://doi.org/10.3389/fendo.2023.1164692",
+     "title": "A bibliometric and visualized research on global trends of immune checkpoint inhibitors related complications in melanoma, 2011–2021",
+     "year": 2023,
+     "cited_by": 40,
+     "abstract": "Background: Melanoma is a malignant tumor that originates from the canceration of melanocytes with a high rate of invasiveness and lethality. Immune escape has been regarded as an important mechanism for tumor development, while the treatment of immune checkpoint inhibitors (ICIs) is beneficial in restoring and enhancing the body's anti-tumor immune response to kill tumor cells. To date, ICIs therapy has achieved remarkable efficacy in treating melanoma patients. Despite the significant clinical benefits of ICIs, multiple complications such as rashes, thyroiditis, and colitis occur in melanoma patients. In this study, we aim to explore the development process and trends in the field of ICIs-related complications in melanoma, analyze current hot topics, and predict future research directions. Methods: We screened the most relevant literatures on ICIs-related complications in melanoma from 2011 to 2021 in the Web of Science Core Collection (WoSCC). Using VOSviewer, CiteSpace and R language packages, we analyzed the research trends in this field. Results: A total of 1,087 articles were screened, and the USA had the highest number of publications (publications = 454, citations = 60,483), followed by Germany (publications = 155, citations = 27,743) and Italy (publications = 139, citations = 27,837). The Memorial Sloan Kettering Cancer Center had the most publications, but the Angeles Clinic and Research Institute had the highest average citation rate. Lancet oncology (IF, 2021 = 5"
+    }
+   ],
+   "card": {
+    "area_name": "Bibliometric Knowledge Mapping in Oncology",
+    "connection": "Researchers are increasingly applying library and information science methodologies—such as bibliometric mapping, co-citation analysis, and keyword co-occurrence via tools like VOSviewer, CiteSpace, and Bibliometrix—to oncological literature. These information science techniques allow cancer researchers to systematically visualize research trajectories, international collaborations, and emerging therapeutic frontiers across fields like immunotherapy and CAR-T cell therapy.",
+    "why_now": "The rapid acceleration of publications in cancer immunotherapy and cellular therapies has generated massive volumes of literature, making scientometric synthesis essential for tracking emerging hotspots like the tumor microenvironment and managing information overload.",
+    "open_questions": [
+     "How can bibliometric analysis effectively guide future clinical trials given the low levels of inter-institutional and international collaboration identified in areas like CAR-T cell research?",
+     "How quickly will recently emerged keyword frontiers such as gut microbiota, nanoparticles, and tumor mutational burden translate into validated oncological interventions for colorectal and liver cancers?",
+     "What are the long-term impacts of pandemic-era clinical trial stoppages and disruptions on the development and publication pipelines of non-COVID oncology therapies?"
+    ],
+    "bridge_paper_ids": [
+     "W4377245871",
+     "W4210557083",
+     "W4221023312"
+    ]
+   },
+   "model": "gemini-3.8-flash"
+  },
+  {
+   "kind": "forecast",
+   "rank": 7,
+   "i": 2746,
+   "j": 3309,
+   "subfield_i": "Surgery",
+   "subfield_j": "Library and Information Sciences",
+   "field_i": "Medicine",
+   "field_j": "Social Sciences",
+   "period_before": "2016–18",
+   "period_after": "2022–24",
+   "c_before": 234,
+   "c_after": 852,
+   "AS_before": 0.05160524207739188,
+   "AS_after": 0.16999155916303205,
+   "score": 0.8580084038514192,
+   "drivers": [
+    "recent rise in association",
+    "acceleration of slower field",
+    "preferential attachment (size product)"
+   ],
+   "papers": [
+    {
+     "id": "W4220953410",
+     "doi": "https://doi.org/10.1111/os.13216",
+     "title": "Global and Current Research Trends of Unilateral Biportal Endoscopy/Biportal Endoscopic Spinal Surgery in the Treatment of Lumbar Degenerative Diseases: A Bibliometric and Visualization Study",
+     "year": 2022,
+     "cited_by": 133,
+     "abstract": "The study aimed to make a bibliometric analysis of the current research situation in unilateral biportal endoscopy/biportal endoscopic spinal surgery (UBE/BESS). Research data sets were acquired from the Web of Science database. The study chosed \"biportal endoscopic spinal surgery\" OR \"two portal endoscopic spinal surgery\" OR \"percutaneous biportal endoscopic decompression\" OR \"unilateral biportal endoscopy\" OR \"irrigation endoscopic discectomy\" as the search terms. The literature search was limited to articles published before March 5, 2021. We only included original articles and reviews. VOS viewer and Citespace software were used to analyze the data and generate visualization knowledge maps. Annual trend of publications, distribution, H-index status, co-authorship status, and research hotspots were analyzed. A total of 74 publications met the requirement. The sum number of citations was 31,204, in which 19,336 were no self-citations. The average citation of all the papers was 21.84 times. The H-index of all the publications was 85. South Korea's total number of articles was far higher than that of other countries and regions (61, 82.4%), followed by United Arab Emirates, Egypt, and Peoples Republic of China (three, ranking second, accounting for 12.2% of the total). For the most productive authors, Choi ranked first with 21 articles, Kim ranked second with 16 articles, and Heo ranked third with 12 articles. The journal with the greatest number of publications was World Neu"
+    },
+    {
+     "id": "W4405518017",
+     "doi": "https://doi.org/10.1097/js9.0000000000002159",
+     "title": "Artificial intelligence in surgery: evolution, trends, and future directions",
+     "year": 2024,
+     "cited_by": 67,
+     "abstract": "Artificial intelligence (AI) is significantly transforming surgery by enhancing precision, decision-making, and patient outcomes. This bibliometric analysis examines AI's impact on surgery, highlighting research trends, key contributors, and evolving themes from 1998 to 2024. Utilizing data from the Web of Science Core Collection and analyzed through the Bibliometrix tool, the study reviews publication trends, author impact, institutional contributions, country-specific research activities, and keyword frequency. A total of 821 articles were examined, revealing a 14.53% annual growth rate in publications, increasing from one in 1998 to 328 in 2023. Influential contributors include 10 157 authors, notably HASHIMOTO DA and ITO M. Prominent institutions such as Harvard University and Stanford University, along with leading countries like the USA and China, play major roles in this field. High-frequency keywords identify core research areas: surgery, artificial intelligence, classification, diagnosis, and outcomes. Thematic evolution shows a shift from foundational concepts to advanced applications and interdisciplinary collaborations. AI integration into surgical practices is revolutionizing the field, driving advancements in precision, efficiency, and patient care. The study underscores significant research growth, influential contributors, and key trends, emphasizing the importance of continued interdisciplinary collaboration and innovation. Future research should focus on enh"
+    },
+    {
+     "id": "W4312156446",
+     "doi": "https://doi.org/10.1016/j.wneu.2022.12.087",
+     "title": "Artificial Intelligence in Neurosurgery: A Bibliometric Analysis",
+     "year": 2022,
+     "cited_by": 61,
+     "abstract": "BACKGROUND: Artificial intelligence (AI) has the potential to augment clinicians' diagnostic and decision-making capabilities. It is well suited to identify patterns and correlations within data sets and may be applied to identify elements of importance in complex and data-laden areas such as patient selection, diagnostics, treatment, and outcome prediction. The development of modern neurosurgery has been dependent on major technological advances. In line with this, a growing interest is seen in the use of AI to assist in neurosurgical research and enhance neurosurgical practices. METHODS: A bibliometric analysis of the 50 most-cited articles alluding to the use of AI in neurosurgery, from inception until July of 2022, was undertaken using the Web of Science database. Statistical analyses were performed on R. RESULTS: The citation count ranged from 29 to 159 (mean: 51.9, standard deviation: 24.8), and the top-cited article was a 2018 systematic review published in World Neurosurgery. Most articles were published after 2015 (85%). The United States was the largest contributing country on the list with 22 articles. Four first and last authors, each, had 2 or more publications. Female first and last authorship was attributed to 18% and 0% of the articles, respectively. CONCLUSIONS: This review highlights the most-impactful articles pertaining to AI in the field of neurosurgery. Although female authors were significantly underrepresented on the list, their work was at least as im"
+    },
+    {
+     "id": "W4213276985",
+     "doi": "https://doi.org/10.1007/s43465-021-00581-5",
+     "title": "Visualized Analysis of Global Studies on Cervical Spondylosis Surgery: A Bibliometric Study Based on Web of Science Database and VOSviewer",
+     "year": 2022,
+     "cited_by": 59,
+     "abstract": "Abstract Purpose This study used multiple type of bibliometric analysis for identifying and summarizing the publications regarding cervical spondylosis surgery, for clarifying the history of this field, predicting the future hotspots of this field and improving communication among researchers. Methods Publications from Web of Science database between 1900 and 2019 were downloaded and analyzed by Excel 2016 and VOSviewer. Bibliometric maps of co-citations and maps of co-occurrence of keywords are constructed by VOSviewer software. Results A total of 2110 publications were searched from Web of Science. The total sum of times cited is 40448 with the average citation per publication of 19.17 times. USA published most papers (652, 30.9%). The most productive organizations is University of Toronto (96 publications). Spine (308 publications) published the most publications in this field. In co-citations of references analysis, four clusters of references are constructed by VOSviewer. In co-occurrence of keywords analysis, three clusters of keywords are constructed by VOSviewer. The latest keyword “degenerative cervical myelopathy” appeared in 2017 in 42 papers. Other relatively new keywords include “surgical outcomes”, “association”, “sagittal alignment”, “prognostic-factors” that appeared in 2016 in 33, 31, 34 and 37 papers respectively. Conclusion USA dominates the research regarding cervical spondylosis surgery. University of Toronto is the most productive organization in this fi"
+    },
+    {
+     "id": "W4386818031",
+     "doi": "https://doi.org/10.1097/js9.0000000000000720",
+     "title": "Global trends and prospects in health economics of robotic surgery: a bibliometric analysis",
+     "year": 2023,
+     "cited_by": 55,
+     "abstract": "BACKGROUND: Over 10 million robotic surgeries have been performed. However, the cost and benefit of robotic surgery need to be evaluated to help hospitals, surgeons, patients, and payers make proper choices, making a health economic analysis necessary. The authors revealed the bibliometric profile in the field of health economics of robotic surgery to prompt research development and guide future studies. MATERIALS AND METHODS: The Web of Science Core Collection scientific database was searched for documents indexed from 2003 to 31 December 2022. Document types, years, authors, countries, institutions, journal sources, references, and keywords were analyzed and visualized using the Bibliometrix package, WPS Office software, Microsoft PowerPoint 2019, VOSviewer software (version 1.6.18), ggplot2, and Scimago Graphica. RESULTS: The development of the health economics of robotic surgery can be divided into three phases: slow-growing (2003-2009), developing (2010-2018), and fast-developing (2019-2022). J.C.H. and S.L.C. were the most active and influential authors, respectively. The USA produced the most documents, followed by China, and Italy. Korea had the highest number of citations per document. Surgical Endoscopy and Other Interventional Techniques accepted most documents, whereas Annals of Surgery, European Urology, and Journal of Minimally Invasive Gynecology had the highest number of citations per document. The Journal of Robotic Surgery is promising. The most-cited docume"
+    },
+    {
+     "id": "W4313583205",
+     "doi": "https://doi.org/10.3390/life13010143",
+     "title": "Curcumin in Wound Healing—A Bibliometric Analysis",
+     "year": 2023,
+     "cited_by": 53,
+     "abstract": "BACKGROUND: Curcumin has been widely used to treat a variety of diseases and disorders since ancient times, most notably for the purpose of healing wounds. Despite the large number of available reviews on this topic, a bibliometric tool-based meta-analysis is missing in the literature. Scope and approach: To evaluate the influence and significance of the countries, journals, organizations and authors that have contributed the most to this topic, the popular bibliometric markers, including article count, citation count, and Hirsch index (H-index), are taken into account. Their collaborative networks and keyword co-occurrence along with the trend analysis are also sketched out using the VOSviewer software. To the best of our knowledge, this is the first bibliometric review on the topic and hence it is envisaged that it will attract researchers to explore future research dimensions in the related field. KEY FINDINGS AND CONCLUSIONS: India provided the most articles, making up more than 27.49 percent of the entire corpus. The International Journal of Biological Macromolecules published the most articles (44), and it also received the most citations (2012). The Journal of Ethnopharmacology (28 articles) and Current Pharmaceutical Design (20 articles) were the next most prolific journals with 1231 and 812 citations, respectively. The results indicate a significant increase in both research and publications on the wound-healing properties of curcumin. Recent studies have concentrate"
+    },
+    {
+     "id": "W4384942699",
+     "doi": "https://doi.org/10.1002/adhm.202301067",
+     "title": "Global Literature Analysis of Organoid and Organ‐on‐Chip Research",
+     "year": 2023,
+     "cited_by": 52,
+     "abstract": "Organoids and cells in organ-on-chip platforms replicate higher-level anatomical, physiological, or pathological states of tissues and organs. These technologies are widely regarded by academia, the pharmacological industry and regulators as key biomedical developments. To map advances in this emerging field, a literature analysis of 16,000 article metadata based on a quality-controlled text-mining algorithm is performed. The analysis covers titles, keywords, and abstracts of categorized academic publications in the literature and preprint databases published after 2010. The algorithm identifies and tracks 149 and 107 organs or organ substructures modeled as organoids and organ-on-chip, respectively, stem cell sources, as well as 130 diseases, and 16 groups of organisms other than human and mouse in which organoid/organ-on-chip technology is applied. The analysis illustrates changing diversity and focus in organoid/organ-on-chip research and captures its geographical distribution. The downloadable dataset provided is a robust framework for researchers to interrogate with their own questions."
+    },
+    {
+     "id": "W4292839962",
+     "doi": "https://doi.org/10.1016/j.wneu.2022.08.074",
+     "title": "The Scope, Growth, and Inequities of the Global Neurosurgery Literature: A Bibliometric Analysis",
+     "year": 2022,
+     "cited_by": 51,
+     "abstract": "BACKGROUND: Here, we evaluate the evolution and growth of global neurosurgery publications over time, further focusing on the contributions and impact of authors in low- and middle-income countries (LMICs). METHODS: In this systematic bibliometric analysis, we conducted a two-stage blinded screening process of global neurosurgery publications from 5 databases from inception through July 2021. Articles involving multi-national/multi-institutional research collaborations, detailing any area of global neurosurgery collaboration, or influencing global neurosurgery practice were included. Statistical hypothesis testing was conducted to analyze trends and hypotheses of LMIC authorship contributions. RESULTS: The number of global neurosurgery publications has soared in the last decade. Overall, authors from HIC countries were most commonly from the US (41.1%), Canada (4.0%), and the UK (3.9%), while authors from LMIC countries were most commonly from Uganda (4.2%), Tanzania (2.6%), Cameroon (1.8%), and India (1.8%). Over a quarter (28%) of publications had no LMIC authors, while only 11% had 3 or more LMIC authors. The proportion of LMIC authors (LMIC-R) was not correlated with the citation rate of individual articles or with the year of publication, and a positive trend emerged when the LMIC-R of top-publishing LMICs was individually examined and compared to the year of publication. CONCLUSIONS: Despite recent growth, the number of global neurosurgery publications arising from LMIC"
+    },
+    {
+     "id": "W4213444339",
+     "doi": "https://doi.org/10.1007/s12262-021-03243-w",
+     "title": "Trends in the Use of Augmented Reality, Virtual Reality, and Mixed Reality in Surgical Research: a Global Bibliometric and Visualized Analysis",
+     "year": 2022,
+     "cited_by": 46,
+     "abstract": ""
+    },
+    {
+     "id": "W4291002329",
+     "doi": "https://doi.org/10.3389/fimmu.2022.953465",
+     "title": "Emerging trends and hot spots in autoimmune thyroiditis research from 2000 to 2022: A bibliometric analysis",
+     "year": 2022,
+     "cited_by": 42,
+     "abstract": "Background: Autoimmune thyroiditis (AIT) is the most common autoimmune disease, affecting 3-5% patients worldwide. In recent years, approximately 200 articles on AIT have been published annually in various journals. However, to date, no article has systematically assessed the related literature. Therefore, we conducted a bibliometric analysis on AIT to reveal the dynamic scientific developments and help researchers gain a global perspective while exploring the hotspots and development trends. Methods: AIT-related articles and reviews from 2000 to 2022 were retrieved from the Web of Science Core Collection (WoSCC). The following search terms were used to extract document data: TS= (\" autoimmune thyroiditi*\") OR TI= (\"chronic lymphocytic thyroiditi*\") OR TI=(hashimoto*) OR TI= (\"postpartum thyroiditis\"). We selected articles and reviews published in English from 2000 to 2022. Three software programs (VOSviewer, CiteSpace, Pajek) were employed to analyze the contribution and co-occurrence relationships of different references, countries/regions, institutes, journals and also keywords in this field. Results: This scientometric study included 2290 English papers published in 723 journals with 39661 co-cited references from 561 institutions in 120 countries/regions. Based on the reference and keyword analysis, researchers used to focus on \"apoptosis\", \"insulin resistance\", \"encephalopathy\", \"IFN-γ\" related to AIT during the past 20 years. However, with the development of other nove"
+    }
+   ],
+   "card": {
+    "area_name": "Bibliometric Analysis of Surgical Research",
+    "connection": "Information science methodologies—such as bibliometric mapping, citation analysis, and text mining using software like VOSviewer, CiteSpace, and Bibliometrix—are increasingly employed to synthesize surgical literature. These tools enable surgical researchers to track publication trajectories, identify clinical hotspots, and assess institutional contributions across specialized procedures and technological innovations.",
+    "why_now": "Rapid growth in surgical technologies like artificial intelligence, robotic systems, and endoscopic procedures has created an expanding volume of publications that requires quantitative scientometric evaluation to assess clinical trends and health economics.",
+    "open_questions": [
+     "How can publication inequities regarding the underrepresentation of female authors and researchers from low- and middle-income countries be mitigated in global surgical literature?",
+     "What health-economic frameworks and indicators are needed to evaluate the true cost-benefit balance of robotic surgery across diverse healthcare systems?",
+     "How will the thematic shift from foundational concepts to advanced artificial intelligence applications impact surgical precision and patient outcomes in complex specialties like neurosurgery?"
+    ],
+    "bridge_paper_ids": [
+     "W4405518017",
+     "W4386818031",
+     "W4292839962"
+    ]
+   },
+   "model": "gemini-3.8-flash"
+  },
+  {
+   "kind": "forecast",
+   "rank": 8,
+   "i": 1212,
+   "j": 2735,
+   "subfield_i": "Religious studies",
+   "subfield_j": "Pediatrics, Perinatology and Child Health",
+   "field_i": "Arts and Humanities",
+   "field_j": "Medicine",
+   "period_before": "2016–18",
+   "period_after": "2022–24",
+   "c_before": 34,
+   "c_after": 93,
+   "AS_before": 0.013102926734784932,
+   "AS_after": 0.023046581742663743,
+   "score": 0.8556502209231537,
+   "drivers": [
+    "recent rise in association",
+    "size of smaller field",
+    "preferential attachment (size product)"
+   ],
+   "papers": [
+    {
+     "id": "W4312582855",
+     "doi": "https://doi.org/10.11604/pamj.2022.43.168.32983",
+     "title": "The impact of faith-based organizations on maternal and child health care outcomes in Africa: taking stock of research evidence",
+     "year": 2022,
+     "cited_by": 27,
+     "abstract": "This evidence synthesis aimed at assessing the effectiveness of Faith-Based Organisations (FBOs) on Maternal and Child Health (MCH) outcomes; and explore the perceptions and experiences of the users and providers of MCH services delivered by FBOs in Africa. This review considered studies from African countries only. Both reviews and primary studies focusing on MCH services provided by FBOs were considered. Quantitative, qualitative, and mixed methods reviews were included with no restriction on the date and language. Primary outcomes included maternal mortality ratio, neonatal mortality, infant mortality, child mortality, quality of care, views, experiences, and perceptions of users of FBOs. We searched up to November 2020 in the Joanna Briggs Institute (JBI) Database of Systematic Reviews and Implementation Reports, the Cochrane Database of Systematic Reviews, Database of Abstracts of Reviews of Effects, PROSPERO register, PDQ-evidence, Health Systems Evidence, CINAHL, EMBASE, and PubMed. We searched references cited by similar studies that may be potentially eligible for inclusion. We then updated the search for primary studies from December 2009 - October 2020. One systematic review and six primary studies met the eligibility criteria for inclusion. Methodological quality varied. These observational and qualitative studies found that FBOs offered the following MCH services - training of healthcare workers, obstetric services, health promotion, sexual education, immunizatio"
+    },
+    {
+     "id": "W7215838442",
+     "doi": "https://doi.org/10.37366/jespb.v10i02.2419",
+     "title": "Systematic Literature Review (SLR): Program Makan Bergizi Gratis Dalam Perspektif Maqashid Syariah",
+     "year": 2025,
+     "cited_by": 17,
+     "abstract": "Malnutrition and food insecurity remain significant challenges, especially in Muslim-majority countries. Free nutritious meal programs have emerged as strategic efforts to improve public health, particularly among vulnerable groups such as schoolchildren and pregnant women. This study employs a Systematic Literature Review (SLR) approach to examine the alignment of these programs with the principles of Maqashid Syariah, which emphasize the protection of life, intellect, and progeny. The findings reveal that such programs positively impact nutritional security, educational outcomes, and social development. When implemented based on Islamic values—such as ensuring halal-thayyib food standards and involving community-based initiatives through zakat and waqf—their sustainability and effectiveness are significantly enhanced. In conclusion, integrating Maqashid Syariah into free meal programs not only strengthens health and education outcomes but also serves as a comprehensive strategy for sustainable development aligned with Islamic ethical values."
+    },
+    {
+     "id": "W4384023388",
+     "doi": "https://doi.org/10.36908/akm.v4i1.708",
+     "title": "Pencegahan Stunting Pada Anak Dalam Persepektif Islam Di Kota Bandar Lampung",
+     "year": 2023,
+     "cited_by": 15,
+     "abstract": "Stunting is a major problem in the growth and development of children. The problem of stunting is always synonymous with health problems in children. In fact, parenting patterns by parents who are not correct can cause stunting in children. The purpose of this service is to provide understanding to the community in preventing stunting in the Islamic religious approach. The research approach used in this study is the PAR or Participatory Action Research method. Participatory Action Research is a research model that seeks something to link the research process into the process of social change. The result of the service is an increase in public understanding. Participants in mentoring activities at the taklim assembly and health activities can provide further education to families and the community regarding stunting prevention. Most posyandu cadres have started implementing Islamic life in their routine activities. The socialization from posyandu cadres was in line with the material obtained from the socialization of Islamic healthy living which had been held previously."
+    },
+    {
+     "id": "W4377564043",
+     "doi": "https://doi.org/10.1007/s10943-023-01833-4",
+     "title": "Experiences, Perceptions, and Meanings of the Ultra-Orthodox in Israel Regarding Premarital Genetic Testing",
+     "year": 2023,
+     "cited_by": 15,
+     "abstract": ""
+    },
+    {
+     "id": "W4411036410",
+     "doi": "https://doi.org/10.58812/jpws.v4i05.2222",
+     "title": "Sehat di Bulan Ramadhan: IKBIS Bagikan Jamu Segar Bunga Rosella untuk Meningkatkan Daya Tahan Tubuh",
+     "year": 2025,
+     "cited_by": 14,
+     "abstract": "Bulan Ramadan merupakan waktu yang penting bagi umat Muslim untuk menjaga kesehatan dan kebugaran tubuh selama menjalankan ibadah puasa. Salah satu cara alami untuk meningkatkan daya tahan tubuh adalah dengan mengonsumsi minuman berbahan herbal. Institut Kesehatan dan Bisnis (IKBIS) berinisiatif membagikan jamu segar berbahan dasar bunga rosella (Hibiscus sabdariffa) sebagai bentuk dukungan terhadap kesehatan masyarakat selama bulan suci. Jamu rosella dipilih karena kandungan antioksidan dan vitamin C yang tinggi, yang dapat membantu menjaga imunitas dan keseimbangan metabolisme tubuh. Kegiatan ini melibatkan proses seleksi bahan berkualitas, pembuatan jamu dengan standar kebersihan yang baik, serta pembagian langsung kepada masyarakat yang berpuasa. Program ini juga bertujuan untuk memberikan edukasi mengenai manfaat minuman herbal dan mendorong kebiasaan hidup sehat dengan mengonsumsi bahan-bahan alami. Respon masyarakat menunjukkan apresiasi yang tinggi terhadap jamu rosella sebagai alternatif minuman sehat yang menyegarkan saat berbuka puasa. Dengan adanya kegiatan ini, diharapkan kesadaran masyarakat terhadap pentingnya konsumsi jamu semakin meningkat, sekaligus memperkenalkan kembali jamu sebagai bagian dari budaya sehat yang dapat diterapkan dalam kehidupan sehari-hari, khususnya di bulan Ramadan."
+    },
+    {
+     "id": "W4380538207",
+     "doi": "https://doi.org/10.3389/fped.2023.1204941",
+     "title": "Muslim perspectives on palliative care in perinatal and neonatal patients: a mini-review",
+     "year": 2023,
+     "cited_by": 14,
+     "abstract": "Muslims comprise nearly a quarter of the worldwide population, with significant populations in the United States, Canada, and Europe. As clinicians, it is important to be familiar with Islamic religious and cultural perspectives on medical treatment, life-prolonging measures and comfort and palliative care, but historically, this has been a gap in the literature. Recently, there have been multiple papers discussing Islamic bioethics, particularly in regards to end of life care in adults; however, there has been a lack of literature discussing the Islamic perspective on issues related to neonatal and perinatal end of life care. This paper uses clinical scenarios to review key relevant principles of Islamic law, discussing the primary and secondary sources used in formulating fatawa, including the Quran, hadith, qiyas, and ‘urf, and the importance of preservation of life and upholding of human dignity (karamah). Neonatal and perinatal scenarios are used to specifically explore the Islamic perspective on withholding and withdrawal of life-sustaining measures and determining what constitutes an acceptable quality of life. In some Islamic cultures the expertise of the patient's physician is given significant weight in making these judgments, and as such, families may appreciate frank assessment of the situation by the clinical team. Because of the various factors involved in issuing religious ruling, or fatwa, there is a wide spectrum of opinions on these rulings, and physicians s"
+    },
+    {
+     "id": "W4402317618",
+     "doi": "https://doi.org/10.15575/jpi.v0i0.38432",
+     "title": "ISLAMIC EDUCATIONAL APPROACHES TO STUNTING PREVENTION AND CHILD PROTECTION",
+     "year": 2024,
+     "cited_by": 13,
+     "abstract": "Stunting, characterized by impaired growth and development in children under five years old, represents a significant global nutritional issue, particularly in Indonesia. This study aims to explore stunting prevention and child protection from the perspective of Islamic education. Employing a qualitative methodology with a phenomenological approach, the research seeks to understand and interpret specific events and social situations related to stunting and child protection within the Indonesian context. Data were collected through in-depth interviews and documentation, specifically involving lecturers at UIN Ar-Raniry Banda Aceh. The findings reveal that the incidence of stunting in Indonesia remains alarmingly high compared to other middle-income countries, leading to decreased cognitive abilities, heightened health risks, and diminished future productivity. The research concludes that stunting prevention and child protection are critical national programs that require synergistic implementation to secure a better future for children and ensure their right to quality education. From the perspective of Islamic education, these efforts are intrinsically linked, as Islamic teachings emphasize the importance of proper care, provision of halal and nutritious food, which positively influence both the physical and mental well-being of children. The study highlights the need for integrating Islamic educational principles in national stunting prevention strategies to foster holistic "
+    },
+    {
+     "id": "W4387352816",
+     "doi": "https://doi.org/10.11591/ijphs.v12i4.23062",
+     "title": "Impact of fasting on human health during Ramadan",
+     "year": 2023,
+     "cited_by": 10,
+     "abstract": "Ramadan fasting is a religious practice observed by millions of Muslims worldwide. Firstly, the experimental studies were searched on different websites like PubMed, Science direct, and google scholar to find out the latest research regarding Ramadan fasting. Studies have shown that Ramadan fasting influences body weight, blood glucose, insulin, lipid levels, and blood pressure. However, the effects of fasting on mental health and specific health conditions such as cardiovascular diseases, cancer or metabolic disorders vary depending on individual factors. Because, fasting duration, the presence of chronic diseases, and obesity are all factors that can alter the outcomes. Until now, Multiple studies on Ramadan fasting's impact on health have been conducted but certain limitations make the results inconclusive. We hope to gain a better understanding of the potential benefits and risks associated with this religious practice. Ultimately, this knowledge can be used to inform healthcare professionals and individuals who are participating in Ramadan fasting. Further research is necessary to explore underlying mechanisms and optimize fasting protocols for chronic disease patients. Overall, this review emphasizes the need for further research on the effects of Ramadan fasting on human health and its potential as a tool for improving health outcomes in diverse populations."
+    },
+    {
+     "id": "W4366815345",
+     "doi": "https://doi.org/10.1055/s-0043-1768638",
+     "title": "Review of the Literature on Ramadan Fasting and Health in 2022",
+     "year": 2023,
+     "cited_by": 10,
+     "abstract": "Abstract Objectives The literature on health and disease during Ramadan fasting (RF) is widely spread in many journals making it not readily accessible to those interested in the subject. Here, we provide an overview of the research on the interplay of RF with various aspects of well-being published in 2022. Materials and Methods A narrative, nonsystematic review of the international literature from a single major medical online database, PubMed, in one calendar year (2022) was conducted. The search term “Ramadan fasting” was used to retrieve the appropriate records. The relevant literature with substantial data-based content was presented in a concise thematic account, excluding those concerned with diabetes. Results Themes that emerged from the review included the pathophysiology of metabolic changes during RF, nutritional aspects including body composition and energy metabolism, cardiovascular disease and risk factors, renal function and structure, endocrinology (mainly thyroid), neurological disorders, mental health, pregnancy and fetal life, and infections (including COVID). Some miscellaneous clinical themes were identified, such as patients' and professional perspectives. Conclusions In 2022, the medical interest in RF was again widely spread across specialties. Cardiovascular disease and risk factors attract the most interest in terms of original articles and professional guidelines. We hope with this review to present a concise summary of the scholarly work on the su"
+    },
+    {
+     "id": "W4406760204",
+     "doi": "https://doi.org/10.38035/jlph.v4i5.526",
+     "title": "The Concept Of Maqashid Sharia In The Effectiveness Of The Implementation Of Presidential Regulation No. 72 Of 2021 Concerning The Handling Of Stunting Mandailing Natal Regency",
+     "year": 2024,
+     "cited_by": 9,
+     "abstract": "This study examines the effectiveness of the implementation of Presidential Regulation (Perpres) No. 72 of 2021 concerning the handling of stunting in Mandailing Natal Regency through the Maqashid Syariah approach. Maqashid Syariah, which includes five main objectives, namely the protection of religion (Hifz al-Din), soul (Hifz al-Nafs), intellect (Hifz al-Aql), offspring (Hifz al-Nasl), and property (Hifz al-Mal), provides a holistic framework that integrates moral and spiritual aspects in public health and welfare efforts. This study aims to assess how the application of Maqashid Sharia values can strengthen the effectiveness of stunting management programs in the area. The research methodology used includes a literature study, interviews with religious leaders, government officials, and communities, field observations, and secondary data analysis. The results showed that the integration of Maqashid Syariah principles in the stunting handling program contributed significantly in several aspects: Hifz al-Din (Religious Protection): Religious education that educates about the importance of nutrition and health through schools and madrasas increases public awareness about religious responsibilities in maintaining children's health. Hifz al-Nafs (Protection of the Soul): Health programs supported by posyandu services in mosques and other places of worship facilitate community access to health check-ups and proper nutrition. Hifz al-Aql (Protection of Intellect): Providing good "
+    }
+   ],
+   "card": {
+    "area_name": "Religious Frameworks in Pediatric Health",
+    "connection": "Scholars are applying religious ethics and legal doctrines, such as Islamic bioethics and Maqashid Syariah, to address pediatric care dilemmas, perinatal palliative care, and child malnutrition. At the same time, health researchers are examining how faith-based organizations and religious community assemblies influence maternal, neonatal, and child health outcomes and preventive health behaviors.",
+    "why_now": "This interdisciplinary area is expanding as public health initiatives and healthcare providers increasingly engage religious institutions, ethical frameworks, and faith-based practices to address critical gaps in neonatal end-of-life care and persistent child stunting.",
+    "open_questions": [
+     "How can Islamic bioethical principles and rulings be effectively integrated into clinical decision-making when withholding or withdrawing life-sustaining measures in neonatal and perinatal palliative care?",
+     "What is the comparative efficacy of faith-based organizations in reducing maternal, infant, and child mortality across different healthcare settings in Africa?",
+     "How do community-level interventions grounded in Maqashid Syariah and Islamic dietary principles measurably affect child stunting and nutritional security among vulnerable pediatric populations?"
+    ],
+    "bridge_paper_ids": [
+     "W4380538207",
+     "W4312582855",
+     "W7215838442"
+    ]
+   },
+   "model": "gemini-3.8-flash"
+  },
+  {
+   "kind": "forecast",
+   "rank": 9,
+   "i": 2310,
+   "j": 3107,
+   "subfield_i": "Pollution",
+   "subfield_j": "Atomic and Molecular Physics, and Optics",
+   "field_i": "Environmental Science",
+   "field_j": "Physics and Astronomy",
+   "period_before": "2016–18",
+   "period_after": "2022–24",
+   "c_before": 119,
+   "c_after": 284,
+   "AS_before": 0.05383442982140924,
+   "AS_after": 0.1275002126128902,
+   "score": 0.8550875018852953,
+   "drivers": [
+    "recent rise in association",
+    "acceleration of slower field",
+    "different domains"
+   ],
+   "papers": [
+    {
+     "id": "W4283266810",
+     "doi": "https://doi.org/10.1038/s41467-022-31161-2",
+     "title": "Trapping and detecting nanoplastics by MXene-derived oxide microrobots",
+     "year": 2022,
+     "cited_by": 260,
+     "abstract": "Abstract Nanoplastic pollution, the final product of plastic waste fragmentation in the environment, represents an increasing concern for the scientific community due to the easier diffusion and higher hazard associated with their small sizes. Therefore, there is a pressing demand for effective strategies to quantify and remove nanoplastics in wastewater. This work presents the “on-the-fly” capture of nanoplastics in the three-dimensional (3D) space by multifunctional MXene-derived oxide microrobots and their further detection. A thermal annealing process is used to convert Ti 3 C 2 T x MXene into photocatalytic multi-layered TiO 2 , followed by the deposition of a Pt layer and the decoration with magnetic γ-Fe 2 O 3 nanoparticles. The MXene-derived γ-Fe 2 O 3 /Pt/TiO 2 microrobots show negative photogravitaxis, resulting in a powerful fuel-free motion with six degrees of freedom under light irradiation. Owing to the unique combination of self-propulsion and programmable Zeta potential, the microrobots can quickly attract and trap nanoplastics on their surface, including the slits between multi-layer stacks, allowing their magnetic collection. Utilized as self-motile preconcentration platforms, they enable nanoplastics’ electrochemical detection using low-cost and portable electrodes. This proof-of-concept study paves the way toward the “on-site” screening of nanoplastics in water and its successive remediation."
+    },
+    {
+     "id": "W4212783541",
+     "doi": "https://doi.org/10.1002/adfm.202112120",
+     "title": "Nano/Microplastics Capture and Degradation by Autonomous Nano/Microrobots: A Perspective",
+     "year": 2022,
+     "cited_by": 115,
+     "abstract": "Abstract The growing use of plastic materials has led to the continuous accumulation of wastes in marine environments, which fragment into hazardous micro‐and nanoplastics. These plastic particles absorb toxic organic pollutants on their surface, support bacterial biofilms growth, and propagate through the food chain, posing serious risks for human health. Therefore, nano/microplastics pollution has become a global issue, making their definitive elimination compulsory. Self‐propelled nano/microrobots have demonstrated efficient removal of nano/microplastics from water, combining enhanced physicochemical properties of nano/microscale materials and active motion. During the last year, the potential of this technology to degrade nano/microplastics has been investigated. Here, the most advanced strategies for nano/microplastics capture and subsequent degradation by autonomous nano/microrobots are critically reviewed. A short introduction to the main propulsion mechanisms and experimental techniques for studying nano/microplastics degradation is also provided. Forthcoming challenges in this research field are discussed proactively. This perspective inspires future nano/microrobotic designs and approaches for water purification from nano/microplastics and other emerging pollutants."
+    },
+    {
+     "id": "W4226451499",
+     "doi": "https://doi.org/10.1021/acs.est.1c08480",
+     "title": "Single-Particle Resolution Fluorescence Microscopy of Nanoplastics",
+     "year": 2022,
+     "cited_by": 99,
+     "abstract": "Abstract Understanding of nanoplastic prevalence and toxicology is limited by imaging challenges resulting from their small size. Fluorescence microscopy is widely applied to track and identify microplastics in laboratory studies and environmental samples. However, conventional fluorescence microscopy, due to diffraction, lacks the resolution to precisely localize nanoplastics in tissues, distinguish them from free dye, or quantify them in environmental samples. To address these limitations, we developed techniques to label nanoplastics for imaging with Stimulated Emission Depletion (STED) microscopy to achieve resolution at an order of magnitude superior to conventional fluorescence microscopy. These techniques include (1) passive sorption; (2) swell incorporation; and (3) covalent coupling of STED-compatible fluorescence dyes to nanoplastics. We demonstrate that our labeling techniques, combined with STED microscopy, can be used to resolve nanoplastics of different shapes and compositions as small as 50 nm. The longevity of the dye labeling is demonstrated in different media and conditions of biological and environmental relevance. We also test STED imaging of nanoplastics in exposure experiments with the model worm C. elegans . These techniques will allow more precise localization and quantification of nanoplastics in complex matrices. Synopsis We show that Stimulated Emission Depletion (STED) microscopy can be used to image single nanoplastics of different compositions an"
+    },
+    {
+     "id": "W4387542276",
+     "doi": "https://doi.org/10.1002/adfm.202307477",
+     "title": "Biohybrid Magnetically Driven Microrobots for Sustainable Removal of Micro/Nanoplastics from the Aquatic Environment",
+     "year": 2023,
+     "cited_by": 94,
+     "abstract": "Abstract The proliferation of micro/nanoplastics derived from the fragmentation of plastic waste released in the environment represents an increasingly alarming issue with adverse implications for aquatic ecosystems worldwide. Conventional approaches for mitigating such contamination are inadequate in removing plastic fragments with exceptionally tiny sizes. Therefore, it is highly urgent to develop efficient strategies to address the threats posed by micro/nanoplastics. Here, biohybrid microrobots, integrating the magnetic properties of Fe 3 O 4 nanoparticles, are investigated for the dynamic removal of micro/nanoplastics from various aquatic environments via high‐precision magnetic actuation and reliable electrostatic interactions. After the surface decoration with Fe 3 O 4 nanoparticles, algae cells can achieve precise locomotion and wireless manipulation by regulating an external magnetic field. Taking advantage of this active movement, magnetic algae robots (MARs) display considerable capture and removal efficiencies for micro/nanoplastics in water with extensive application scenarios. The reusability of MARs is also investigated, proving great recyclable performance. The growth and cell viability experiments elucidate that the presence of Fe 3 O 4 nanoparticles may result in hormesis stimulation of algae growth. Such recyclable microrobots with eco‐friendly and low‐cost characteristics offer an attractive strategy for sustainably tackling micro/nanoplastics pollution."
+    },
+    {
+     "id": "W4210316971",
+     "doi": "https://doi.org/10.1016/j.watres.2022.118128",
+     "title": "Motivation of reactive oxygen and nitrogen species by a novel non-thermal plasma coupled with calcium peroxide system for synergistic removal of sulfamethoxazole in waste activated sludge",
+     "year": 2022,
+     "cited_by": 87,
+     "abstract": ""
+    },
+    {
+     "id": "W4213149825",
+     "doi": "https://doi.org/10.1038/s41467-022-28563-7",
+     "title": "Non-thermal plasma-assisted rapid hydrogenolysis of polystyrene to high yield ethylene",
+     "year": 2022,
+     "cited_by": 79,
+     "abstract": "Abstract The evergrowing plastic production and the caused concerns of plastic waste accumulation have stimulated the need for waste plastic chemical recycling/valorization. Current methods suffer from harsh reaction conditions and long reaction time. Herein we demonstrate a non-thermal plasma-assisted method for rapid hydrogenolysis of polystyrene (PS) at ambient temperature and atmospheric pressure, generating high yield (>40 wt%) of C 1 –C 3 hydrocarbons and ethylene being the dominant gas product (Selectivity of ethylene, S C2H4 > 70%) within ~10 min. The fast reaction kinetics is attributed to highly active hydrogen plasma, which can effectively break bonds in polymer and initiate hydrogenolysis under mild condition. Efficient hydrogenolysis of post-consumer PS materials using this method is also demonstrated, suggesting a promising approach for fast retrieval of small molecular hydrocarbon modules from plastic materials as well as a good capability to process waste plastics in complicated conditions."
+    },
+    {
+     "id": "W4220675175",
+     "doi": "https://doi.org/10.1016/j.lwt.2022.113193",
+     "title": "Chlorpyrifos pesticide reduction in soybean using cold plasma and ozone treatments",
+     "year": 2022,
+     "cited_by": 79,
+     "abstract": "To meet market demands, soybean is predominantly grown with the excess use of harmful pesticides like chlorpyrifos, which leaves poisonous residues on the seeds' surfaces. In this study, we have treated chlorpyrifos (1, 2 and 3 mg/kg) infused soybean with ozone (300–550 mg/l) and low pressure (2 mbar) cold plasma (CP: 1.0–2.0 kV) for up to a period of 30 min to reduce the pesticide residues. However, it was found that at higher pesticide concentrations, ozone treatment can only cause 50% pesticide reduction after 30 min exposure, even at 550 mg/l concentration. In contrast, CP treatment took only 6 min to achieve the same at 2.0 kV voltage level but caused a significant reduction (P ≤ 0.05) in moisture content and seed coat integrity. However, the water absorption of CP treated samples was higher (∼230%) than ozone-treated samples (∼200%). Furthermore, increased pesticide concentration reduced the pesticide degradation rate for ozone (0.078–0.0643 min−1) and cold plasma (0.160–0.143 min−1) treatments even at higher treatment intensities. Nevertheless, CP was effective against chlorpyrifos than ozone treatment and caused minor quality changes in soybeans."
+    },
+    {
+     "id": "W4205421600",
+     "doi": "https://doi.org/10.3390/ijms23020806",
+     "title": "Nanomechanical Atomic Force Microscopy to Probe Cellular Microplastics Uptake and Distribution",
+     "year": 2022,
+     "cited_by": 78,
+     "abstract": "The concerns regarding microplastics and nanoplastics pollution stimulate studies on the uptake and biodistribution of these emerging pollutants in vitro. Atomic force microscopy in nanomechanical PeakForce Tapping mode was used here to visualise the uptake and distribution of polystyrene spherical microplastics in human skin fibroblast. Particles down to 500 nm were imaged in whole fixed cells, the nanomechanical characterization allowed for differentiation between internalized and surface attached plastics. This study opens new avenues in microplastics toxicity research."
+    },
+    {
+     "id": "W4290961131",
+     "doi": "https://doi.org/10.1016/j.heliyon.2022.e10137",
+     "title": "Degradation of Ciprofloxacin in Aqueous Solution Using Ozone Microbubbles: Spectroscopic, Kinetics, and Antibacterial Analysis",
+     "year": 2022,
+     "cited_by": 76,
+     "abstract": "Ciprofloxacin (CIP) has been listed in the last version of the surface water due to its ability to kill human cells by inhibiting the activity of DNA topoisomerase IV. Thus, CIP, along with other antibiotic pollution has become a serious threat to the environment and public health. Ozonation has been used as an advanced technique that is applied in wastewater treatment to remove CIP, but the primary limitation of this method is the low solubility of ozone in water. This study is the first report of CIP removal in a scale-up of its aqueous solution using a self-developed aerator pump-enhanced ozonation (APO) system, which only employs a propeller and a zigzag arrangement of meshes. This aerator pump decreased the size of ozone bubbles by 90% and increased the effective ozone solubility to 0.47 ppm. The mechanism of degradation of CIP is attributed to an oxidation reaction of the antibiotic with reactive oxygen species, such as hydroxyl, oxygen, and hydroperoxyl radicals, generated on the surface of the ozone microbubbles. It was found that the rate and efficiency of degradation of CIP using the APO system were 3.64 × 10 −3 /min and 83.5%, respectively, which is higher compared with those of conventional flow ozonation (FO) systems (1.47 × 10 −3 /min and 60.9%). The higher degradation efficiency of CIP by the APO system was also revealed by its higher electrical energy efficiency (0.146 g/kWh), compared to that of the FO system (0.106 g/kWh). The degradation of CIP was also mon"
+    },
+    {
+     "id": "W4280627666",
+     "doi": "https://doi.org/10.1016/j.scitotenv.2022.156011",
+     "title": "Controlling factors of microplastic fibre settling through a water column",
+     "year": 2022,
+     "cited_by": 73,
+     "abstract": ""
+    }
+   ],
+   "card": {
+    "area_name": "Optical and Plasma-Driven Pollutant Remediation",
+    "connection": "Advanced optical and atomic physical methods, such as stimulated emission depletion (STED) super-resolution microscopy, light-propelled microrobotics, and non-thermal plasmas, are increasingly harnessed to track, capture, and break down persistent contaminants. These physical tools overcome conventional diffraction limits to visualize sub-micron plastics and deploy reactive plasma species or phototactic propulsion for rapid pollutant removal and chemical recycling.",
+    "why_now": "The accelerating accumulation of hazardous nano- and microplastics in ecosystems has exposed the inadequacy of conventional optical imaging and standard filtration methods, driving the adoption of high-resolution optics and non-thermal plasma physics.",
+    "open_questions": [
+     "How can STED-compatible fluorescent labeling strategies maintain photostability across diverse, complex environmental matrices to allow long-term tracking of nanoplastics?",
+     "What mechanisms can improve the penetration depth of light-driven microrobots to achieve efficient 3D nanoplastic capture in turbid wastewater?",
+     "How can non-thermal plasma systems be scaled to sustain high hydrocarbon selectivity and bond-cleavage rates when treating heterogeneous post-consumer plastic mixtures?"
+    ],
+    "bridge_paper_ids": [
+     "W4283266810",
+     "W4226451499",
+     "W4213149825"
+    ]
+   },
+   "model": "gemini-3.8-flash"
+  },
+  {
+   "kind": "backtest",
+   "rank": null,
+   "i": 1110,
+   "j": 3605,
+   "subfield_i": "Plant Science",
+   "subfield_j": "Health Information Management",
+   "field_i": "Agricultural and Biological Sciences",
+   "field_j": "Health Professions",
+   "period_before": "2016–18",
+   "period_after": "2022–24",
+   "c_before": 199,
+   "c_after": 1042,
+   "AS_before": 0.12192984223993726,
+   "AS_after": 0.28216068665512584,
+   "score": 0.7875588558964237,
+   "drivers": [],
+   "papers": [
+    {
+     "id": "W4406041923",
+     "doi": "https://doi.org/10.53759/7669/jmc202505026",
+     "title": "Automatic Crop Recommendation System Using LightGBM and Decision Tree Machine Learning Models",
+     "year": 2025,
+     "cited_by": 402,
+     "abstract": "An Automatic Crop Recommendation System is a system that makes use of data analysis and algorithms to recommend crops that are suitable and proper about soil quality, climate, and local factors. Such a system eases the decision-making process for farmers. The necessity for efficient agricultural techniques is growing rapidly, and it is impossible without the application of modern technology that would promote the quality of the ideal crop selection list and production. This paper introduces a new concept of the Automatic Crop Recommendation System, integrating the LightGBM and the Decision Tree algorithms. The research uses the strengths of LightGBM, a type of gradient boosting framework, and Decision Tree, a conventional machine learning model, to form a powerful mixed ensemble approach. These approaches are combined to exploit their complementary strengths, leading to a more accurate and dependable agricultural advisory system. The effectiveness of the proposed algorithm’s approach is verified through experimental results it has the following accuracies, recalls, and F-1 scores. The process has proven very successful; an accuracy of 98.64% makes it possible to recommend appropriate and accurate crops."
+    },
+    {
+     "id": "W4385878916",
+     "doi": "https://doi.org/10.3390/app13169288",
+     "title": "Crop Prediction Model Using Machine Learning Algorithms",
+     "year": 2023,
+     "cited_by": 390,
+     "abstract": "Machine learning applications are having a great impact on the global economy by transforming the data processing method and decision making. Agriculture is one of the fields where the impact is significant, considering the global crisis for food supply. This research investigates the potential benefits of integrating machine learning algorithms in modern agriculture. The main focus of these algorithms is to help optimize crop production and reduce waste through informed decisions regarding planting, watering, and harvesting crops. This paper includes a discussion on the current state of machine learning in agriculture, highlighting key challenges and opportunities, and presents experimental results that demonstrate the impact of changing labels on the accuracy of data analysis algorithms. The findings recommend that by analyzing wide-ranging data collected from farms, incorporating online IoT sensor data that were obtained in a real-time manner, farmers can make more informed verdicts about factors that affect crop growth. Eventually, integrating these technologies can transform modern agriculture by increasing crop yields while minimizing waste. Fifteen different algorithms have been considered to evaluate the most appropriate algorithms to use in agriculture, and a new feature combination scheme-enhanced algorithm is presented. The results show that we can achieve a classification accuracy of 99.59% using the Bayes Net algorithm and 99.46% using Naïve Bayes Classifier and "
+    },
+    {
+     "id": "W4390738897",
+     "doi": "https://doi.org/10.1007/s00521-023-09391-2",
+     "title": "Enhancing crop recommendation systems with explainable artificial intelligence: a study on agricultural decision-making",
+     "year": 2024,
+     "cited_by": 285,
+     "abstract": "Abstract Crop Recommendation Systems are invaluable tools for farmers, assisting them in making informed decisions about crop selection to optimize yields. These systems leverage a wealth of data, including soil characteristics, historical crop performance, and prevailing weather patterns, to provide personalized recommendations. In response to the growing demand for transparency and interpretability in agricultural decision-making, this study introduces XAI-CROP an innovative algorithm that harnesses eXplainable artificial intelligence (XAI) principles. The fundamental objective of XAI-CROP is to empower farmers with comprehensible insights into the recommendation process, surpassing the opaque nature of conventional machine learning models. The study rigorously compares XAI-CROP with prominent machine learning models, including Gradient Boosting (GB), Decision Tree (DT), Random Forest (RF), Gaussian Naïve Bayes (GNB), and Multimodal Naïve Bayes (MNB). Performance evaluation employs three essential metrics: Mean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared (R2). The empirical results unequivocally establish the superior performance of XAI-CROP. It achieves an impressively low MSE of 0.9412, indicating highly accurate crop yield predictions. Moreover, with an MAE of 0.9874, XAI-CROP consistently maintains errors below the critical threshold of 1, reinforcing its reliability. The robust R 2 value of 0.94152 underscores XAI-CROP's ability to explain 94.15% of t"
+    },
+    {
+     "id": "W4308156322",
+     "doi": "https://doi.org/10.1016/j.advengsoft.2022.103326",
+     "title": "Crop yield prediction using machine learning techniques",
+     "year": 2022,
+     "cited_by": 209,
+     "abstract": ""
+    },
+    {
+     "id": "W4391255929",
+     "doi": "https://doi.org/10.1016/j.heliyon.2024.e25112",
+     "title": "Machine learning based recommendation of agricultural and horticultural crop farming in India under the regime of NPK, soil pH and three climatic variables",
+     "year": 2024,
+     "cited_by": 194,
+     "abstract": "Machine learning (ML) can make use of agricultural data related to crop yield under varying soil nutrient levels, and climatic fluctuations to suggest appropriate crops to achieve the highest possible production. The aim of this study was to evaluate the efficacy of five distinct ML models in generating practical recommendations for crop selection that could be readily adopted by end-users. The study utilized public datasets on NPK, soil pH, and three climatic factors (temperature, rainfall, and humidity) to train five different ML models: Support vector machine, XGBoost, Random forest, KNN, and Decision Tree. The model was trained using yields of individual data sets of 11 agricultural and 10 horticultural crops, as well as combinations of both types of agri-horticultural crops. The results showed that using individual data sets for each crop category resulted in better outcome than combining the data sets for both categories. Among the five ML models used, the XGBoost demonstrated the highest level of accuracy. The precision rates of XGBoost for recommending agricultural crops, horticultural crops, and a combination of both were 99.09% (AUC 1.0), 99.3% (AUC 1.0), and 98.51% (AUC 0.99), respectively. The present study holds significant implications for real-world applications as it addresses intricate issues related to the optimization of fertilizer usage in real-world scenarios, taking into account various factors such as rainfall, temperature, humidity, and soil pH. Furthe"
+    },
+    {
+     "id": "W4387350610",
+     "doi": "https://doi.org/10.1109/access.2023.3321861",
+     "title": "Predicting Agriculture Yields Based on Machine Learning Using Regression and Deep Learning",
+     "year": 2023,
+     "cited_by": 191,
+     "abstract": "Agriculture contributes a significant amount to the economy of India due to the dependence on human beings for their survival. The main obstacle to food security is population expansion leading to rising demand for food. Farmers must produce more on the same land to boost the supply. Through crop yield prediction, technology can assist farmers in producing more. This paper’s primary goal is to predict crop yield utilizing the variables of rainfall, crop, meteorological conditions, area, production, and yield that have posed a serious threat to the long-term viability of agriculture. Crop yield prediction is a decision-support tool that uses machine learning and deep learning that can be used to make decisions about which crops to produce and what to do in the crop’s growing season. It can decide which crops to produce and what to do in the crop’s growing season. Regardless of the distracting environment, machine learning and deep learning algorithms are utilized in crop selection to reduce agricultural yield output losses. To estimate the agricultural yield, machine learning techniques: decision tree, random forest, and XGBoost regression; deep learning techniques - convolutional neural network and long-short term memory network have been used. Accuracy, root mean square error, mean square error, mean absolute error, standard deviation, and losses are compared. Other machine learning and deep learning methods fall short compared to the random forest and convolutional neural n"
+    },
+    {
+     "id": "W4292604557",
+     "doi": "https://doi.org/10.3390/s22166299",
+     "title": "A Cloud Enabled Crop Recommendation Platform for Machine Learning-Driven Precision Farming",
+     "year": 2022,
+     "cited_by": 177,
+     "abstract": "Modern agriculture incorporated a portfolio of technologies to meet the current demand for agricultural food production, in terms of both quality and quantity. In this technology-driven farming era, this portfolio of technologies has aided farmers to overcome many of the challenges associated with their farming activities by enabling precise and timely decision making on the basis of data that are observed and subsequently converged. In this regard, Artificial Intelligence (AI) holds a key place, whereby it can assist key stakeholders in making precise decisions regarding the conditions on their farms. Machine Learning (ML), which is a branch of AI, enables systems to learn and improve from their experience without explicitly being programmed, by imitating intelligent behavior in solving tasks in a manner that requires low computational power. For the time being, ML is involved in a variety of aspects of farming, assisting ranchers in making smarter decisions on the basis of the observed data. In this study, we provide an overview of AI-driven precision farming/agriculture with related work and then propose a novel cloud-based ML-powered crop recommendation platform to assist farmers in deciding which crops need to be harvested based on a variety of known parameters. Moreover, in this paper, we compare five predictive ML algorithms-K-Nearest Neighbors (KNN), Decision Tree (DT), Random Forest (RF), Extreme Gradient Boosting (XGBoost) and Support Vector Machine (SVM)-to identif"
+    },
+    {
+     "id": "W4214495458",
+     "doi": "https://doi.org/10.1109/access.2022.3154350",
+     "title": "Crop Prediction Based on Characteristics of the Agricultural Environment Using Various Feature Selection Techniques and Classifiers",
+     "year": 2022,
+     "cited_by": 167,
+     "abstract": "Agriculture is a growing field of research. In particular, crop prediction in agriculture is critical and is chiefly contingent upon soil and environment conditions, including rainfall, humidity, and temperature. In the past, farmers were able to decide on the crop to be cultivated, monitor its growth, and determine when it could be harvested. Today, however, rapid changes in environmental conditions have made it difficult for the farming community to continue to do so. Consequently, in recent years, machine learning techniques have taken over the task of prediction, and this work has used several of these to determine crop yield. To ensure that a given machine learning (ML) model works at a high level of precision, it is imperative to employ efficient feature selection methods to preprocess the raw data into an easily computable Machine Learning friendly dataset. To reduce redundancies and make the ML model more accurate, only data features that have a significant degree of relevance in determining the final output of the model must be employed. Thus, optimal feature selection arises to ensure that only the most relevant features are accepted as a part of the model. Conglomerating every single feature from raw data without checking for their role in the process of making the model will unnecessarily complicate our model. Furthermore, additional features which contribute little to the ML model will increase its time and space complexity and affect the accuracy of the model’s "
+    },
+    {
+     "id": "W4385725647",
+     "doi": "https://doi.org/10.3389/fpls.2023.1234555",
+     "title": "Ensemble machine learning-based recommendation system for effective prediction of suitable agricultural crop cultivation",
+     "year": 2023,
+     "cited_by": 163,
+     "abstract": "Agriculture is the most critical sector for food supply on the earth, and it is also responsible for supplying raw materials for other industrial productions. Currently, the growth in agricultural production is not sufficient to keep up with the growing population, which may result in a food shortfall for the world’s inhabitants. As a result, increasing food production is crucial for developing nations with limited land and resources. It is essential to select a suitable crop for a specific region to increase its production rate. Effective crop production forecasting in that area based on historical data, including environmental and cultivation areas, and crop production amount, is required. However, the data for such forecasting are not publicly available. As such, in this paper, we take a case study of a developing country, Bangladesh, whose economy relies on agriculture. We first gather and preprocess the data from the relevant research institutions of Bangladesh and then propose an ensemble machine learning approach, called K-nearest Neighbor Random Forest Ridge Regression (KRR), to effectively predict the production of the major crops (three different kinds of rice, potato, and wheat). KRR is designed after investigating five existing traditional machine learning (Support Vector Regression, Naïve Bayes, and Ridge Regression) and ensemble learning (Random Forest and CatBoost) algorithms. We consider four classical evaluation metrics, i.e., mean absolute error, mean square"
+    },
+    {
+     "id": "W4307562876",
+     "doi": "https://doi.org/10.1111/exsy.13136",
+     "title": "Plant disease detection using machine learning approaches",
+     "year": 2022,
+     "cited_by": 160,
+     "abstract": "Abstract Plant health care is the science of anticipating and diagnosing the advent of life‐threatening diseases in plants. The fatality rate of plants can be reduced by diagnosing them for any signs early on. The early detection of such diseases is one possibility for lowering plant mortality rates. Machine learning (ML), a type of artificial intelligence technology that allows researchers to enhance and develop without being explicitly programmed, is used in this study to build early prediction models for plant disease diagnosis. Due to the similarities of crops throughout the early phonological phases, crop classification has proved problematic. ML can be applied to a variety of tasks recognize different types of crops at low altitude platforms with the help of drones that provide high‐resolution optical imagery. The drones are employed to photograph phonological stages, and these greyscale photographs are then utilized to develop grey level co‐occurrence matrices‐based characteristics. In this article, the proposed plant disease detection models are developed using ML approaches such as random forest‐nearest neighbours, linear regression, Naive Bayes, neural networks, and support vector machine. The performance of the generated plants disease risk evaluation model is calculated using unbiased metrics such as true positive rate, true negative rate, precision, recall, and F 1‐score method are all factors to consider. The results revealed that the ensemble plants disease mod"
+    }
+   ],
+   "card": {
+    "area_name": "ML-Driven Plant Health and Crop Recommendation",
+    "connection": "Plant Science contributes environmental, soil nutrient, and crop disease data, while Health Information Management offers decision support methodologies, cloud platform architectures, and diagnostic risk management frameworks. Together, these fields leverage machine learning models to automate crop selection, manage plant health records, and deliver explainable decision-making tools for farming operations.",
+    "why_now": "Rapidly shifting environmental conditions and growing global food security challenges require real-time IoT data integration, cloud platforms, and modern machine learning to optimize crop yields and enable early disease diagnosis.",
+    "open_questions": [
+     "How can explainable artificial intelligence (XAI) algorithms ensure both high predictive accuracy and user transparency when delivering plant health recommendations?",
+     "What architectural standards can best support cloud platforms integrating real-time IoT sensor data and drone imagery across diverse environmental conditions?",
+     "How can ensemble machine learning models effectively generalize crop selection decisions when training on limited or non-public regional agricultural datasets?"
+    ],
+    "bridge_paper_ids": [
+     "W4390738897",
+     "W4292604557",
+     "W4307562876"
+    ]
+   },
+   "model": "gemini-3.6-flash"
+  },
+  {
+   "kind": "forecast",
+   "rank": 10,
+   "i": 1103,
+   "j": 2505,
+   "subfield_i": "Animal Science and Zoology",
+   "subfield_j": "Materials Chemistry",
+   "field_i": "Agricultural and Biological Sciences",
+   "field_j": "Materials Science",
+   "period_before": "2016–18",
+   "period_after": "2022–24",
+   "c_before": 138,
+   "c_after": 383,
+   "AS_before": 0.019449654770697166,
+   "AS_after": 0.05051249587673443,
+   "score": 0.8526358317190025,
+   "drivers": [
+    "recent rise in association",
+    "preferential attachment (size product)",
+    "size of smaller field"
+   ],
+   "papers": [
+    {
+     "id": "W4382364001",
+     "doi": "https://doi.org/10.1016/j.ijbiomac.2023.125600",
+     "title": "Preparation of chitosan/gelatin-based functional films integrated with carbon dots from banana peel for active packaging application",
+     "year": 2023,
+     "cited_by": 171,
+     "abstract": ""
+    },
+    {
+     "id": "W4307430865",
+     "doi": "https://doi.org/10.1021/acs.analchem.2c03326",
+     "title": "Real-Time Fluorescence Screening Platform for Meat Freshness",
+     "year": 2022,
+     "cited_by": 167,
+     "abstract": "Meat’s freshness is closely related to food safety and human health and has received increasing attention nowadays. To on-site visually screen meat freshness in a fast and non-destructive manner, we rationally constructed a series of fluorescent probes ( JDCN, JDNS, and JDPY ) with distinct electron-withdrawing substitution groups based on julolidine-fused coumarin. These probes underwent an aza-Michael addition followed by an elimination reaction with cadaverine to generate a colorimetric and ratiometric fluorescence response, and their sensing performance was rationally enhanced by improving the electron-withdrawing strength of substitution groups. Particularly, JDCN with a dicyanovinyl group as the reaction site exhibited outstanding sensing performance including rapid response (∼60 s), high selectivity, and low detection limit (14 nM). Furthermore, JDCN was fabricated into test kits to detect cadaverine vapor with a high-contrast fluorescence change from red to green. Based on two-color visualization of cadaverine vapor, on-site non-contact and non-destructive monitoring of meat freshness was successfully achieved. The good sensing performance rendered JDCN test kits a promising real-time fluorescence screening platform for rapid, non-destructive, and accurate evaluation of meat freshness."
+    },
+    {
+     "id": "W4210301063",
+     "doi": "https://doi.org/10.1016/j.foodhyd.2022.107563",
+     "title": "Insight into the oil polarity impact on interfacial properties of myofibrillar protein",
+     "year": 2022,
+     "cited_by": 129,
+     "abstract": ""
+    },
+    {
+     "id": "W4318945578",
+     "doi": "https://doi.org/10.1016/j.fpsl.2023.101045",
+     "title": "Zinc oxide nanoparticles in meat packaging: A systematic review of recent literature",
+     "year": 2023,
+     "cited_by": 119,
+     "abstract": "Questions have been raised apropos food spoilage, which may pose a great hazard to the global environment and human health. Amongst bio-safe material that retains photocatalysis and impacts, photo-oxidizing on biological and species chemical are ZnO nanoparticles (ZnO-NPs). In this respect, this current paper covers a wide range of topics, starting from the ZnO-NPs synthesis and antibacterial potential to their functional application in meat packaging. A deep comparison of the physicochemical properties of ZnO-NPs synthesized through different routers was reported. In addition, a special focus has been given to antibacterial mechanisms that underlie synthesis parameters. This review also examined the ZnO-NPs impact on the chemico–physico–mechanical properties of the functional coatings/films features. Likewise, the employment of ZnO-NPs in meat packaging was also evaluated. As safer nanoparticles, ZnO-NPs enhance stored meat product quality by microflora growth limitation and retards lipid/protein oxidation. Remarkably, active packaging comprising ZnO-NPs, synthesized or not by plants, showed an eco-friendly solution and future alternative in the meat industry. Information about these topics could help students and scientific researchers who are engaged in chemical engineering, chemistry and meat technology communities to approach the complex thematic of ZnO-NPs."
+    },
+    {
+     "id": "W4319455902",
+     "doi": "https://doi.org/10.1016/j.foodchem.2023.135653",
+     "title": "Effect of oil phases on the stability of myofibrillar protein microgel particles stabilized Pickering emulsions: The leading role of viscosity",
+     "year": 2023,
+     "cited_by": 115,
+     "abstract": ""
+    },
+    {
+     "id": "W4312116177",
+     "doi": "https://doi.org/10.1016/j.meatsci.2022.109086",
+     "title": "Pickering emulsion stabilized by modified pea protein-chitosan composite particles as a new fat substitute improves the quality of pork sausages",
+     "year": 2022,
+     "cited_by": 111,
+     "abstract": ""
+    },
+    {
+     "id": "W4394600134",
+     "doi": "https://doi.org/10.1016/j.foodhyd.2024.110086",
+     "title": "Application of rheology and interfacial rheology to investigate the emulsion stability of ultrasound-assisted cross-linked myofibrillar protein: Effects of oil phase types",
+     "year": 2024,
+     "cited_by": 110,
+     "abstract": ""
+    },
+    {
+     "id": "W4386892921",
+     "doi": "https://doi.org/10.1016/j.foodhyd.2023.109287",
+     "title": "Exploring the relationship between the interfacial properties and emulsion properties of ultrasound-assisted cross-linked myofibrillar protein",
+     "year": 2023,
+     "cited_by": 105,
+     "abstract": ""
+    },
+    {
+     "id": "W4281263284",
+     "doi": "https://doi.org/10.1016/j.foodchem.2022.133242",
+     "title": "A dual-function chitosan packaging film for simultaneously monitoring and maintaining pork freshness",
+     "year": 2022,
+     "cited_by": 104,
+     "abstract": ""
+    },
+    {
+     "id": "W4376286903",
+     "doi": "https://doi.org/10.1016/j.foodhyd.2023.108862",
+     "title": "Studies on stabilized mechanism of high internal phase Pickering emulsions from the collaboration of low dose konjac glucomannan and myofibrillar protein",
+     "year": 2023,
+     "cited_by": 100,
+     "abstract": ""
+    }
+   ],
+   "card": {
+    "area_name": "Advanced Materials for Meat Science and",
+    "connection": "Materials chemistry principles—such as the synthesis of responsive fluorescent probes, nanoparticles, and structured Pickering emulsions—are being directly applied to animal science to address meat freshness monitoring, spoilage prevention, and meat product reformulations. Concurrently, animal muscle components like myofibrillar proteins and pork systems serve as functional matrices and testbeds for exploring interfacial chemistry, film mechanics, and bio-based packaging.",
+    "why_now": "The convergence is driven by the urgent need for non-destructive, real-time sensing of meat spoilage markers like cadaverine alongside the development of eco-friendly, nanoparticle-enhanced active packaging and fat-substitute emulsions to improve food safety and quality.",
+    "open_questions": [
+     "How can real-time fluorescent probes for spoilage markers like cadaverine vapor maintain sensitivity and stability across diverse meat storage conditions and commercial packaging environments?",
+     "What interfacial mechanisms govern the stability of ultrasound cross-linked myofibrillar protein Pickering emulsions when interacting with varying oil polarities and viscosities?",
+     "How do synthesis routes and dispersion parameters of nanoparticles, such as zinc oxide, affect the chemico-mechanical properties and antibacterial efficacy of active meat packaging films?"
+    ],
+    "bridge_paper_ids": [
+     "W4307430865",
+     "W4318945578",
+     "W4312116177"
+    ]
+   },
+   "model": "gemini-3.8-flash"
+  }
+ ]
+}
