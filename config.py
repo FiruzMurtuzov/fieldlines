@@ -16,6 +16,7 @@ OPENALEX_BASE = "https://api.openalex.org"
 
 # Periods (3-year windows). 2025 is excluded because its counts are incomplete.
 PERIODS = {
+    "P0": (2007, 2009),   # features only (gives P1 momentum); never a label, not shown in the app
     "P1": (2010, 2012),
     "P2": (2013, 2015),
     "P3": (2016, 2018),
@@ -23,7 +24,8 @@ PERIODS = {
     "P5": (2022, 2024),
 }
 PERIOD_ORDER = list(PERIODS)
-YEAR_MIN, YEAR_MAX = 2010, 2024
+DISPLAY_PERIODS = ["P1", "P2", "P3", "P4", "P5"]
+YEAR_MIN, YEAR_MAX = 2007, 2024
 
 # HTTP behaviour
 MAX_THREADS = 5
@@ -43,6 +45,9 @@ SEED = 42
 LABEL_TOP_FRAC = 0.10
 LABEL_MIN_COUNT = 50
 FORECAST_TOP_N = 25
+MAX_PER_SUBFIELD = 2     # diversity cap in the forecast list
+CANDIDATE_MAX_AS = 1.0   # under-connected: fewer shared papers than sizes predict
+CANDIDATE_MIN_C = 5      # ...but the link exists, so AS is not pure noise
 
 # Only journal articles and reviews. Without this, 2024 is flooded by datasets
 # (370k PlutoF biodiversity records tagged Ecology) and Zenodo SEO spam

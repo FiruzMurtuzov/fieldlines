@@ -1,5 +1,12 @@
 [
  {
+  "period": "P0",
+  "nodes": 250,
+  "edges": 4015,
+  "communities": 6,
+  "modularity": 0.491
+ },
+ {
   "period": "P1",
   "nodes": 250,
   "edges": 4070,

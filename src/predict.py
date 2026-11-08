@@ -10,6 +10,7 @@ import pandas as pd
 from sklearn.ensemble import HistGradientBoostingClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import average_precision_score, roc_auc_score
+from sklearn.impute import SimpleImputer
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
@@ -45,25 +46,28 @@ def _graph(period: str) -> tuple[nx.Graph, dict]:
 
 
 def candidates(pm: pd.DataFrame, sm: pd.DataFrame, t: str) -> pd.DataFrame:
-    """Weak cross-field pairs at period t with both subfields above min size."""
+    """Under-connected cross-field pairs at period t with both subfields above min size."""
     k = P.index(t)
     s = sm.set_index("subfield_id")
     d = pm[pm.period == t].copy()
-    d = d[~d.same_field & (d.n_i >= config.MIN_SUBFIELD_SIZE) & (d.n_j >= config.MIN_SUBFIELD_SIZE)]
-    med = d.c.median()
-    d = d[d.c < med].copy()
+    d = d[~d.same_field & ~d.artifact_pair & (d.n_i >= config.MIN_SUBFIELD_SIZE) & (d.n_j >= config.MIN_SUBFIELD_SIZE)]
+    # "Weak" = under-connected relative to field sizes (AS < 1) but non-trivial (c >= 5).
+    # The plan's original "c below the cross-field median" (~10 papers) left only 0.2% positives.
+    d = d[(d.AS < config.CANDIDATE_MAX_AS) & (d.c >= config.CANDIDATE_MIN_C)].copy()
 
-    # Momentum from t-1 (0 if t is the first period).
+    # Momentum from t-1: NaN when t is the first period (unknown), 0 when the pair was unseen at t-1.
     if k == 0:
-        d["d_logAS"] = 0.0
-    d["d_logAS"] = d.d_logAS.fillna(0.0)
+        d["d_logAS"] = np.nan
+    else:
+        d["d_logAS"] = d.d_logAS.fillna(0.0)
+    nan = pd.Series(np.nan, index=s.index)
 
     def growth(a, b):
         return (s[f"n_{b}"] + 1) / (s[f"n_{a}"] + 1) - 1
 
-    g_t = growth(P[k - 1], t) if k >= 1 else pd.Series(0.0, index=s.index)
-    g_prev = growth(P[k - 2], P[k - 1]) if k >= 2 else pd.Series(0.0, index=s.index)
-    acc = g_t - g_prev if k >= 2 else pd.Series(0.0, index=s.index)
+    g_t = growth(P[k - 1], t) if k >= 1 else nan
+    g_prev = growth(P[k - 2], P[k - 1]) if k >= 2 else nan
+    acc = g_t - g_prev
     gi, gj = d.i.map(g_t), d.j.map(g_t)
     ai, aj = d.i.map(acc), d.j.map(acc)
     d["growth_min"], d["growth_max"] = np.minimum(gi, gj), np.maximum(gi, gj)
@@ -111,7 +115,7 @@ def evaluate(name: str, y, score, ks=(10, 20, 50, 100)) -> dict:
 
 def models():
     return {
-        "logreg": make_pipeline(StandardScaler(), LogisticRegression(class_weight="balanced", C=0.5, max_iter=2000)),
+        "logreg": make_pipeline(SimpleImputer(strategy="median"), StandardScaler(), LogisticRegression(class_weight="balanced", C=0.5, max_iter=2000)),
         "hgb": HistGradientBoostingClassifier(max_iter=300, learning_rate=0.05, max_leaf_nodes=15,
                                               l2_regularization=1.0, class_weight="balanced", random_state=config.SEED),
     }
@@ -128,6 +132,10 @@ def baselines(d: pd.DataFrame) -> dict[str, np.ndarray]:
 def backtest(train: pd.DataFrame, test: pd.DataFrame, tag: str) -> tuple[list[dict], dict]:
     y = test.y.values
     rows, scores = [], {}
+    train = train.copy()
+    for c in FEATURES:  # a feature with no values at all in training (e.g. P1 acceleration) -> 0
+        if train[c].isna().all():
+            train[c] = 0.0
     rng = np.random.default_rng(config.SEED)
     rand = [evaluate("random", y, rng.random(len(y))) for _ in range(200)]
     r = {k: float(np.mean([x[k] for x in rand])) for k in rand[0] if k != "model"}
@@ -151,7 +159,8 @@ def pk_curve(y, s, kmax=100):
 
 def drivers_logreg(model, X: pd.DataFrame, top=3) -> list[list[str]]:
     scaler, lr = model.named_steps["standardscaler"], model.named_steps["logisticregression"]
-    contrib = scaler.transform(X) * lr.coef_[0]
+    imp = model.named_steps["simpleimputer"]
+    contrib = scaler.transform(imp.transform(X)) * lr.coef_[0]
     out = []
     for row in contrib:
         idx = np.argsort(-row)[:top]
@@ -164,16 +173,18 @@ def main():
     pm = pd.read_parquet(config.PROCESSED / "pair_metrics.parquet")
     sm = pd.read_parquet(config.PROCESSED / "subfield_metrics.parquet")
 
-    lab = {t: add_labels(candidates(pm, sm, t), pm, t) for t in ["P1", "P2", "P3"]}
+    lab = {t: add_labels(candidates(pm, sm, t), pm, t) for t in ["P0", "P1", "P2", "P3"]}
     for t, d in lab.items():
         log.info("t=%s candidates=%d positives=%d (%.1f%%)", t, len(d), d.y.sum(), 100 * d.y.mean())
     test = lab["P3"]
 
-    # Strict: standing in 2018, only labels observable by 2018 (P1 -> P3).
-    strict_rows, strict_scores = backtest(lab["P1"], test, "strict (train P1→P3)")
-    # Plan variant: train on P1→P3 and P2→P4 (P4 labels come from 2019–21).
+    # Strict: standing in 2018, only labels observable by 2018 (P0→P2, P1→P3). Headline.
+    strict_rows, strict_scores = backtest(pd.concat([lab["P0"], lab["P1"]]), test, "strict (train P0→P2, P1→P3)")
+    # Strict, single period (first attempt, kept for transparency).
+    single_rows, _ = backtest(lab["P1"], test, "strict-single (train P1→P3)")
+    # Plan variant: train on P1→P3 and P2→P4 (P4 labels come from 2019–21, after the 2018 cut-off).
     plan_rows, plan_scores = backtest(pd.concat([lab["P1"], lab["P2"]]), test, "plan (train P1→P3, P2→P4)")
-    metrics = pd.DataFrame(strict_rows + plan_rows)
+    metrics = pd.DataFrame(strict_rows + single_rows + plan_rows)
     pd.set_option("display.width", 200)
     print(metrics.round(3).to_string(index=False))
 
@@ -183,9 +194,10 @@ def main():
               "random_base_rate": float(y.mean())}
 
     # Pick the headline model: best p@20 on the strict split among the two ML models.
-    ml = metrics[(metrics.split.str.startswith("strict")) & metrics.model.isin(["logreg", "hgb"])]
+    is_strict = metrics.split.str.startswith("strict (")
+    ml = metrics[is_strict & metrics.model.isin(["logreg", "hgb"])]
     best = ml.sort_values(["p@20", "avg_precision"], ascending=False).iloc[0].model
-    base = metrics[(metrics.split.str.startswith("strict")) & metrics.model.isin(["current_AS", "pref_attach", "recent_growth"])]
+    base = metrics[is_strict & metrics.model.isin(["current_AS", "pref_attach", "recent_growth"])]
     best_base = base.sort_values("p@20", ascending=False).iloc[0]
 
     top = test.assign(score=strict_scores[best]).nlargest(20, "score")
@@ -201,9 +213,23 @@ def main():
     fc["score"] = m.predict_proba(fc[FEATURES])[:, 1]
     lr = models()["logreg"].fit(all_lab[FEATURES], all_lab.y)
     fc["score_logreg"] = lr.predict_proba(fc[FEATURES])[:, 1]
-    fc = fc.nlargest(config.FORECAST_TOP_N, "score").reset_index(drop=True)
+    fc = fc.sort_values("score", ascending=False).reset_index(drop=True)
+    fc[["i", "j", "subfield_i", "subfield_j", "c", "logAS", "d_logAS", "score"]].to_parquet(
+        config.PROCESSED / "predictions_all.parquet", index=False)
+    # Diversify: one shrinking subfield (e.g. Condensed Matter Physics, being re-tagged into
+    # materials subfields) otherwise fills the whole list. Cap appearances per subfield.
+    seen, keep_idx = {}, []
+    for r in fc.itertuples():
+        if seen.get(r.i, 0) < config.MAX_PER_SUBFIELD and seen.get(r.j, 0) < config.MAX_PER_SUBFIELD:
+            keep_idx.append(r.Index)
+            seen[r.i] = seen.get(r.i, 0) + 1
+            seen[r.j] = seen.get(r.j, 0) + 1
+        if len(keep_idx) == config.FORECAST_TOP_N:
+            break
+    fc = fc.loc[keep_idx].reset_index(drop=True)
+    fc["rank"] = np.arange(1, len(fc) + 1)
     fc["drivers"] = [[FEATURE_LABELS[f] for f in fs] for fs in drivers_logreg(lr, fc[FEATURES])]
-    keep = ["i", "j", "subfield_i", "subfield_j", "field_i", "field_j", "domain_i", "domain_j",
+    keep = ["rank", "i", "j", "subfield_i", "subfield_j", "field_i", "field_j", "domain_i", "domain_j",
             "c", "AS", "logAS", "d_logAS", "growth_max", "accel_max", "common_nbrs", "score", "score_logreg", "drivers"]
     fc[keep].to_parquet(config.PROCESSED / "predictions.parquet", index=False)
 

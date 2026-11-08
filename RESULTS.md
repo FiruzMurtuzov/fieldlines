@@ -78,3 +78,44 @@ Caveat: Business growth is mostly the topic "SMEs and Digital Marketing" (7k →
 - P5 communities: biomedicine (77), social sciences and humanities (54), engineering and physical sciences (49), earth, environment and agriculture (29), CS and maths (23), health professions (18).
 - **Top bridge subfields, P5** (participation and betweenness ranks): Statistics, Probability and Uncertainty · Medical Terminology · Chemical Health and Safety · Human-Computer Interaction · Acoustics and Ultrasonics · Complementary and Manual Therapy · Human Factors and Ergonomics · Anatomy.
 - **Top rising cross-community pairs, P5:** Health Informatics × Education (Δ log AS +1.58, 9,334 papers) · Virology × Emergency Medical Services · Ocean Engineering × Statistical and Nonlinear Physics · Signal Processing × Transportation · Health Informatics × Library and Information Sciences.
+
+## Phase 4: Link prediction and backtest (done, 02:42)
+
+### Changes from the plan (and why)
+- **Candidates.** The plan's "c below the cross-field median" means fewer than about 10 papers. With the c ≥ 50 label rule that left only 0.2% positives (28 of 14k), and every method scored 0. The new definition is **under-connected pairs: AS < 1** (fewer shared papers than the two fields' sizes predict) **and c ≥ 5**. The label rule is unchanged: top 10% rise in log AS and c ≥ 50 at t+2. Base rate is now 5.7% on the test split.
+- **Features-only period P0 (2007–09)**, so the 2010–12 training rows have real momentum features. P0 is never a label and isn't shown in the app.
+- **Leakage.** The plan's train split includes P2→P4, whose labels come from 2019–21, after the "standing in 2018" cutoff. The **headline uses the strict split**: train on P0→P2 and P1→P3, where every label is from 2018 or earlier. The plan's split is reported as a secondary result.
+
+### Test: standing in 2018 (features P3 = 2016–18 → outcomes P5 = 2022–24)
+13,715 candidate pairs, 776 take-offs (5.7%).
+
+| Model (strict split) | Hits in top 20 | Top 50 | Top 100 | ROC-AUC | Avg. precision |
+| --- | --- | --- | --- | --- | --- |
+| Random (expected) | 1.0 | 2.9 | 5.6 | 0.50 | 0.057 |
+| Preferential attachment | 1 | 2 | 3 | 0.54 | 0.062 |
+| Current AS | 2 | 2 | 2 | 0.50 | 0.052 |
+| Recent growth only | 0 | 0 | 2 | 0.59 | 0.072 |
+| Logistic regression | 3 | 6 | 12 | 0.60 | 0.086 |
+| **Gradient boosting (headline)** | **3** | **7** | **14** | **0.70** | **0.101** |
+
+The plan's split (train P1→P3 and P2→P4, which uses 2019–21 labels): gradient boosting gets 4 of 20, 15 of 50 and 22 of 100, with AUC 0.72 and AP 0.13.
+
+**Headline:** standing in 2018, our top 100 included **14 pairs that took off by 2024**, against 5.6 expected by chance, 3 for preferential attachment and 2 for current AS. That's **2.5 times** better than chance. At top 20 it's 3 against 2 for the best baseline, a narrow win.
+
+Backtest hits in the top 20: Plant Science × Health Information Management (199 → 1,042 papers) · Renewable Energy × Surgery (32 → 79) · Environmental Engineering × Surgery (27 → 81).
+
+### Forecast (trained on all labelled data P0–P3, scoring P5 candidates)
+Each subfield may appear at most twice. Without the cap, Condensed Matter Physics fills the whole top 10: it's shrinking (113k → 92k as OpenAlex moves its topics into materials subfields), which makes every pair's AS rise.
+
+1. Surgery × Condensed Matter Physics
+2. Environmental Engineering × Condensed Matter Physics
+3. Aquatic Science × Electrical and Electronic Engineering
+4. Nutrition and Dietetics × Atomic, Molecular Physics and Optics
+5. Pediatrics × Geography, Planning and Development
+6. Oncology × Library and Information Sciences
+7. Surgery × Library and Information Sciences
+8. Religious Studies × Pediatrics
+9. Pollution × Atomic, Molecular Physics and Optics
+10. Animal Science and Zoology × Materials Chemistry
+
+The main driver for every one of them is the recent rise in association.
