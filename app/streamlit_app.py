@@ -145,27 +145,71 @@ with tabs[0]:
 
 # ---------------------------------------------------------------- 2. Emerging
 with tabs[1]:
-    st.subheader("Fastest-accelerating subfields")
-    st.caption("Acceleration = growth 2019–21 → 2022–24 minus growth 2016–18 → 2019–21. "
-               f"Subfields with at least {config.MIN_SUBFIELD_SIZE:,} papers in 2022–24.")
-    em = sm[(sm.n_P5 >= config.MIN_SUBFIELD_SIZE) & ~sm.artifact].nlargest(config.EMERGING_TOP_N, "acceleration")
-    tbl = em[["subfield", "field", "n_P3", "n_P4", "n_P5", "growth_P3_P4", "growth_P4_P5", "acceleration"]].rename(
+    # Spotlight: one subfield's growth and its fastest-rising partners (AI by default).
+    st.subheader("Spotlight")
+    big = sm[(sm.n_P3 >= config.MIN_SUBFIELD_SIZE) & ~sm.artifact].copy()
+    big["growth_rank"] = big.growth_P3_P5.rank(ascending=False, method="min").astype(int)
+    opts = sorted(big.subfield)
+    focus = st.selectbox("Subfield", opts, index=opts.index("Artificial Intelligence")
+                         if "Artificial Intelligence" in opts else 0)
+    fr = big[big.subfield == focus].iloc[0]
+    k1, k2, k3, k4 = st.columns(4)
+    k1.metric("Papers 2016–18", f"{int(fr.n_P3):,}")
+    k2.metric("Papers 2022–24", f"{int(fr.n_P5):,}", f"{fr.growth_P3_P5:+.0%}")
+    k3.metric("Growth rank", f"#{fr.growth_rank} of {len(big)}")
+    k4.metric("Share of papers outside its field", f"{fr.interdisc_P5:.0%}",
+              f"{(fr.interdisc_P5 - fr.interdisc_P3) * 100:+.1f} pts since 2016–18")
+    c_left, c_right = st.columns([1, 1.2])
+    with c_left:
+        s_ = yc[(yc.subfield_id == fr.subfield_id) & (yc.year >= 2010)]
+        f = go.Figure(go.Scatter(x=s_.year, y=s_.n, mode="lines+markers", line=dict(width=2, color="#2a78d6"),
+                                 marker=dict(size=8, color="#2a78d6", line=dict(width=2, color=SURFACE)),
+                                 hovertemplate="%{x}: %{y:,} papers<extra></extra>"))
+        base_layout(f, height=320, title=dict(text=f"{focus}: papers per year", font=dict(color=INK, size=14)),
+                    showlegend=False)
+        f.update_yaxes(rangemode="tozero")
+        st.plotly_chart(f, width="stretch")
+    with c_right:
+        st.markdown(f"**Where {focus} is spreading fastest** (other fields, 2016–18 → 2022–24)")
+        if rising is not None:
+            rf = rising[(rising.i == fr.subfield_id) | (rising.j == fr.subfield_id)].copy()
+            rf["Partner"] = np.where(rf.i == fr.subfield_id, rf.subfield_j, rf.subfield_i)
+            rf["Partner field"] = np.where(rf.i == fr.subfield_id, rf.field_j, rf.field_i)
+            rf["rise"] = np.exp(rf.rise_P3_P5)
+            st.dataframe(rf.head(12)[["Partner", "Partner field", "c_P3", "c", "rise"]].rename(columns={
+                "c_P3": "Papers 2016–18", "c": "Papers 2022–24", "rise": "Association rose ×"}),
+                hide_index=True, width="stretch", height=320,
+                column_config={"Association rose ×": st.column_config.NumberColumn(format="%.1f×")})
+
+    st.divider()
+    rank_by = st.radio("Rank subfields by", ["Growth", "Acceleration"], horizontal=True,
+                       help="Growth: papers 2022–24 vs 2016–18. Acceleration: latest growth minus previous "
+                            "growth, which favours fields that recently sped up.")
+    col = "growth_P3_P5" if rank_by == "Growth" else "acceleration"
+    st.subheader("Fastest-growing subfields" if rank_by == "Growth" else "Fastest-accelerating subfields")
+    st.caption(("Growth = papers in 2022–24 vs 2016–18. " if rank_by == "Growth" else
+                "Acceleration = growth 2019–21 → 2022–24 minus growth 2016–18 → 2019–21. ")
+               + f"Subfields with at least {config.MIN_SUBFIELD_SIZE:,} papers in 2016–18.")
+    em = big.nlargest(config.EMERGING_TOP_N, col)
+    tbl = em[["subfield", "field", "n_P3", "n_P4", "n_P5", "growth_P3_P5", "growth_P3_P4", "growth_P4_P5",
+              "acceleration"]].rename(
         columns={"subfield": "Subfield", "field": "Field", "n_P3": "2016–18", "n_P4": "2019–21", "n_P5": "2022–24",
-                 "growth_P3_P4": "Growth (prev)", "growth_P4_P5": "Growth (latest)", "acceleration": "Acceleration"})
+                 "growth_P3_P5": "Growth (6 yrs)", "growth_P3_P4": "Growth (prev 3 yrs)",
+                 "growth_P4_P5": "Growth (latest 3 yrs)", "acceleration": "Acceleration"})
     st.dataframe(tbl, hide_index=True, width="stretch", column_config={
         c: st.column_config.NumberColumn(format="%d") for c in ["2016–18", "2019–21", "2022–24"]} | {
-        "Growth (prev)": st.column_config.NumberColumn(format="percent"),
-        "Growth (latest)": st.column_config.NumberColumn(format="percent"),
+        c: st.column_config.NumberColumn(format="percent")
+        for c in ["Growth (6 yrs)", "Growth (prev 3 yrs)", "Growth (latest 3 yrs)"]} | {
         "Acceleration": st.column_config.NumberColumn(format="%+.2f")})
 
-    pick = st.multiselect("Papers per year for", options=em.subfield.tolist(), default=em.subfield.tolist()[:4],
+    pick = st.multiselect("Papers per year for", options=em.subfield.tolist(), default=em.subfield.tolist()[:3],
                           max_selections=6)
     if pick:
         ids = sm[sm.subfield.isin(pick)].set_index("subfield").subfield_id
         cols = st.columns(min(3, len(pick)))
         for k, name in enumerate(pick):
-            s = yc[(yc.subfield_id == ids[name]) & (yc.year >= 2010)]
-            f = go.Figure(go.Scatter(x=s.year, y=s.n, mode="lines+markers", line=dict(width=2, color="#2a78d6"),
+            s_ = yc[(yc.subfield_id == ids[name]) & (yc.year >= 2010)]
+            f = go.Figure(go.Scatter(x=s_.year, y=s_.n, mode="lines+markers", line=dict(width=2, color="#2a78d6"),
                                      marker=dict(size=8, color="#2a78d6", line=dict(width=2, color=SURFACE)),
                                      hovertemplate="%{x}: %{y:,} papers<extra></extra>"))
             base_layout(f, height=230, title=dict(text=name, font=dict(color=INK, size=13)), showlegend=False)
@@ -173,7 +217,9 @@ with tabs[1]:
             cols[k % len(cols)].plotly_chart(f, width="stretch")
     if rising is not None:
         st.subheader("Fastest-rising cross-field pairs, 2016–18 → 2022–24")
-        r = rising.head(15).assign(rise=lambda d: np.exp(d.rise_P3_P5))
+        st.caption("Pairs that already shared at least 20 papers in 2016–18 and at least 50 in 2022–24, "
+                   "ranked by how much their association (overlap vs expected) rose.")
+        r = rising.head(20).assign(rise=lambda d: np.exp(d.rise_P3_P5))
         st.dataframe(r[["subfield_i", "subfield_j", "c_P3", "c", "rise"]].rename(columns={
             "subfield_i": "Subfield A", "subfield_j": "Subfield B", "c_P3": "Shared papers 2016–18",
             "c": "Shared papers 2022–24", "rise": "Association rose ×"}), hide_index=True, width="stretch",
