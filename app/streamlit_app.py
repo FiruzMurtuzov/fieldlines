@@ -78,7 +78,7 @@ H = bt["headline_model"]
 st.title("Fieldlines")
 st.markdown("How scientific disciplines connect, where new bridges are forming, and which pairs of fields "
             "are most likely to become the next interdisciplinary research area.  \n"
-            f"<span style='color:{INK2}'>250 OpenAlex subfields · journal articles and reviews 2010–2024 · "
+            f"<span style='color:{INK2}'>250 OpenAlex subfields · peer-reviewed articles and conference papers 2010–2024 · "
             f"{int(totals[totals.period.isin(PERIODS)].N_topic.sum() / 1e6)}M papers</span>",
             unsafe_allow_html=True)
 
@@ -356,14 +356,15 @@ with tabs[4]:
 
     with st.expander("Method and limitations"):
         st.markdown(f"""
-- **Data:** OpenAlex (CC0), journal articles and reviews only. Datasets and repository uploads are excluded because they
-  flooded 2024 (370k biodiversity records) and added SEO spam that created fake bridges.
+- **Data:** OpenAlex (CC0): articles, reviews and conference papers from journals, conferences and book series.
+  Conference papers matter because about 40% of AI output is published there. Datasets and repository uploads are
+  excluded because they flooded 2024 (370k biodiversity records) and added SEO spam that created fake bridges.
 - **Link strength:** association strength = observed shared papers ÷ the number expected from the two fields' sizes,
   so giant fields don't connect to everything.
 - **Candidates:** cross-field pairs with association < 1 and ≥ {config.CANDIDATE_MIN_C} shared papers.
   **Take-off:** association rise in the top 10% over two periods (six years) *and* ≥ {config.LABEL_MIN_COUNT} shared papers.
 - **Limitations:** topics are machine-tagged, so they're noisy. One subfield (Modeling and Simulation) absorbs the
   COVID-19 topics and is excluded from rankings. Some growth reflects OpenAlex covering more journals. Recent papers
-  haven't had time to gather citations, so we use topic overlap rather than citations. Growth in overlap is a signal,
+  haven't had time to gather citations, so we use topic overlap rather than citations. Preprint-only work (arXiv) is not counted. Growth in overlap is a signal,
   not proof of importance.
 """)

@@ -49,10 +49,13 @@ MAX_PER_SUBFIELD = 2     # diversity cap in the forecast list
 CANDIDATE_MAX_AS = 1.0   # under-connected: fewer shared papers than sizes predict
 CANDIDATE_MIN_C = 5      # ...but the link exists, so AS is not pure noise
 
-# Only journal articles and reviews. Without this, 2024 is flooded by datasets
+# Peer-reviewed venues only. Without this, 2024 is flooded by datasets
 # (370k PlutoF biodiversity records tagged Ecology) and Zenodo SEO spam
 # (e.g. 5.9k "Business x Clinical Psychology" uploads) creates fake bridges.
-WORK_FILTER = "type:article|review,primary_location.source.type:journal"
+# Conference papers are included because ~40% of AI/CS output is published there (NeurIPS, CVPR...).
+# Repository uploads (arXiv, Zenodo) stay excluded: they carried the spam.
+WORK_FILTER = ("type:article|review|conference-paper,"
+               "primary_location.source.type:journal|conference|book series")
 
 # Subfields whose series are distorted by taxonomy quirks. Kept on the map but
 # excluded from rankings, labels and candidates.

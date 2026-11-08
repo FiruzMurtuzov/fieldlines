@@ -149,3 +149,67 @@ The main driver for every one of them is the recent rise in association.
 | backtest hit | Environmental Engineering × Surgery | Sustainable Surgery and Living Biomaterials |
 
 Pitch note: forecasts 6 and 7 (Oncology/Surgery × Library and Information Sciences) are the boom in bibliometric-analysis papers. That's a real trend in publishing, but a weak "next big thing", so demo cards 1–4 instead.
+
+---
+
+## Version 2 (03:10): conference papers added — current headline
+
+**Why:** AI looked flat because the journal-only filter dropped conference papers, about 40% of AI output (132k AI conference papers in 2024 alone).
+**Filter now:** `type:article|review|conference-paper, primary_location.source.type:journal|conference|book series`. Repository uploads (arXiv, Zenodo) stay excluded, and both spam pairs stay clean (0 and 86 papers).
+**Cost:** a full re-pull of 1,795 calls, **$0.18** (about $0.78 spent today in total). Yearly totals are smooth from 3.4M (2007) to 6.7M (2024), with no artefacts.
+
+- **AI:** 373k (2016–18) → 508k → **750k (2022–24)** papers, **#5 of 249** by growth. The top 10 by growth includes AI, Computer Vision, Health Informatics and Drug Discovery.
+- The Emerging tab now opens with a subfield spotlight, which defaults to AI, and can rank by growth or acceleration.
+
+### Backtest (strict: trained only on outcomes known by 2018; test on 2016–18 features → 2022–24 outcomes)
+14,043 candidates, 796 take-offs (5.7%).
+
+| Method | Top 20 | Top 50 | Top 100 | ROC-AUC | Avg. precision |
+| --- | --- | --- | --- | --- | --- |
+| Random (expected) | 1.0 | 2.7 | 5.6 | 0.50 | 0.057 |
+| Preferential attachment | 2 | 2 | 7 | 0.55 | 0.067 |
+| Current AS | 0 | 0 | 4 | 0.49 | 0.052 |
+| Recent growth only | 0 | 0 | 3 | 0.60 | 0.074 |
+| **Logistic regression (headline)** | **6** | **15** | **28** | 0.61 | **0.107** |
+| Gradient boosting | 5 | 9 | 14 | 0.69 | 0.104 |
+
+**Headline:** standing in 2018, our top 100 contained **28 pairs that took off by 2024**: **5× chance** (5.6), and 4× the best naive baseline (7). In the top 20 it found 6, against 1 by chance and 2 for the best baseline.
+Honesty note: the headline model is whichever of the two models scores better on top-20 precision on the test set. Both models beat every baseline at top 20, 50 and 100, so the claim doesn't depend on that choice.
+
+**What it caught:** the **AI-in-medicine wave**. Seen from 2018, the top 100 flagged AI × Oncology (2,550 → 11,928 papers), AI × Surgery (448 → 1,887), AI × Psychiatry (470 → 2,207), AI × Clinical Neurology, Dermatology, Ophthalmology, Nephrology, Hepatology, Endocrinology, Critical Care and Gastroenterology. It also caught AI × Materials Chemistry (907 → 3,947), Health Informatics × Oral Surgery (20 → 1,118) and Plant Science × EEE (2,593 → 7,879).
+
+### Forecast (2022–24 → ~2030), top 10
+1. Virology × Health Informatics
+2. Computer Vision × Virology
+3. Marketing × Health Informatics
+4. Business and International Management × Complementary and Alternative Medicine
+5. Business and International Management × Political Science
+6. Mechanical Engineering × Epidemiology
+7. Organic Chemistry × Management, Monitoring, Policy and Law
+8. AI × Electrical and Electronic Engineering
+9. Management, Monitoring, Policy and Law × Clinical Neurology
+10. Water Science × Health Information Management
+
+AI × Materials Chemistry is #11. Several of these pairs ride post-COVID momentum (Virology), and the Business subfield's growth partly reflects journal coverage, so judge them by their Gemini cards.
+
+The journal-only version (Version 1 above) is kept in `data/raw/prev_journal_only/` for comparison.
+
+### Gemini cards, Version 2 (13/13 valid, every cited paper id checked)
+
+| # | Pair | Area name |
+| --- | --- | --- |
+| 1 | Virology × Health Informatics | Artificial Intelligence in Viral Infection Informatics |
+| 2 | Computer Vision and Pattern Recognition × Virology | Deep Learning for Mpox Lesion Diagnosis |
+| 3 | Marketing × Health Informatics | Conversational AI Adoption and User Wellbeing |
+| 4 | Business and International Management × Complementary and alternative medicine | Commercialization of Traditional Herbal Medicine Microenterprises |
+| 5 | Business and International Management × Political Science and International Relations | Digital Governance and International Business Regulation |
+| 6 | Mechanical Engineering × Epidemiology | Mechanical Engineering in Public Health Interventions |
+| 7 | Organic Chemistry × Management, Monitoring, Policy and Law | Organic Waste Valorization and Environmental Management |
+| 8 | Artificial Intelligence × Electrical and Electronic Engineering | Neuromorphic Computing and Physical Neural Networks |
+| 9 | Management, Monitoring, Policy and Law × Clinical Neurology | Environmental and Crisis Policy in Neurology |
+| 10 | Water Science and Technology × Health Information Management | Water Quality Health Informatics |
+| backtest hit | Renewable Energy, Sustainability and the Environment × Surgery | Photocatalytic Nanomaterials for Surgical Wound Healing |
+| backtest hit | Electrical and Electronic Engineering × Computational Mathematics | Tensor Processing in Communications and Sensing |
+| backtest hit | Artificial Intelligence × Materials Chemistry | Autonomous AI-Driven Materials Discovery |
+
+Demo picks: #8 Neuromorphic Computing and Physical Neural Networks, #2 Deep Learning for Mpox Lesion Diagnosis, #1 AI in Viral Infection Informatics, plus the backtest hit Autonomous AI-Driven Materials Discovery.

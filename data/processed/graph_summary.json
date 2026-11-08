@@ -2,43 +2,43 @@
  {
   "period": "P0",
   "nodes": 250,
-  "edges": 4015,
-  "communities": 6,
-  "modularity": 0.491
- },
- {
-  "period": "P1",
-  "nodes": 250,
-  "edges": 4070,
-  "communities": 6,
-  "modularity": 0.505
- },
- {
-  "period": "P2",
-  "nodes": 250,
-  "edges": 4103,
+  "edges": 4066,
   "communities": 6,
   "modularity": 0.502
  },
  {
+  "period": "P1",
+  "nodes": 250,
+  "edges": 4121,
+  "communities": 6,
+  "modularity": 0.501
+ },
+ {
+  "period": "P2",
+  "nodes": 250,
+  "edges": 4136,
+  "communities": 6,
+  "modularity": 0.496
+ },
+ {
   "period": "P3",
   "nodes": 250,
-  "edges": 4062,
+  "edges": 4104,
   "communities": 6,
-  "modularity": 0.503
+  "modularity": 0.501
  },
  {
   "period": "P4",
   "nodes": 250,
-  "edges": 4099,
+  "edges": 4130,
   "communities": 6,
-  "modularity": 0.491
+  "modularity": 0.5
  },
  {
   "period": "P5",
   "nodes": 250,
-  "edges": 4107,
+  "edges": 4161,
   "communities": 6,
-  "modularity": 0.501
+  "modularity": 0.498
  }
 ]
