@@ -24,9 +24,12 @@ Spent so far: totals + sizes = $0.025, all from the keyless budget.
 
 **Gemini:** key works. `models.list()` shows `gemini-3.8-flash` as the newest flash model; a JSON-mode test call returned valid JSON (first call took ~100 s, so Phase 5 will need timeouts and retries).
 
-## Phase 1: Data pull (in progress)
+## Phase 1: Data pull (done, 02:25)
 
 - Done (keyless budget, $0.0757 total): totals, subfield sizes (250 × 15 years), co-occurrence for **P4 and P5**. 334 of 504 calls hit the 200-group cap.
 - Symmetry check: 43,268 pairs were seen from both sides; the two counts agree **exactly** (0% difference). Merged coverage is about 25.5k of 31,125 possible pairs per period.
 - Spot check: AI × Molecular Biology 5,017 (P4) → 6,552 (P5).
-- Still to do: P1, P2 and most of P3 (~750 calls, ~$0.075). Blocked on an OpenAlex API key.
+- Rest pulled with a key: 522 live calls, $0.052. **Total Phase 1 spend: ~$0.13** (keyless $0.076 + key $0.052). The key still has $0.947 for today.
+- 1,260 co-occurrence calls; 845 hit the 200-group cap. Pairs per period: P1 25,144 · P2 25,395 · P3 25,513 · P4 25,512 · P5 25,351.
+- Symmetry: 108,263 pairs seen from both sides, max relative difference **0.0**.
+- Spot check, AI × Molecular Biology: 4,062 → 4,209 → 4,515 → 5,017 → 6,552. AI × Biomedical Engineering: 2,317 → 9,128 (P1→P5).
