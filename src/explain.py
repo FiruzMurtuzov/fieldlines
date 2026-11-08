@@ -42,6 +42,14 @@ def pick_models(client) -> list[str]:
     return [n for _, n in sorted(found, reverse=True)]
 
 
+def trim_name(name: str, n: int = 6) -> str:
+    """At most n words, without a dangling 'and'/'for'/... at the end."""
+    w = name.split()[:n]
+    while w and w[-1].lower().strip(",;:-") in {"and", "for", "of", "the", "in", "with", "to", "&", "a", "on"}:
+        w.pop()
+    return " ".join(w)
+
+
 def rebuild_abstract(inv: dict | None) -> str:
     if not inv:
         return ""
@@ -82,7 +90,7 @@ do not invent papers, results or facts that are not supported by them.
 Return JSON with exactly these keys:
 - "area_name": a name for the emerging area, at most 6 words
 - "connection": two sentences on what connects the two fields, grounded in the papers
-- "why_now": one sentence on why this is happening now
+- "why_now": one sentence on why this is happening now, about the science (do not mention our model, scores or metrics)
 - "open_questions": a list of exactly three open research questions
 - "bridge_paper_ids": a list of the ids (like "W123") of the 3 papers above that best bridge the two fields
 """
@@ -114,8 +122,7 @@ def ask(client, models: list[str], r: dict, papers: list[dict], tries: int = 6) 
             ids = card.get("bridge_paper_ids") or []
             keys_ok = all(x in card for x in ["area_name", "connection", "why_now", "open_questions", "bridge_paper_ids"])
             if keys_ok and ids and set(ids) <= valid and len(card["open_questions"]) == 3:
-                if len(card["area_name"].split()) > 6:
-                    card["area_name"] = " ".join(card["area_name"].split()[:6])
+                card["area_name"] = trim_name(card["area_name"])
                 return card, model
             last = f"invalid card (ids ok={set(ids) <= valid}, keys ok={keys_ok})"
         except Exception as e:  # noqa: BLE001

@@ -9,6 +9,126 @@
  "cards": [
   {
    "kind": "forecast",
+   "rank": 1,
+   "i": 2746,
+   "j": 3104,
+   "subfield_i": "Surgery",
+   "subfield_j": "Condensed Matter Physics",
+   "field_i": "Medicine",
+   "field_j": "Physics and Astronomy",
+   "period_before": "2016–18",
+   "period_after": "2022–24",
+   "c_before": 31,
+   "c_after": 65,
+   "AS_before": 0.005661605256873348,
+   "AS_after": 0.0153564318683728,
+   "score": 0.9162288573206305,
+   "drivers": [
+    "recent rise in association",
+    "preferential attachment (size product)",
+    "size of larger field"
+   ],
+   "papers": [
+    {
+     "id": "W4399047483",
+     "doi": "https://doi.org/10.1038/s41565-024-01681-7",
+     "title": "Oral mitochondrial transplantation using nanomotors to treat ischaemic heart disease",
+     "year": 2024,
+     "cited_by": 167,
+     "abstract": ""
+    },
+    {
+     "id": "W4308688159",
+     "doi": "https://doi.org/10.1002/smll.202204617",
+     "title": "Microalgae‐Based Biohybrid Microrobot for Accelerated Diabetic Wound Healing",
+     "year": 2022,
+     "cited_by": 103,
+     "abstract": "Abstract A variety of wound healing platforms have been proposed to alleviate the hypoxic condition and/or to modulate the immune responses for the treatment of chronic wounds in diabetes. However, these platforms with the passive diffusion of therapeutic agents through the blood clot result in the relatively low delivery efficiency into the deep wound site. Here, a microalgae‐based biohybrid microrobot for accelerated diabetic wound healing is developed. The biohybrid microrobot autonomously moves at velocity of 33.3 µm s −1 and generates oxygen for the alleviation of hypoxic condition. In addition, the microrobot efficiently bound with inflammatory chemokines of interleukin‐8 (IL‐8) and monocyte chemoattractant protein‐1 (MCP‐1) for modulating the immune responses. The enhanced penetration of microrobot is corroborated by measuring fibrin clots in biomimetic wound using microfluidic devices and the enhanced retention of microrobot is confirmed in the real wounded mouse skin tissue. After deposition on the chronic wound in diabetic mice without wound dressing, the wounds treated with microrobots are completely healed after 9 days with the significant decrease of inflammatory cytokines below 31% of the control level and the upregulated angiogenesis above 20 times of CD31 + cells. These results confirm the feasibility of microrobots as a next‐generation platform for diabetic wound healing."
+    },
+    {
+     "id": "W4404402023",
+     "doi": "https://doi.org/10.1038/s41467-024-54293-z",
+     "title": "Urease-powered nanomotor containing STING agonist for bladder cancer immunotherapy",
+     "year": 2024,
+     "cited_by": 82,
+     "abstract": "Most non-muscle invasive bladder cancers have been treated by transurethral resection and following intravesical injection of immunotherapeutic agents. However, the delivery efficiency of therapeutic agents into bladder wall is low due to frequent urination, which leads to the failure of treatment with side effects. Here, we report a urease-powered nanomotor containing the agonist of stimulator of interferon genes (STING) for the efficient activation of immune cells in the bladder wall. After characterization, we perform in vitro motion analysis and assess in vivo swarming behaviors of nanomotors. The intravesical instillation results in the effective penetration and retention of nanomotors in the bladder. In addition, we confirm the anti-tumor effect of nanomotor containing the STING agonist (94.2% of inhibition), with recruitment of CD8+ T cells (11.2-fold compared with PBS) and enhanced anti-tumor immune responses in bladder cancer model in female mice. Furthermore, we demonstrate the better anti-tumor effect of nanomotor containing the STING agonist than those of the gold standard Bacille Calmette-Guerin therapy and the anti-PD-1 inhibitor pembrolizumab in bladder cancer model. Taken together, the urease-powered nanomotor would provide a paradigm as a next-generation platform for bladder cancer immunotherapy. Self-propelling micro/nanomotors represent a therapeutic option for drug delivery. Here the authors report the design and characterization of a biodegradable urease-"
+    },
+    {
+     "id": "W4220728185",
+     "doi": "https://doi.org/10.1021/acsnano.2c00833",
+     "title": "Magnetically Actuated Biohybrid Microswimmers for Precise Photothermal Muscle Contraction",
+     "year": 2022,
+     "cited_by": 75,
+     "abstract": "Various strategies have been designed for myotube contraction and skeletal muscle stimulation in recent years, aiming in the field of skeletal muscle tissue engineering and bionics. However, most of the current approaches lack controllability and adaptability for precise stimulation, especially at the microlevel. Herein, wireless and precise activation of muscle by using magnetic biohybrid microswimmers in combination with near-infrared (NIR) laser irradiation is successfully demonstrated. Biohybrid microswimmers are fabricated by dip-coating superparamagnetic Fe 3 O 4 nanoparticles onto the chlorella microalgae, thus endowing robust navigation in various biological media due to magnetic actuation. Under the guidance of a rotating magnetic field, the engineered microswimmer can achieve precise motion toward a single C2C12-derived myotube. Upon NIR irradiation, the photothermal effect from the incorporated Fe 3 O 4 nanoparticles results in local temperature increments of approximately 5 °C in the targeted myotube, which could efficiently trigger the contraction of myotube. The mechanism underlying this phenomenon is a Ca 2+ -independent case involving direct actin–myosin interactions. In vivo muscle fiber contraction and histological test further demonstrate the effectiveness and biosafety of our design. The as-developed biohybrid microswimmer-based strategy is possible to provide a renovation for tissue engineering and bionics."
+    },
+    {
+     "id": "W4285588870",
+     "doi": "https://doi.org/10.1002/adhm.202201323",
+     "title": "Self‐Propelling Nanomotors Integrated with Biofilm Microenvironment‐Activated NO Release to Accelerate Healing of Bacteria‐Infected Diabetic Wounds",
+     "year": 2022,
+     "cited_by": 65,
+     "abstract": "Abstract Diabetic foot ulcer (DFU) treatment is challenged by persistent bacterial infection and hyperglycemia‐caused vascular dysplasia. Herein, self‐propelled nanomotors are designed to achieve biofilm microenvironment (BME)‐activated multistage release of NO for effective sterilization and subsequent angiogenesis promotion. CaO2 nanoparticles (NPs) are capped with PDA layers, followed by complexation with Fe2+ and surface grafting of cysteine‐NO to obtain Janus Ca@PDAFe‐CNO NPs. In response to low pH in BME, the decomposition of CaO2 cores generates O2 from one side of Janus NPs to propel biofilm penetration, and the released H2O2 and Fe2+ produce •OH through Fenton reaction. The concurrent glutathione‐triggered release of NO can be converted into reactive nitrogen species, which exhibit significantly higher bactericidal efficacy than those with only generation of •OH or NO. The slow release of NO for an extended time period promotes endothelial cell proliferation and migration. On Staphylococcus aureus‐infected skin wounds of diabetic mice, NP treatment eliminates bacterial infections and significantly elevates blood vessel densities, leading to full wound recovery and regeneration of arranged collagen fibers and skin accessories. Thus, the self‐propelling and multistage release of NO provide a feasible strategy to combat biofilm infection without using any antibiotics and accelerate angiogenesis and wound healing for DFU treatment."
+    },
+    {
+     "id": "W4389178904",
+     "doi": "https://doi.org/10.1002/advs.202303575",
+     "title": "Motile Living Biobots Self‐Construct from Adult Human Somatic Progenitor Seed Cells",
+     "year": 2023,
+     "cited_by": 63,
+     "abstract": "Abstract Fundamental knowledge gaps exist about the plasticity of cells from adult soma and the potential diversity of body shape and behavior in living constructs derived from genetically wild‐type cells. Here anthrobots are introduced, a spheroid‐shaped multicellular biological robot (biobot) platform with diameters ranging from 30 to 500 microns and cilia‐powered locomotive abilities. Each Anthrobot begins as a single cell, derived from the adult human lung, and self‐constructs into a multicellular motile biobot after being cultured in extra cellular matrix for 2 weeks and transferred into a minimally viscous habitat. Anthrobots exhibit diverse behaviors with motility patterns ranging from tight loops to straight lines and speeds ranging from 5–50 microns s −1 . The anatomical investigations reveal that this behavioral diversity is significantly correlated with their morphological diversity. Anthrobots can assume morphologies with fully polarized or wholly ciliated bodies and spherical or ellipsoidal shapes, each related to a distinct movement type. Anthrobots are found to be capable of traversing, and inducing rapid repair of scratches in, cultured human neural cell sheets in vitro. By controlling microenvironmental cues in bulk, novel structures, with new and unexpected behavior and biomedically‐relevant capabilities, can be discovered in morphogenetic processes without direct genetic editing or manual sculpting."
+    },
+    {
+     "id": "W4387705768",
+     "doi": "https://doi.org/10.3390/s23208503",
+     "title": "Microsurgery Robots: Applications, Design, and Development",
+     "year": 2023,
+     "cited_by": 56,
+     "abstract": "Microsurgical techniques have been widely utilized in various surgical specialties, such as ophthalmology, neurosurgery, and otolaryngology, which require intricate and precise surgical tool manipulation on a small scale. In microsurgery, operations on delicate vessels or tissues require high standards in surgeons' skills. This exceptionally high requirement in skills leads to a steep learning curve and lengthy training before the surgeons can perform microsurgical procedures with quality outcomes. The microsurgery robot (MSR), which can improve surgeons' operation skills through various functions, has received extensive research attention in the past three decades. There have been many review papers summarizing the research on MSR for specific surgical specialties. However, an in-depth review of the relevant technologies used in MSR systems is limited in the literature. This review details the technical challenges in microsurgery, and systematically summarizes the key technologies in MSR with a developmental perspective from the basic structural mechanism design, to the perception and human-machine interaction methods, and further to the ability in achieving a certain level of autonomy. By presenting and comparing the methods and technologies in this cutting-edge research, this paper aims to provide readers with a comprehensive understanding of the current state of MSR research and identify potential directions for future development in MSR."
+    },
+    {
+     "id": "W4386883235",
+     "doi": "https://doi.org/10.1126/scirobotics.adf7614",
+     "title": "Autonomous medical needle steering in vivo",
+     "year": 2023,
+     "cited_by": 56,
+     "abstract": "The use of needles to access sites within organs is fundamental to many interventional medical procedures both for diagnosis and treatment. Safely and accurately navigating a needle through living tissue to a target is currently often challenging or infeasible because of the presence of anatomical obstacles, high levels of uncertainty, and natural tissue motion. Medical robots capable of automating needle-based procedures have the potential to overcome these challenges and enable enhanced patient care and safety. However, autonomous navigation of a needle around obstacles to a predefined target in vivo has not been shown. Here, we introduce a medical robot that autonomously navigates a needle through living tissue around anatomical obstacles to a target in vivo. Our system leverages a laser-patterned highly flexible steerable needle capable of maneuvering along curvilinear trajectories. The autonomous robot accounts for anatomical obstacles, uncertainty in tissue/needle interaction, and respiratory motion using replanning, control, and safe insertion time windows. We applied the system to lung biopsy, which is critical for diagnosing lung cancer, the leading cause of cancer-related deaths in the United States. We demonstrated successful performance of our system in multiple in vivo porcine studies achieving targeting errors less than the radius of clinically relevant lung nodules. We also demonstrated that our approach offers greater accuracy compared with a standard manual b"
+    },
+    {
+     "id": "W4280582778",
+     "doi": "https://doi.org/10.1039/d2tb00555g",
+     "title": "Nitric oxide-propelled nanomotors for bacterial biofilm elimination and endotoxin removal to treat infected burn wounds",
+     "year": 2022,
+     "cited_by": 52,
+     "abstract": ", and NM treatment almost fully destroyed the bacteria in the wounds. IO@PMB-SNO NMs absorb LPS and remove it from the wounds under a magnetic field, which downregulates the interleukin-6 and tumor necrosis factor-α levels in tissues. The infected wounds were completely healed with the deposition and arrangement of collagen fibers and the generation of skin features similar to those of normal skin. Thus, IO@PMB-SNO NMs achieved multiple-mode effects, including GSH-triggered NO release and self-propelled motion, the NO-induced non-antibiotic elimination of biofilms and bacteria, and PMB-induced endotoxin removal. This study offers a feasible strategy, with integrated antibiofilm and anti-inflammatory effects, for accelerating the healing of infected burn wounds."
+    },
+    {
+     "id": "W4295936481",
+     "doi": "https://doi.org/10.1039/d2mh00693f",
+     "title": "Multi-target cell therapy using a magnetoelectric microscale biorobot for targeted delivery and selective differentiation of SH-SY5Y cells via magnetically driven cell stamping",
+     "year": 2022,
+     "cited_by": 45,
+     "abstract": "magnetoelectric (ME) stimulation. This ensures rapid colonization and enhances efficacy. SMMBs were fabricated using SH-SY5Y cells. Magnetoelectric nanoparticles for ME stimulation responded to an alternating magnetic field that ensured targeted cell differentiation. Multi-target cell therapy facilitated the targeted delivery and selective differentiation of SH-SY5Y cells to multiple regions using a single SMMB with rotating and alternating magnetic fields for delivery and ME stimulation. This promising tool may overcome the limitations of existing cell therapy for neurodegenerative diseases."
+    }
+   ],
+   "card": {
+    "area_name": "Medical Microrobotics and Autonomous Surgical Systems",
+    "connection": "Condensed matter physics principles—such as magnetic actuation, magnetoelectric dynamics, and self-propelling micro/nanomotors—are increasingly leveraged to construct smart materials and biohybrid microswimmers capable of navigating complex biological fluids. Surgical and medical researchers apply these physical constructs to achieve autonomous needle steering, targeted drug delivery, biofilm removal, and precise tissue repair in minimally invasive procedures.",
+    "why_now": "Recent advances in self-propelled nanomotors, biohybrid actuation, and autonomous navigation have enabled real-time targeted therapy in living tissues, driving a rapid rise in co-tagged publications and model take-off scores.",
+    "open_questions": [
+     "How can self-propelling nanomotors and microrobots maintain precise navigation and active propulsion inside dynamic biological environments subject to high uncertainty and motion?",
+     "What strategies will ensure the long-term biosafety, non-toxic clearance, or complete biodegradation of magnetic and synthetic materials used in surgical microrobots?",
+     "How can autonomous needle-steering systems and microsurgery robots seamlessly integrate real-time sensor feedback to adapt to natural organ motion and complex human tissue architectures?"
+    ],
+    "bridge_paper_ids": [
+     "W4308688159",
+     "W4220728185",
+     "W4404402023"
+    ]
+   },
+   "model": "gemini-3.6-flash"
+  },
+  {
+   "kind": "forecast",
    "rank": 2,
    "i": 2305,
    "j": 3104,
@@ -249,123 +369,123 @@
   },
   {
    "kind": "forecast",
-   "rank": 1,
-   "i": 2746,
-   "j": 3104,
-   "subfield_i": "Surgery",
-   "subfield_j": "Condensed Matter Physics",
-   "field_i": "Medicine",
+   "rank": 4,
+   "i": 2916,
+   "j": 3107,
+   "subfield_i": "Nutrition and Dietetics",
+   "subfield_j": "Atomic and Molecular Physics, and Optics",
+   "field_i": "Nursing",
    "field_j": "Physics and Astronomy",
    "period_before": "2016–18",
    "period_after": "2022–24",
-   "c_before": 31,
-   "c_after": 65,
-   "AS_before": 0.005661605256873348,
-   "AS_after": 0.0153564318683728,
-   "score": 0.9162288573206305,
+   "c_before": 58,
+   "c_after": 123,
+   "AS_before": 0.017325189154652688,
+   "AS_after": 0.03826823612225786,
+   "score": 0.8631953565636639,
    "drivers": [
     "recent rise in association",
-    "preferential attachment (size product)",
-    "size of larger field"
+    "size of smaller field",
+    "preferential attachment (size product)"
    ],
    "papers": [
     {
-     "id": "W4399047483",
-     "doi": "https://doi.org/10.1038/s41565-024-01681-7",
-     "title": "Oral mitochondrial transplantation using nanomotors to treat ischaemic heart disease",
-     "year": 2024,
-     "cited_by": 167,
+     "id": "W4213285897",
+     "doi": "https://doi.org/10.1016/j.crfs.2022.02.007",
+     "title": "Cold plasma technologies: Their effect on starch properties and industrial scale-up for starch modification",
+     "year": 2022,
+     "cited_by": 154,
+     "abstract": "Native starches have limited applications in the food industry due to their unreactive and insoluble nature. Cold plasma technology, including plasma-activated water (PAW), has been explored to modify starches to enhance their functional, thermal, molecular, morphological, and physicochemical properties. Atmospheric cold plasma and low-pressure plasma systems have been used to alter starches and have proven successful. This review provides an in-depth analysis of the different cold plasma setups employed for starch modifications. The effect of cold plasma technology application on starch characteristics is summarized. We also discussed the potential of plasma-activated water as a novel alternative for starch modification. This review provides information needed for the industrial scale-up of cold plasma technologies as an eco-friendly method of starch modification."
+    },
+    {
+     "id": "W4214502987",
+     "doi": "https://doi.org/10.1016/j.ifset.2022.102957",
+     "title": "Effect of multipin atmospheric cold plasma discharge on functional properties of little millet (Panicum miliare) flour",
+     "year": 2022,
+     "cited_by": 97,
      "abstract": ""
     },
     {
-     "id": "W4308688159",
-     "doi": "https://doi.org/10.1002/smll.202204617",
-     "title": "Microalgae‐Based Biohybrid Microrobot for Accelerated Diabetic Wound Healing",
+     "id": "W4224087338",
+     "doi": "https://doi.org/10.1016/j.foodhyd.2022.107732",
+     "title": "Insight into the improving effect on multi-scale structure, physicochemical and rheology properties of granular cold water soluble rice starch by dielectric barrier discharge cold plasma processing",
      "year": 2022,
-     "cited_by": 103,
-     "abstract": "Abstract A variety of wound healing platforms have been proposed to alleviate the hypoxic condition and/or to modulate the immune responses for the treatment of chronic wounds in diabetes. However, these platforms with the passive diffusion of therapeutic agents through the blood clot result in the relatively low delivery efficiency into the deep wound site. Here, a microalgae‐based biohybrid microrobot for accelerated diabetic wound healing is developed. The biohybrid microrobot autonomously moves at velocity of 33.3 µm s −1 and generates oxygen for the alleviation of hypoxic condition. In addition, the microrobot efficiently bound with inflammatory chemokines of interleukin‐8 (IL‐8) and monocyte chemoattractant protein‐1 (MCP‐1) for modulating the immune responses. The enhanced penetration of microrobot is corroborated by measuring fibrin clots in biomimetic wound using microfluidic devices and the enhanced retention of microrobot is confirmed in the real wounded mouse skin tissue. After deposition on the chronic wound in diabetic mice without wound dressing, the wounds treated with microrobots are completely healed after 9 days with the significant decrease of inflammatory cytokines below 31% of the control level and the upregulated angiogenesis above 20 times of CD31 + cells. These results confirm the feasibility of microrobots as a next‐generation platform for diabetic wound healing."
+     "cited_by": 96,
+     "abstract": ""
     },
     {
-     "id": "W4404402023",
-     "doi": "https://doi.org/10.1038/s41467-024-54293-z",
-     "title": "Urease-powered nanomotor containing STING agonist for bladder cancer immunotherapy",
+     "id": "W4386483845",
+     "doi": "https://doi.org/10.1016/j.ijbiomac.2023.126772",
+     "title": "Effect of high voltage dielectric barrier discharge (DBD) atmospheric cold plasma treatment on physicochemical and functional properties of taro (Colocasia esculenta) starch",
+     "year": 2023,
+     "cited_by": 91,
+     "abstract": ""
+    },
+    {
+     "id": "W4324381148",
+     "doi": "https://doi.org/10.1111/jfpe.14317",
+     "title": "Impact of cold plasma treatment on nutritional, antinutritional, functional, thermal, rheological, and structural properties of pearl millet flour",
+     "year": 2023,
+     "cited_by": 89,
+     "abstract": "Abstract This study was planned to investigate the effect of atmospheric cold plasma (CP) treatment at different power levels (20–30 kV) for 10–20 min on physicochemical, technofunctional, and intermolecular changes of pearl millet flour (PMF). It was observed that exposure to plasma significantly modified the sample's proximate, antinutritional, functional, thermal, rheological, and morphological properties. A concomitant (p < 0.05) decreases in antinutritional factors (tannin and phytic acid) was noticed in CP‐treated PMF compared to the control sample. Maximum reduction in tannin and phytic acid was observed at 30 kV for 20 min‐treated PMF. However, scanning electron microscopy revealed significant changes in flour starch granular structure, while decreases in relative crystallinity were also observed in CP‐treated samples from 23.45% to 19.31%. In addition, an increase in water absorption capacity (1.32–1.62 g/g), oil absorption capacity (1.11–1.31 g/g), emulsifying capacity (EC; 86.58%–91.25%) and foaming capacity (FC; 10.67–12.84%), as well as a decrease in pH (7.83–6.97) were found at 30 kV for 20 min. Apart from this, high intensity CP‐treated samples showed shear thinning behavior. At the same time, the power–law model was more appropriate for determine the flow behavior index (n) and consistency coefficient (k). On the other hand, CP‐treated samples exhibit higher storage modulus values (G′), indicating an elastic response. Based on the observations, the 30 kV‐20 mi"
+    },
+    {
+     "id": "W4377145677",
+     "doi": "https://doi.org/10.1016/j.lwt.2023.114889",
+     "title": "Effect of atmospheric cold plasma (pin type) on hydration and structure properties of kodo-millet starch",
+     "year": 2023,
+     "cited_by": 88,
+     "abstract": "Kodo millet is an underutilized crop that could be used as a new starch source. Raw starch has many flaws that must be modified through treatment. Cold plasma is a well-adopted nonthermal technology for starch modification. In the current study, millet starch was treated in a plasma reactor at different voltages of 10 kV, 20 kV, and 30 kV for a duration of 10 min, 20 min, and 30 min. The effects of treatments on their hydration, structural, and physicochemical properties were explored. Water absorption and oil absorption capacities increased from 1.43 to 1.55 g/g and 1.01–1.34 g/g respectively. On the other hand, amylose content and pH of starch declined from 31.06 to 25.94 g/hg and 7.5 to 6.9 respectively. Whiteness index value increased from 82.71 to 84.45. IR spectra exhibited functional groups present in the starch. X-ray diffractogram showed changes in crystallinity along with treatment. Relative crystallinity decreased from 23.06 to 21.63%. The significance of the results was assessed at a 95% confidence level (α) at p ≤ 0.05. Scanning electron microscope (SEM) and Bright field microscopy (BFM) showed microstructural changes in the starch. Plasma improved the hydration and structural properties of kodo millet starch, and it can be useful for preparing various food products with good quality characteristics."
+    },
+    {
+     "id": "W4362696751",
+     "doi": "https://doi.org/10.1016/j.foodres.2023.112790",
+     "title": "Atmospheric cold plasma induced nutritional & anti-nutritional, molecular modifications and in-vitro protein digestibility of guar seed (Cyamopsis tetragonoloba L.) flour",
+     "year": 2023,
+     "cited_by": 71,
+     "abstract": ""
+    },
+    {
+     "id": "W4396792153",
+     "doi": "https://doi.org/10.1016/j.carbpol.2024.122254",
+     "title": "The effect of cold plasma on starch: Structure and performance",
      "year": 2024,
-     "cited_by": 82,
-     "abstract": "Most non-muscle invasive bladder cancers have been treated by transurethral resection and following intravesical injection of immunotherapeutic agents. However, the delivery efficiency of therapeutic agents into bladder wall is low due to frequent urination, which leads to the failure of treatment with side effects. Here, we report a urease-powered nanomotor containing the agonist of stimulator of interferon genes (STING) for the efficient activation of immune cells in the bladder wall. After characterization, we perform in vitro motion analysis and assess in vivo swarming behaviors of nanomotors. The intravesical instillation results in the effective penetration and retention of nanomotors in the bladder. In addition, we confirm the anti-tumor effect of nanomotor containing the STING agonist (94.2% of inhibition), with recruitment of CD8+ T cells (11.2-fold compared with PBS) and enhanced anti-tumor immune responses in bladder cancer model in female mice. Furthermore, we demonstrate the better anti-tumor effect of nanomotor containing the STING agonist than those of the gold standard Bacille Calmette-Guerin therapy and the anti-PD-1 inhibitor pembrolizumab in bladder cancer model. Taken together, the urease-powered nanomotor would provide a paradigm as a next-generation platform for bladder cancer immunotherapy. Self-propelling micro/nanomotors represent a therapeutic option for drug delivery. Here the authors report the design and characterization of a biodegradable urease-"
+     "cited_by": 66,
+     "abstract": ""
     },
     {
-     "id": "W4220728185",
-     "doi": "https://doi.org/10.1021/acsnano.2c00833",
-     "title": "Magnetically Actuated Biohybrid Microswimmers for Precise Photothermal Muscle Contraction",
-     "year": 2022,
-     "cited_by": 75,
-     "abstract": "Various strategies have been designed for myotube contraction and skeletal muscle stimulation in recent years, aiming in the field of skeletal muscle tissue engineering and bionics. However, most of the current approaches lack controllability and adaptability for precise stimulation, especially at the microlevel. Herein, wireless and precise activation of muscle by using magnetic biohybrid microswimmers in combination with near-infrared (NIR) laser irradiation is successfully demonstrated. Biohybrid microswimmers are fabricated by dip-coating superparamagnetic Fe 3 O 4 nanoparticles onto the chlorella microalgae, thus endowing robust navigation in various biological media due to magnetic actuation. Under the guidance of a rotating magnetic field, the engineered microswimmer can achieve precise motion toward a single C2C12-derived myotube. Upon NIR irradiation, the photothermal effect from the incorporated Fe 3 O 4 nanoparticles results in local temperature increments of approximately 5 °C in the targeted myotube, which could efficiently trigger the contraction of myotube. The mechanism underlying this phenomenon is a Ca 2+ -independent case involving direct actin–myosin interactions. In vivo muscle fiber contraction and histological test further demonstrate the effectiveness and biosafety of our design. The as-developed biohybrid microswimmer-based strategy is possible to provide a renovation for tissue engineering and bionics."
-    },
-    {
-     "id": "W4285588870",
-     "doi": "https://doi.org/10.1002/adhm.202201323",
-     "title": "Self‐Propelling Nanomotors Integrated with Biofilm Microenvironment‐Activated NO Release to Accelerate Healing of Bacteria‐Infected Diabetic Wounds",
-     "year": 2022,
-     "cited_by": 65,
-     "abstract": "Abstract Diabetic foot ulcer (DFU) treatment is challenged by persistent bacterial infection and hyperglycemia‐caused vascular dysplasia. Herein, self‐propelled nanomotors are designed to achieve biofilm microenvironment (BME)‐activated multistage release of NO for effective sterilization and subsequent angiogenesis promotion. CaO2 nanoparticles (NPs) are capped with PDA layers, followed by complexation with Fe2+ and surface grafting of cysteine‐NO to obtain Janus Ca@PDAFe‐CNO NPs. In response to low pH in BME, the decomposition of CaO2 cores generates O2 from one side of Janus NPs to propel biofilm penetration, and the released H2O2 and Fe2+ produce •OH through Fenton reaction. The concurrent glutathione‐triggered release of NO can be converted into reactive nitrogen species, which exhibit significantly higher bactericidal efficacy than those with only generation of •OH or NO. The slow release of NO for an extended time period promotes endothelial cell proliferation and migration. On Staphylococcus aureus‐infected skin wounds of diabetic mice, NP treatment eliminates bacterial infections and significantly elevates blood vessel densities, leading to full wound recovery and regeneration of arranged collagen fibers and skin accessories. Thus, the self‐propelling and multistage release of NO provide a feasible strategy to combat biofilm infection without using any antibiotics and accelerate angiogenesis and wound healing for DFU treatment."
-    },
-    {
-     "id": "W4389178904",
-     "doi": "https://doi.org/10.1002/advs.202303575",
-     "title": "Motile Living Biobots Self‐Construct from Adult Human Somatic Progenitor Seed Cells",
+     "id": "W4367679825",
+     "doi": "https://doi.org/10.1016/j.foodres.2023.112930",
+     "title": "Effects of pin-to-plate atmospheric cold plasma for modification of pearl millet (Pennisetum glaucum) starch",
      "year": 2023,
-     "cited_by": 63,
-     "abstract": "Abstract Fundamental knowledge gaps exist about the plasticity of cells from adult soma and the potential diversity of body shape and behavior in living constructs derived from genetically wild‐type cells. Here anthrobots are introduced, a spheroid‐shaped multicellular biological robot (biobot) platform with diameters ranging from 30 to 500 microns and cilia‐powered locomotive abilities. Each Anthrobot begins as a single cell, derived from the adult human lung, and self‐constructs into a multicellular motile biobot after being cultured in extra cellular matrix for 2 weeks and transferred into a minimally viscous habitat. Anthrobots exhibit diverse behaviors with motility patterns ranging from tight loops to straight lines and speeds ranging from 5–50 microns s −1 . The anatomical investigations reveal that this behavioral diversity is significantly correlated with their morphological diversity. Anthrobots can assume morphologies with fully polarized or wholly ciliated bodies and spherical or ellipsoidal shapes, each related to a distinct movement type. Anthrobots are found to be capable of traversing, and inducing rapid repair of scratches in, cultured human neural cell sheets in vitro. By controlling microenvironmental cues in bulk, novel structures, with new and unexpected behavior and biomedically‐relevant capabilities, can be discovered in morphogenetic processes without direct genetic editing or manual sculpting."
+     "cited_by": 66,
+     "abstract": ""
     },
     {
-     "id": "W4387705768",
-     "doi": "https://doi.org/10.3390/s23208503",
-     "title": "Microsurgery Robots: Applications, Design, and Development",
-     "year": 2023,
-     "cited_by": 56,
-     "abstract": "Microsurgical techniques have been widely utilized in various surgical specialties, such as ophthalmology, neurosurgery, and otolaryngology, which require intricate and precise surgical tool manipulation on a small scale. In microsurgery, operations on delicate vessels or tissues require high standards in surgeons' skills. This exceptionally high requirement in skills leads to a steep learning curve and lengthy training before the surgeons can perform microsurgical procedures with quality outcomes. The microsurgery robot (MSR), which can improve surgeons' operation skills through various functions, has received extensive research attention in the past three decades. There have been many review papers summarizing the research on MSR for specific surgical specialties. However, an in-depth review of the relevant technologies used in MSR systems is limited in the literature. This review details the technical challenges in microsurgery, and systematically summarizes the key technologies in MSR with a developmental perspective from the basic structural mechanism design, to the perception and human-machine interaction methods, and further to the ability in achieving a certain level of autonomy. By presenting and comparing the methods and technologies in this cutting-edge research, this paper aims to provide readers with a comprehensive understanding of the current state of MSR research and identify potential directions for future development in MSR."
-    },
-    {
-     "id": "W4386883235",
-     "doi": "https://doi.org/10.1126/scirobotics.adf7614",
-     "title": "Autonomous medical needle steering in vivo",
-     "year": 2023,
-     "cited_by": 56,
-     "abstract": "The use of needles to access sites within organs is fundamental to many interventional medical procedures both for diagnosis and treatment. Safely and accurately navigating a needle through living tissue to a target is currently often challenging or infeasible because of the presence of anatomical obstacles, high levels of uncertainty, and natural tissue motion. Medical robots capable of automating needle-based procedures have the potential to overcome these challenges and enable enhanced patient care and safety. However, autonomous navigation of a needle around obstacles to a predefined target in vivo has not been shown. Here, we introduce a medical robot that autonomously navigates a needle through living tissue around anatomical obstacles to a target in vivo. Our system leverages a laser-patterned highly flexible steerable needle capable of maneuvering along curvilinear trajectories. The autonomous robot accounts for anatomical obstacles, uncertainty in tissue/needle interaction, and respiratory motion using replanning, control, and safe insertion time windows. We applied the system to lung biopsy, which is critical for diagnosing lung cancer, the leading cause of cancer-related deaths in the United States. We demonstrated successful performance of our system in multiple in vivo porcine studies achieving targeting errors less than the radius of clinically relevant lung nodules. We also demonstrated that our approach offers greater accuracy compared with a standard manual b"
-    },
-    {
-     "id": "W4280582778",
-     "doi": "https://doi.org/10.1039/d2tb00555g",
-     "title": "Nitric oxide-propelled nanomotors for bacterial biofilm elimination and endotoxin removal to treat infected burn wounds",
+     "id": "W4226076040",
+     "doi": "https://doi.org/10.1007/s11947-022-02801-8",
+     "title": "Impact of Cold Plasma on Extraction of Polyphenol From De-Oiled Rice and Corn Bran: Improvement in Extraction Efficiency, In Vitro Digestibility, Antioxidant Activity, Cytotoxicity and Anti-Inflammatory Responses",
      "year": 2022,
-     "cited_by": 52,
-     "abstract": ", and NM treatment almost fully destroyed the bacteria in the wounds. IO@PMB-SNO NMs absorb LPS and remove it from the wounds under a magnetic field, which downregulates the interleukin-6 and tumor necrosis factor-α levels in tissues. The infected wounds were completely healed with the deposition and arrangement of collagen fibers and the generation of skin features similar to those of normal skin. Thus, IO@PMB-SNO NMs achieved multiple-mode effects, including GSH-triggered NO release and self-propelled motion, the NO-induced non-antibiotic elimination of biofilms and bacteria, and PMB-induced endotoxin removal. This study offers a feasible strategy, with integrated antibiofilm and anti-inflammatory effects, for accelerating the healing of infected burn wounds."
-    },
-    {
-     "id": "W4295936481",
-     "doi": "https://doi.org/10.1039/d2mh00693f",
-     "title": "Multi-target cell therapy using a magnetoelectric microscale biorobot for targeted delivery and selective differentiation of SH-SY5Y cells via magnetically driven cell stamping",
-     "year": 2022,
-     "cited_by": 45,
-     "abstract": "magnetoelectric (ME) stimulation. This ensures rapid colonization and enhances efficacy. SMMBs were fabricated using SH-SY5Y cells. Magnetoelectric nanoparticles for ME stimulation responded to an alternating magnetic field that ensured targeted cell differentiation. Multi-target cell therapy facilitated the targeted delivery and selective differentiation of SH-SY5Y cells to multiple regions using a single SMMB with rotating and alternating magnetic fields for delivery and ME stimulation. This promising tool may overcome the limitations of existing cell therapy for neurodegenerative diseases."
+     "cited_by": 64,
+     "abstract": ""
     }
    ],
    "card": {
-    "area_name": "Medical Microrobotics and Autonomous Surgical Systems",
-    "connection": "Condensed matter physics principles—such as magnetic actuation, magnetoelectric dynamics, and self-propelling micro/nanomotors—are increasingly leveraged to construct smart materials and biohybrid microswimmers capable of navigating complex biological fluids. Surgical and medical researchers apply these physical constructs to achieve autonomous needle steering, targeted drug delivery, biofilm removal, and precise tissue repair in minimally invasive procedures.",
-    "why_now": "Recent advances in self-propelled nanomotors, biohybrid actuation, and autonomous navigation have enabled real-time targeted therapy in living tissues, driving a rapid rise in co-tagged publications and model take-off scores.",
+    "area_name": "Cold Plasma Food Starch Modification",
+    "connection": "Techniques from atomic, molecular, and plasma physics—such as atmospheric dielectric barrier discharge and pin-type cold plasma—are utilized to induce structural and intermolecular alterations in food materials. In nutrition and food science, these treatments modify starch properties, enhance hydration and functional capacities, and reduce antinutritional factors such as tannins and phytic acid.",
+    "why_now": "Recent interest has surged as researchers seek eco-friendly, nonthermal physical alternatives to conventional chemical processing and explore the industrial scale-up of atmospheric cold plasma and plasma-activated water systems.",
     "open_questions": [
-     "How can self-propelling nanomotors and microrobots maintain precise navigation and active propulsion inside dynamic biological environments subject to high uncertainty and motion?",
-     "What strategies will ensure the long-term biosafety, non-toxic clearance, or complete biodegradation of magnetic and synthetic materials used in surgical microrobots?",
-     "How can autonomous needle-steering systems and microsurgery robots seamlessly integrate real-time sensor feedback to adapt to natural organ motion and complex human tissue architectures?"
+     "How can atmospheric cold plasma and plasma-activated water systems be scaled up effectively for industrial-scale starch modification?",
+     "What specific plasma-induced reaction mechanisms drive the reduction of antinutritional factors such as tannins and phytic acid in treated flours?",
+     "How do cold-plasma-induced decreases in relative crystallinity and amylose content correlate with the long-term functional stability of modified starches in food formulations?"
     ],
     "bridge_paper_ids": [
-     "W4308688159",
-     "W4220728185",
-     "W4404402023"
+     "W4213285897",
+     "W4324381148",
+     "W4377145677"
     ]
    },
-   "model": "gemini-3.6-flash"
+   "model": "gemini-3.8-flash"
   },
   {
    "kind": "forecast",
@@ -483,126 +603,6 @@
      "W4210738248",
      "W4309518803",
      "W4362503927"
-    ]
-   },
-   "model": "gemini-3.8-flash"
-  },
-  {
-   "kind": "forecast",
-   "rank": 4,
-   "i": 2916,
-   "j": 3107,
-   "subfield_i": "Nutrition and Dietetics",
-   "subfield_j": "Atomic and Molecular Physics, and Optics",
-   "field_i": "Nursing",
-   "field_j": "Physics and Astronomy",
-   "period_before": "2016–18",
-   "period_after": "2022–24",
-   "c_before": 58,
-   "c_after": 123,
-   "AS_before": 0.017325189154652688,
-   "AS_after": 0.03826823612225786,
-   "score": 0.8631953565636639,
-   "drivers": [
-    "recent rise in association",
-    "size of smaller field",
-    "preferential attachment (size product)"
-   ],
-   "papers": [
-    {
-     "id": "W4213285897",
-     "doi": "https://doi.org/10.1016/j.crfs.2022.02.007",
-     "title": "Cold plasma technologies: Their effect on starch properties and industrial scale-up for starch modification",
-     "year": 2022,
-     "cited_by": 154,
-     "abstract": "Native starches have limited applications in the food industry due to their unreactive and insoluble nature. Cold plasma technology, including plasma-activated water (PAW), has been explored to modify starches to enhance their functional, thermal, molecular, morphological, and physicochemical properties. Atmospheric cold plasma and low-pressure plasma systems have been used to alter starches and have proven successful. This review provides an in-depth analysis of the different cold plasma setups employed for starch modifications. The effect of cold plasma technology application on starch characteristics is summarized. We also discussed the potential of plasma-activated water as a novel alternative for starch modification. This review provides information needed for the industrial scale-up of cold plasma technologies as an eco-friendly method of starch modification."
-    },
-    {
-     "id": "W4214502987",
-     "doi": "https://doi.org/10.1016/j.ifset.2022.102957",
-     "title": "Effect of multipin atmospheric cold plasma discharge on functional properties of little millet (Panicum miliare) flour",
-     "year": 2022,
-     "cited_by": 97,
-     "abstract": ""
-    },
-    {
-     "id": "W4224087338",
-     "doi": "https://doi.org/10.1016/j.foodhyd.2022.107732",
-     "title": "Insight into the improving effect on multi-scale structure, physicochemical and rheology properties of granular cold water soluble rice starch by dielectric barrier discharge cold plasma processing",
-     "year": 2022,
-     "cited_by": 96,
-     "abstract": ""
-    },
-    {
-     "id": "W4386483845",
-     "doi": "https://doi.org/10.1016/j.ijbiomac.2023.126772",
-     "title": "Effect of high voltage dielectric barrier discharge (DBD) atmospheric cold plasma treatment on physicochemical and functional properties of taro (Colocasia esculenta) starch",
-     "year": 2023,
-     "cited_by": 91,
-     "abstract": ""
-    },
-    {
-     "id": "W4324381148",
-     "doi": "https://doi.org/10.1111/jfpe.14317",
-     "title": "Impact of cold plasma treatment on nutritional, antinutritional, functional, thermal, rheological, and structural properties of pearl millet flour",
-     "year": 2023,
-     "cited_by": 89,
-     "abstract": "Abstract This study was planned to investigate the effect of atmospheric cold plasma (CP) treatment at different power levels (20–30 kV) for 10–20 min on physicochemical, technofunctional, and intermolecular changes of pearl millet flour (PMF). It was observed that exposure to plasma significantly modified the sample's proximate, antinutritional, functional, thermal, rheological, and morphological properties. A concomitant (p < 0.05) decreases in antinutritional factors (tannin and phytic acid) was noticed in CP‐treated PMF compared to the control sample. Maximum reduction in tannin and phytic acid was observed at 30 kV for 20 min‐treated PMF. However, scanning electron microscopy revealed significant changes in flour starch granular structure, while decreases in relative crystallinity were also observed in CP‐treated samples from 23.45% to 19.31%. In addition, an increase in water absorption capacity (1.32–1.62 g/g), oil absorption capacity (1.11–1.31 g/g), emulsifying capacity (EC; 86.58%–91.25%) and foaming capacity (FC; 10.67–12.84%), as well as a decrease in pH (7.83–6.97) were found at 30 kV for 20 min. Apart from this, high intensity CP‐treated samples showed shear thinning behavior. At the same time, the power–law model was more appropriate for determine the flow behavior index (n) and consistency coefficient (k). On the other hand, CP‐treated samples exhibit higher storage modulus values (G′), indicating an elastic response. Based on the observations, the 30 kV‐20 mi"
-    },
-    {
-     "id": "W4377145677",
-     "doi": "https://doi.org/10.1016/j.lwt.2023.114889",
-     "title": "Effect of atmospheric cold plasma (pin type) on hydration and structure properties of kodo-millet starch",
-     "year": 2023,
-     "cited_by": 88,
-     "abstract": "Kodo millet is an underutilized crop that could be used as a new starch source. Raw starch has many flaws that must be modified through treatment. Cold plasma is a well-adopted nonthermal technology for starch modification. In the current study, millet starch was treated in a plasma reactor at different voltages of 10 kV, 20 kV, and 30 kV for a duration of 10 min, 20 min, and 30 min. The effects of treatments on their hydration, structural, and physicochemical properties were explored. Water absorption and oil absorption capacities increased from 1.43 to 1.55 g/g and 1.01–1.34 g/g respectively. On the other hand, amylose content and pH of starch declined from 31.06 to 25.94 g/hg and 7.5 to 6.9 respectively. Whiteness index value increased from 82.71 to 84.45. IR spectra exhibited functional groups present in the starch. X-ray diffractogram showed changes in crystallinity along with treatment. Relative crystallinity decreased from 23.06 to 21.63%. The significance of the results was assessed at a 95% confidence level (α) at p ≤ 0.05. Scanning electron microscope (SEM) and Bright field microscopy (BFM) showed microstructural changes in the starch. Plasma improved the hydration and structural properties of kodo millet starch, and it can be useful for preparing various food products with good quality characteristics."
-    },
-    {
-     "id": "W4362696751",
-     "doi": "https://doi.org/10.1016/j.foodres.2023.112790",
-     "title": "Atmospheric cold plasma induced nutritional & anti-nutritional, molecular modifications and in-vitro protein digestibility of guar seed (Cyamopsis tetragonoloba L.) flour",
-     "year": 2023,
-     "cited_by": 71,
-     "abstract": ""
-    },
-    {
-     "id": "W4396792153",
-     "doi": "https://doi.org/10.1016/j.carbpol.2024.122254",
-     "title": "The effect of cold plasma on starch: Structure and performance",
-     "year": 2024,
-     "cited_by": 66,
-     "abstract": ""
-    },
-    {
-     "id": "W4367679825",
-     "doi": "https://doi.org/10.1016/j.foodres.2023.112930",
-     "title": "Effects of pin-to-plate atmospheric cold plasma for modification of pearl millet (Pennisetum glaucum) starch",
-     "year": 2023,
-     "cited_by": 66,
-     "abstract": ""
-    },
-    {
-     "id": "W4226076040",
-     "doi": "https://doi.org/10.1007/s11947-022-02801-8",
-     "title": "Impact of Cold Plasma on Extraction of Polyphenol From De-Oiled Rice and Corn Bran: Improvement in Extraction Efficiency, In Vitro Digestibility, Antioxidant Activity, Cytotoxicity and Anti-Inflammatory Responses",
-     "year": 2022,
-     "cited_by": 64,
-     "abstract": ""
-    }
-   ],
-   "card": {
-    "area_name": "Cold Plasma Food Starch Modification",
-    "connection": "Techniques from atomic, molecular, and plasma physics—such as atmospheric dielectric barrier discharge and pin-type cold plasma—are utilized to induce structural and intermolecular alterations in food materials. In nutrition and food science, these treatments modify starch properties, enhance hydration and functional capacities, and reduce antinutritional factors such as tannins and phytic acid.",
-    "why_now": "Recent interest has surged as researchers seek eco-friendly, nonthermal physical alternatives to conventional chemical processing and explore the industrial scale-up of atmospheric cold plasma and plasma-activated water systems.",
-    "open_questions": [
-     "How can atmospheric cold plasma and plasma-activated water systems be scaled up effectively for industrial-scale starch modification?",
-     "What specific plasma-induced reaction mechanisms drive the reduction of antinutritional factors such as tannins and phytic acid in treated flours?",
-     "How do cold-plasma-induced decreases in relative crystallinity and amylose content correlate with the long-term functional stability of modified starches in food formulations?"
-    ],
-    "bridge_paper_ids": [
-     "W4213285897",
-     "W4324381148",
-     "W4377145677"
     ]
    },
    "model": "gemini-3.8-flash"
@@ -1088,6 +1088,126 @@
    "model": "gemini-3.8-flash"
   },
   {
+   "kind": "forecast",
+   "rank": 10,
+   "i": 1103,
+   "j": 2505,
+   "subfield_i": "Animal Science and Zoology",
+   "subfield_j": "Materials Chemistry",
+   "field_i": "Agricultural and Biological Sciences",
+   "field_j": "Materials Science",
+   "period_before": "2016–18",
+   "period_after": "2022–24",
+   "c_before": 138,
+   "c_after": 383,
+   "AS_before": 0.019449654770697166,
+   "AS_after": 0.05051249587673443,
+   "score": 0.8526358317190025,
+   "drivers": [
+    "recent rise in association",
+    "preferential attachment (size product)",
+    "size of smaller field"
+   ],
+   "papers": [
+    {
+     "id": "W4382364001",
+     "doi": "https://doi.org/10.1016/j.ijbiomac.2023.125600",
+     "title": "Preparation of chitosan/gelatin-based functional films integrated with carbon dots from banana peel for active packaging application",
+     "year": 2023,
+     "cited_by": 171,
+     "abstract": ""
+    },
+    {
+     "id": "W4307430865",
+     "doi": "https://doi.org/10.1021/acs.analchem.2c03326",
+     "title": "Real-Time Fluorescence Screening Platform for Meat Freshness",
+     "year": 2022,
+     "cited_by": 167,
+     "abstract": "Meat’s freshness is closely related to food safety and human health and has received increasing attention nowadays. To on-site visually screen meat freshness in a fast and non-destructive manner, we rationally constructed a series of fluorescent probes ( JDCN, JDNS, and JDPY ) with distinct electron-withdrawing substitution groups based on julolidine-fused coumarin. These probes underwent an aza-Michael addition followed by an elimination reaction with cadaverine to generate a colorimetric and ratiometric fluorescence response, and their sensing performance was rationally enhanced by improving the electron-withdrawing strength of substitution groups. Particularly, JDCN with a dicyanovinyl group as the reaction site exhibited outstanding sensing performance including rapid response (∼60 s), high selectivity, and low detection limit (14 nM). Furthermore, JDCN was fabricated into test kits to detect cadaverine vapor with a high-contrast fluorescence change from red to green. Based on two-color visualization of cadaverine vapor, on-site non-contact and non-destructive monitoring of meat freshness was successfully achieved. The good sensing performance rendered JDCN test kits a promising real-time fluorescence screening platform for rapid, non-destructive, and accurate evaluation of meat freshness."
+    },
+    {
+     "id": "W4210301063",
+     "doi": "https://doi.org/10.1016/j.foodhyd.2022.107563",
+     "title": "Insight into the oil polarity impact on interfacial properties of myofibrillar protein",
+     "year": 2022,
+     "cited_by": 129,
+     "abstract": ""
+    },
+    {
+     "id": "W4318945578",
+     "doi": "https://doi.org/10.1016/j.fpsl.2023.101045",
+     "title": "Zinc oxide nanoparticles in meat packaging: A systematic review of recent literature",
+     "year": 2023,
+     "cited_by": 119,
+     "abstract": "Questions have been raised apropos food spoilage, which may pose a great hazard to the global environment and human health. Amongst bio-safe material that retains photocatalysis and impacts, photo-oxidizing on biological and species chemical are ZnO nanoparticles (ZnO-NPs). In this respect, this current paper covers a wide range of topics, starting from the ZnO-NPs synthesis and antibacterial potential to their functional application in meat packaging. A deep comparison of the physicochemical properties of ZnO-NPs synthesized through different routers was reported. In addition, a special focus has been given to antibacterial mechanisms that underlie synthesis parameters. This review also examined the ZnO-NPs impact on the chemico–physico–mechanical properties of the functional coatings/films features. Likewise, the employment of ZnO-NPs in meat packaging was also evaluated. As safer nanoparticles, ZnO-NPs enhance stored meat product quality by microflora growth limitation and retards lipid/protein oxidation. Remarkably, active packaging comprising ZnO-NPs, synthesized or not by plants, showed an eco-friendly solution and future alternative in the meat industry. Information about these topics could help students and scientific researchers who are engaged in chemical engineering, chemistry and meat technology communities to approach the complex thematic of ZnO-NPs."
+    },
+    {
+     "id": "W4319455902",
+     "doi": "https://doi.org/10.1016/j.foodchem.2023.135653",
+     "title": "Effect of oil phases on the stability of myofibrillar protein microgel particles stabilized Pickering emulsions: The leading role of viscosity",
+     "year": 2023,
+     "cited_by": 115,
+     "abstract": ""
+    },
+    {
+     "id": "W4312116177",
+     "doi": "https://doi.org/10.1016/j.meatsci.2022.109086",
+     "title": "Pickering emulsion stabilized by modified pea protein-chitosan composite particles as a new fat substitute improves the quality of pork sausages",
+     "year": 2022,
+     "cited_by": 111,
+     "abstract": ""
+    },
+    {
+     "id": "W4394600134",
+     "doi": "https://doi.org/10.1016/j.foodhyd.2024.110086",
+     "title": "Application of rheology and interfacial rheology to investigate the emulsion stability of ultrasound-assisted cross-linked myofibrillar protein: Effects of oil phase types",
+     "year": 2024,
+     "cited_by": 110,
+     "abstract": ""
+    },
+    {
+     "id": "W4386892921",
+     "doi": "https://doi.org/10.1016/j.foodhyd.2023.109287",
+     "title": "Exploring the relationship between the interfacial properties and emulsion properties of ultrasound-assisted cross-linked myofibrillar protein",
+     "year": 2023,
+     "cited_by": 105,
+     "abstract": ""
+    },
+    {
+     "id": "W4281263284",
+     "doi": "https://doi.org/10.1016/j.foodchem.2022.133242",
+     "title": "A dual-function chitosan packaging film for simultaneously monitoring and maintaining pork freshness",
+     "year": 2022,
+     "cited_by": 104,
+     "abstract": ""
+    },
+    {
+     "id": "W4376286903",
+     "doi": "https://doi.org/10.1016/j.foodhyd.2023.108862",
+     "title": "Studies on stabilized mechanism of high internal phase Pickering emulsions from the collaboration of low dose konjac glucomannan and myofibrillar protein",
+     "year": 2023,
+     "cited_by": 100,
+     "abstract": ""
+    }
+   ],
+   "card": {
+    "area_name": "Advanced Materials for Meat Science",
+    "connection": "Materials chemistry principles—such as the synthesis of responsive fluorescent probes, nanoparticles, and structured Pickering emulsions—are being directly applied to animal science to address meat freshness monitoring, spoilage prevention, and meat product reformulations. Concurrently, animal muscle components like myofibrillar proteins and pork systems serve as functional matrices and testbeds for exploring interfacial chemistry, film mechanics, and bio-based packaging.",
+    "why_now": "The convergence is driven by the urgent need for non-destructive, real-time sensing of meat spoilage markers like cadaverine alongside the development of eco-friendly, nanoparticle-enhanced active packaging and fat-substitute emulsions to improve food safety and quality.",
+    "open_questions": [
+     "How can real-time fluorescent probes for spoilage markers like cadaverine vapor maintain sensitivity and stability across diverse meat storage conditions and commercial packaging environments?",
+     "What interfacial mechanisms govern the stability of ultrasound cross-linked myofibrillar protein Pickering emulsions when interacting with varying oil polarities and viscosities?",
+     "How do synthesis routes and dispersion parameters of nanoparticles, such as zinc oxide, affect the chemico-mechanical properties and antibacterial efficacy of active meat packaging films?"
+    ],
+    "bridge_paper_ids": [
+     "W4307430865",
+     "W4318945578",
+     "W4312116177"
+    ]
+   },
+   "model": "gemini-3.8-flash"
+  },
+  {
    "kind": "backtest",
    "rank": null,
    "i": 1110,
@@ -1204,124 +1324,236 @@
    "model": "gemini-3.6-flash"
   },
   {
-   "kind": "forecast",
-   "rank": 10,
-   "i": 1103,
-   "j": 2505,
-   "subfield_i": "Animal Science and Zoology",
-   "subfield_j": "Materials Chemistry",
-   "field_i": "Agricultural and Biological Sciences",
-   "field_j": "Materials Science",
+   "kind": "backtest",
+   "rank": null,
+   "i": 2105,
+   "j": 2746,
+   "subfield_i": "Renewable Energy, Sustainability and the Environment",
+   "subfield_j": "Surgery",
+   "field_i": "Energy",
+   "field_j": "Medicine",
    "period_before": "2016–18",
    "period_after": "2022–24",
-   "c_before": 138,
-   "c_after": 383,
-   "AS_before": 0.019449654770697166,
-   "AS_after": 0.05051249587673443,
-   "score": 0.8526358317190025,
-   "drivers": [
-    "recent rise in association",
-    "preferential attachment (size product)",
-    "size of smaller field"
-   ],
+   "c_before": 32,
+   "c_after": 79,
+   "AS_before": 0.0029953088209492998,
+   "AS_after": 0.00542677492445126,
+   "score": 0.7355132878149658,
+   "drivers": [],
    "papers": [
     {
-     "id": "W4382364001",
-     "doi": "https://doi.org/10.1016/j.ijbiomac.2023.125600",
-     "title": "Preparation of chitosan/gelatin-based functional films integrated with carbon dots from banana peel for active packaging application",
-     "year": 2023,
-     "cited_by": 171,
-     "abstract": ""
-    },
-    {
-     "id": "W4307430865",
-     "doi": "https://doi.org/10.1021/acs.analchem.2c03326",
-     "title": "Real-Time Fluorescence Screening Platform for Meat Freshness",
+     "id": "W4297339101",
+     "doi": "https://doi.org/10.1038/s41467-022-33475-7",
+     "title": "Photocatalytic glucose depletion and hydrogen generation for diabetic wound healing",
      "year": 2022,
-     "cited_by": 167,
-     "abstract": "Meat’s freshness is closely related to food safety and human health and has received increasing attention nowadays. To on-site visually screen meat freshness in a fast and non-destructive manner, we rationally constructed a series of fluorescent probes ( JDCN, JDNS, and JDPY ) with distinct electron-withdrawing substitution groups based on julolidine-fused coumarin. These probes underwent an aza-Michael addition followed by an elimination reaction with cadaverine to generate a colorimetric and ratiometric fluorescence response, and their sensing performance was rationally enhanced by improving the electron-withdrawing strength of substitution groups. Particularly, JDCN with a dicyanovinyl group as the reaction site exhibited outstanding sensing performance including rapid response (∼60 s), high selectivity, and low detection limit (14 nM). Furthermore, JDCN was fabricated into test kits to detect cadaverine vapor with a high-contrast fluorescence change from red to green. Based on two-color visualization of cadaverine vapor, on-site non-contact and non-destructive monitoring of meat freshness was successfully achieved. The good sensing performance rendered JDCN test kits a promising real-time fluorescence screening platform for rapid, non-destructive, and accurate evaluation of meat freshness."
+     "cited_by": 182,
+     "abstract": "High-glucose microenvironment in the diabetic foot ulcer (DFU) causes excessive glycation and induces chronic inflammation, leading to the difficulty of DFU healing. Hydrogen-rich water bath can promote the healing of DFU in clinic by virtue of the anti-inflammatory effect of hydrogen molecules, but the long-term daily soaking counts against the formation of a scab and cannot change the high-glucose microenvironment, limiting the outcome of DFU therapy. In this work, photocatalytic therapy of diabetic wound is proposed for sustainable hydrogen generation and local glucose depletion by utilizing glucose in the high-glucose microenvironment as a sacrificial agent. Hydrogen-incorporated titanium oxide nanorods are developed to realize efficient visible light (VIS)-responsive photocatalysis for glucose depletion and hydrogen generation, achieving a high efficacy of diabetic wound healing. Mechanistically, local glucose depletion and hydrogen generation jointly attenuate the apoptosis of skin cells and promote their proliferation and migration by inhibiting the synthesis of advanced glycation end products and the expression of their receptors, respectively. The proposed VIS-photocatalytic strategy provides a solution for facile, safe and efficient treatment of DFU."
     },
     {
-     "id": "W4210301063",
-     "doi": "https://doi.org/10.1016/j.foodhyd.2022.107563",
-     "title": "Insight into the oil polarity impact on interfacial properties of myofibrillar protein",
+     "id": "W4206202811",
+     "doi": "https://doi.org/10.1016/j.cej.2022.134624",
+     "title": "Sulfur-regulated defect engineering for enhanced ultrasonic piezocatalytic therapy of bacteria-infected bone defects",
      "year": 2022,
-     "cited_by": 129,
+     "cited_by": 156,
      "abstract": ""
     },
     {
-     "id": "W4318945578",
-     "doi": "https://doi.org/10.1016/j.fpsl.2023.101045",
-     "title": "Zinc oxide nanoparticles in meat packaging: A systematic review of recent literature",
+     "id": "W4390262827",
+     "doi": "https://doi.org/10.1002/adma.202307695",
+     "title": "Photothermal and Photocatalytic Glycol Chitosan and Polydopamine‐Grafted Oxygen Vacancy Bismuth Oxyiodide (BiO 1‐x I) Nanoparticles for the Diagnosis and Targeted Therapy of Diabetic Wounds",
      "year": 2023,
-     "cited_by": 119,
-     "abstract": "Questions have been raised apropos food spoilage, which may pose a great hazard to the global environment and human health. Amongst bio-safe material that retains photocatalysis and impacts, photo-oxidizing on biological and species chemical are ZnO nanoparticles (ZnO-NPs). In this respect, this current paper covers a wide range of topics, starting from the ZnO-NPs synthesis and antibacterial potential to their functional application in meat packaging. A deep comparison of the physicochemical properties of ZnO-NPs synthesized through different routers was reported. In addition, a special focus has been given to antibacterial mechanisms that underlie synthesis parameters. This review also examined the ZnO-NPs impact on the chemico–physico–mechanical properties of the functional coatings/films features. Likewise, the employment of ZnO-NPs in meat packaging was also evaluated. As safer nanoparticles, ZnO-NPs enhance stored meat product quality by microflora growth limitation and retards lipid/protein oxidation. Remarkably, active packaging comprising ZnO-NPs, synthesized or not by plants, showed an eco-friendly solution and future alternative in the meat industry. Information about these topics could help students and scientific researchers who are engaged in chemical engineering, chemistry and meat technology communities to approach the complex thematic of ZnO-NPs."
+     "cited_by": 107,
+     "abstract": "Abstract Treatment of diabetic wounds is a significant clinical challenge due to the massive infections caused by bacteria. In this study, multifunctional glycol chitosan and polydopamine‐coated BiO 1‐x I (GPBO) nanoparticles (NPs) with near‐infrared (NIR) photothermal and photocatalytic abilities are prepared. When infection occurs, the local microenvironment becomes acidic, and the pH‐switchable GPBO can target the bacteria of the wound site. The NIR‐assisted GPBO treatment exhibits anti‐bacterial effects with fast response, high efficiency, and long duration to Escherichia coli, Pseudomonas aeruginosa , and Staphylococcus aureus . GPBO achieves excellent photothermal imaging and CT imaging of the mouse subcutaneous abscess model. With the assistance of NIR irradiation, the GPBO promotes the healing of the diabetic wound model with the effects of anti‐bacteria, anti‐inflammation, the M2 polarization promotion of macrophages, and angiogenesis. This is the first‐time report of nano‐sized BiO 1‐x I. The synthesis and selected application for the imaging and targeted therapy of diabetic wounds are presented. This study offers an example of the NP‐assisted precise diagnosis and therapy of bacterial infection diseases."
     },
     {
-     "id": "W4319455902",
-     "doi": "https://doi.org/10.1016/j.foodchem.2023.135653",
-     "title": "Effect of oil phases on the stability of myofibrillar protein microgel particles stabilized Pickering emulsions: The leading role of viscosity",
-     "year": 2023,
-     "cited_by": 115,
-     "abstract": ""
-    },
-    {
-     "id": "W4312116177",
-     "doi": "https://doi.org/10.1016/j.meatsci.2022.109086",
-     "title": "Pickering emulsion stabilized by modified pea protein-chitosan composite particles as a new fat substitute improves the quality of pork sausages",
+     "id": "W4308875873",
+     "doi": "https://doi.org/10.3390/molecules27227712",
+     "title": "Green Synthesis of Titanium Dioxide Nanoparticles Using Ocimum sanctum Leaf Extract: In Vitro Characterization and Its Healing Efficacy in Diabetic Wounds",
      "year": 2022,
-     "cited_by": 111,
-     "abstract": ""
+     "cited_by": 102,
+     "abstract": "Diabetes mellitus is one of the most prevalent metabolic disorders characterized by hyperglycemia due to impaired glucose metabolism. Overproduction of free radicals due to chronic hyperglycemia may cause oxidative stress, which delays wound healing in diabetic conditions. For people with diabetes, this impeded wound healing is one of the predominant reasons for mortality and morbidity. The study aimed to develop an Ocimum sanctum leaf extract-mediated green synthesis of titanium dioxide (TiO2) nanoparticles (NPs) and further incorporate them into 2% chitosan (CS) gel for diabetic wound healing. UV-visible spectrum analysis recorded the sharp peak at 235 and 320 nm, and this was the preliminary sign for the biosynthesis of TiO2 NPs. The FTIR analysis was used to perform a qualitative validation of the biosynthesized TiO2 nanoparticles. XRD analysis indicated the crystallinity of TiO2 NPs in anatase form. Microscopic investigation revealed that TiO2 NPs were spherical and polygonal in shape, with sizes ranging from 75 to 123 nm. The EDX analysis of green synthesized NPs showed the presence of TiO2 NPs, demonstrating the peak of titanium ion and oxygen. The hydrodynamic diameter and polydispersity index (PDI) of the TiO2 NPs were found to be 130.3 nm and 0.237, respectively. The developed TiO2 NPs containing CS gel exhibited the desired thixotropic properties with pseudoplastic behavior. In vivo wound healing studies and histopathological investigations of healed wounds demonst"
     },
     {
-     "id": "W4394600134",
-     "doi": "https://doi.org/10.1016/j.foodhyd.2024.110086",
-     "title": "Application of rheology and interfacial rheology to investigate the emulsion stability of ultrasound-assisted cross-linked myofibrillar protein: Effects of oil phase types",
+     "id": "W4403378789",
+     "doi": "https://doi.org/10.1002/adfm.202411117",
+     "title": "Multifunctional Hydrogel Containing Oxygen Vacancy‐Rich WO x for Synergistic Photocatalytic O 2 Production and Photothermal Therapy Promoting Bacteria‐Infected Diabetic Wound Healing",
      "year": 2024,
-     "cited_by": 110,
-     "abstract": ""
+     "cited_by": 83,
+     "abstract": "Abstract An effective method capable of simultaneously providing antibacterial activity, blood glucose regulation, and angiogenesis promotion for healing bacteria‐infected diabetic wounds is not reported to date, but urgently required. In this study, a hydrogel composite ( γ ‐PGA/PDA/GOx/WO x (PPGW)), endowed with these desired attributes is fabricated by incorporating polydopamine (PDA), glucose oxidase (GOx), and tungsten oxide (WO x ) nanowires into the poly( γ ‐glutamic acid) ( γ ‐PGA) framework. The exceptional photothermal conversion properties of PDA facilitated notable antibacterial effects on bacteria‐infected diabetic wounds; GOx regulated high blood glucose by consuming glucose and generating hydrogen peroxide (H 2 O 2 ); while WO x nanowires displayed remarkable photocatalytic abilities, converting H 2 O 2 into oxygen (O 2 ) when exposed to 808‐nm near‐infrared radiation. Density functional theory calculations and experiments are conducted to confirm the mechanism of WO x ‐mediated photocatalytic degradation of H 2 O 2 to produce O 2 . These transformations aided in alleviating the hypoxic conditions in wounds associated with diabetes, expediting angiogenesis, and fostering cell crawling and proliferation. Consequently, the multifunctional hydrogel dressing PPGW, featuring photothermal, antibacterial, and enzyme‐catalyzed activity reduces hyperglycemia at the wound site. Moreover, photocatalytic O 2 production represents a promising strategy for addressing chronic"
     },
     {
-     "id": "W4386892921",
-     "doi": "https://doi.org/10.1016/j.foodhyd.2023.109287",
-     "title": "Exploring the relationship between the interfacial properties and emulsion properties of ultrasound-assisted cross-linked myofibrillar protein",
-     "year": 2023,
-     "cited_by": 105,
-     "abstract": ""
-    },
-    {
-     "id": "W4281263284",
-     "doi": "https://doi.org/10.1016/j.foodchem.2022.133242",
-     "title": "A dual-function chitosan packaging film for simultaneously monitoring and maintaining pork freshness",
+     "id": "W4298009034",
+     "doi": "https://doi.org/10.1016/j.cej.2022.139474",
+     "title": "An injectable, self-healing composite hydrogel with enhanced near-infrared photo-antibacterial therapeutic effects for accelerated wound healing",
      "year": 2022,
-     "cited_by": 104,
+     "cited_by": 65,
      "abstract": ""
     },
     {
-     "id": "W4376286903",
-     "doi": "https://doi.org/10.1016/j.foodhyd.2023.108862",
-     "title": "Studies on stabilized mechanism of high internal phase Pickering emulsions from the collaboration of low dose konjac glucomannan and myofibrillar protein",
+     "id": "W4415265799",
+     "doi": "https://doi.org/10.1038/s41467-025-64242-z",
+     "title": "Cu single-atom embedded g-C3N4 nanosheets rehabilitate multidrug-resistant bacteria infected diabetic wounds via photoswitchable cascade reaction",
+     "year": 2025,
+     "cited_by": 64,
+     "abstract": "Abstract To tackle elevated blood glucose, multidrug-resistant (MDR) bacterial infections, and persistent inflammation in diabetic wounds, we present a therapeutic strategy that employs a photoswitch-controlled catalytic cascade reaction, utilizing a photocatalytic material engineered through the synergistic regulation of nitrogen vacancies and single-atom embedding. The nitrogen vacancies in g-C3N4 promise the photocatalytic glucose oxidation to H2O2 and facilitate its subsequent conversion into hydroxyl radicals (•OH) through a photocatalytic cascade reaction with Cu single-atom embedded g-C3N4 nanosheets (Cu/CN). Concurrently, the •OH and superoxide anions (•O2⁻) are obtained by photocatalytic water splitting over Cu/CN. Over 99.9% antibacterial activity and effective biofilm inhibition are achieved via photocatalytic cascade reaction. In the dark, excess ROS are scavenged by Cu/CN, reducing inflammation of wounds and promoting polarization of M2 macrophages. This photoswitchable cascade reaction effectively treated MDR bacterial-infected diabetic wounds, highlighting its potential for antibiotic-free diabetic wound therapy and its promising prospects for clinical applications."
+    },
+    {
+     "id": "W4376121904",
+     "doi": "https://doi.org/10.1002/advs.202300986",
+     "title": "Multi‐Functional Bio‐HJzyme: Revolutionizing Diabetic Skin Regeneration with its Glucose‐Unlocked Sterilization and Programmed Anti‐Inflammatory Effects",
      "year": 2023,
-     "cited_by": 100,
-     "abstract": ""
+     "cited_by": 61,
+     "abstract": "Abstract Antibacterial dynamic therapy (ADT) triggered by reactive oxygen species (ROS) is promising for diabetic infectious disease treatment. However, the limited local O 2 /H 2 O 2 production and post‐treatment inflammation remain long‐standing issues. To address these challenges, a novel H 2 ‐evolving bio‐heterojunction enzyme (Bio‐HJzyme) consisting of graphite‐phase carbon nitride/copper sulfide (CN/Cu 2− x S) heterojunction and glucose oxidase (GO x ) is created. The Bio‐HJzyme offers glutathione peroxidase (GP x ), peroxidase (POD), and catalase (CAT) mimetic activities; provides anti‐pathogen properties via programmed light activation; and effectively promotes diabetic wound healing. Specifically, its GP x ‐mimetic activity and the presence of GO x significantly enhance the yield of H 2 O 2 , which can be catalyzed through POD‐mimetic activity to produce highly germicidal •OH. The H 2 O 2 can also be catalyzed to H 2 O and O 2 , assisted by the CAT‐mimetic activity. The catalyzed products can then be catalyzed into germicidal •OH and •O 2 − under NIR light irradiation, giving enhanced ADT. Further, CN can split water to form H 2 under solar light, which dramatically suppresses the inflammation caused by excessive ROS. In vivo evaluation confirms that Bio‐HJzyme promotes the regeneration of diabetic infectious skin through killing bacteria, enhancing angiogenesis, promoting wound bed epithelialization, and reinforcing anti‐inflammatory responses; hence, providing a re"
+    },
+    {
+     "id": "W4292348722",
+     "doi": "https://doi.org/10.1021/jacsau.2c00321",
+     "title": "Photodynamic Hydrogen-Bonded Biohybrid Framework: A Photobiocatalytic Cascade Nanoreactor for Accelerating Diabetic Wound Therapy",
+     "year": 2022,
+     "cited_by": 59,
+     "abstract": "High Resolution Image Download MS PowerPoint Slide A diabetic wound causes thousands of infections or deaths around the world each year, and its healing remains a critical challenge because of the ease of multidrug-resistant (MDR) bacterial infection, as well as the intrinsic hyperglycemic and hypoxia microenvironment that inhibits the therapeutic efficiency. Herein, we pioneer the design of a photobiocatalytic cascade nanoreactor via spatially organizing the biocatalysts and photocatalysts utilizing a hydrogen-bonded organic framework (HOF) scaffold for diabetic wound therapy. The HOF scaffold enables it to disperse and stabilize the host cargos, and the formed long-range-ordered mesochannels also facilitate the mass transfer that enhances the cascade activity. This integrated HOF nanoreactor allows the continuous conversion of overexpressed glucose and H 2 O 2 into toxic reactive oxygen species by the photobiocatalytic cascade. As a result, it readily reverses the microenvironment of the diabetes wound and exhibits an extraordinary capacity for wound healing through synergistic photodynamic therapy. This work describes the first example of constructing an all-in-one HOF bioreactor for antimicrobial diabetes wound treatment and showcases the promise of combined biocatalysis and photocatalysis achieved by using an HOF scaffold in biomedicine applications."
+    },
+    {
+     "id": "W4317869116",
+     "doi": "https://doi.org/10.1021/acsami.2c17366",
+     "title": "Nanocatalytic Hydrogel with Rapid Photodisinfection and Robust Adhesion for Fortified Cutaneous Regeneration",
+     "year": 2023,
+     "cited_by": 54,
+     "abstract": "Chronic inflammation caused by invasive bacterial infections severely interferes with the normal healing process of skin regeneration. Hypoxia of the infection microenvironment (IME) seriously affects the antibacterial effect of photodynamic therapy in phototherapy. To address this serious issue, a nanocatalytic hydrogel with an enhanced phototherapy effect consisting of a hydrogel polyvinyl alcohol (PVA) scaffold, MXene/CuS bio-heterojunction, and polydopamine (PDA) for photothermal antibacterial effects and promoting skin regeneration is designed. The MXene/CuS bio-heterojunction has a benign photothermal effect. Singlet oxygen ( 1 O 2 ) and hydroxyl radicals (·OH) were generated under near-infrared light, which made the hydrogel system have good antioxidant and antibacterial properties. The addition of PDA further improves the biocompatibility and endows the nanocatalytic hydrogel with adhesion. Additionally, in vivo assays display that the nanocatalytic hydrogel has good skin regeneration ability, including ability to kill bacteria, and promotes capillary angiogenesis and collagen deposition. This work proposes an approach for nanocatalyzed hydrogels with an activated IME response to treat wound infections by enhancing the phototherapeutic effects."
     }
    ],
    "card": {
-    "area_name": "Advanced Materials for Meat Science and",
-    "connection": "Materials chemistry principles—such as the synthesis of responsive fluorescent probes, nanoparticles, and structured Pickering emulsions—are being directly applied to animal science to address meat freshness monitoring, spoilage prevention, and meat product reformulations. Concurrently, animal muscle components like myofibrillar proteins and pork systems serve as functional matrices and testbeds for exploring interfacial chemistry, film mechanics, and bio-based packaging.",
-    "why_now": "The convergence is driven by the urgent need for non-destructive, real-time sensing of meat spoilage markers like cadaverine alongside the development of eco-friendly, nanoparticle-enhanced active packaging and fat-substitute emulsions to improve food safety and quality.",
+    "area_name": "Photocatalytic Nanomaterials for Surgical Wound Healing",
+    "connection": "Sustainable energy technologies—such as light-driven photocatalysis, water-splitting reactions, and green synthesis of metal oxide nanoparticles—are increasingly being repurposed for surgical wound management. Researchers use these light-responsive nanomaterials and bio-heterojunction hydrogels to localise glucose depletion, generate therapeutic hydrogen or oxygen, and eradicate multidrug-resistant bacteria in chronic diabetic wounds.",
+    "why_now": "Recent developments in light-responsive nanomaterials and green synthesis allow researchers to target the hypoxic, hyperglycemic, and infectious microenvironments that hinder traditional chronic wound therapies.",
     "open_questions": [
-     "How can real-time fluorescent probes for spoilage markers like cadaverine vapor maintain sensitivity and stability across diverse meat storage conditions and commercial packaging environments?",
-     "What interfacial mechanisms govern the stability of ultrasound cross-linked myofibrillar protein Pickering emulsions when interacting with varying oil polarities and viscosities?",
-     "How do synthesis routes and dispersion parameters of nanoparticles, such as zinc oxide, affect the chemico-mechanical properties and antibacterial efficacy of active meat packaging films?"
+     "How can photocatalytic reactions be effectively triggered in deeper surgical tissue layers where visible or near-infrared light penetration is naturally restricted?",
+     "What are the long-term biophysical safety and degradation pathways of biosynthesized and heterojunction nanomaterials within living wound tissue?",
+     "How can photoswitchable cascade systems be optimized to balance ROS generation for targeted antibacterial sterilization against ROS scavenging for anti-inflammatory healing?"
     ],
     "bridge_paper_ids": [
-     "W4307430865",
-     "W4318945578",
-     "W4312116177"
+     "W4297339101",
+     "W4403378789",
+     "W4308875873"
     ]
    },
-   "model": "gemini-3.8-flash"
+   "model": "gemini-3.6-flash"
+  },
+  {
+   "kind": "backtest",
+   "rank": null,
+   "i": 2305,
+   "j": 2746,
+   "subfield_i": "Environmental Engineering",
+   "subfield_j": "Surgery",
+   "field_i": "Environmental Science",
+   "field_j": "Medicine",
+   "period_before": "2016–18",
+   "period_after": "2022–24",
+   "c_before": 27,
+   "c_after": 81,
+   "AS_before": 0.0036463320521540675,
+   "AS_after": 0.007964319093839213,
+   "score": 0.7341235119047687,
+   "drivers": [],
+   "papers": [
+    {
+     "id": "W4311314067",
+     "doi": "https://doi.org/10.1021/acs.chemrev.2c00512",
+     "title": "Engineered Living Materials For Sustainability",
+     "year": 2022,
+     "cited_by": 256,
+     "abstract": "Recent advances in synthetic biology and materials science have given rise to a new form of materials, namely engineered living materials (ELMs), which are composed of living matter or cell communities embedded in self-regenerating matrices of their own or artificial scaffolds. Like natural materials such as bone, wood, and skin, ELMs, which possess the functional capabilities of living organisms, can grow, self-organize, and self-repair when needed. They also spontaneously perform programmed biological functions upon sensing external cues. Currently, ELMs show promise for green energy production, bioremediation, disease treatment, and fabricating advanced smart materials. This review first introduces the dynamic features of natural living systems and their potential for developing novel materials. We then summarize the recent research progress on living materials and emerging design strategies from both synthetic biology and materials science perspectives. Finally, we discuss the positive impacts of living materials on promoting sustainability and key future research directions."
+    },
+    {
+     "id": "W4283208378",
+     "doi": "https://doi.org/10.1093/bjs/znac191",
+     "title": "Environmental sustainability in robotic and laparoscopic surgery: systematic review",
+     "year": 2022,
+     "cited_by": 132,
+     "abstract": "BACKGROUND: Minimally invasive surgical (MIS) techniques are considered the gold standard of surgical interventions, but they have a high environmental cost. With global temperatures rising and unmet surgical needs persisting, this review investigates the carbon and material footprint of MIS and summarizes strategies to make MIS greener. METHODS: The MEDLINE, Embase, and Web of Science databases were interrogated between 1974 and July 2021. The search strategy encompassed surgical setting, waste, carbon footprint, environmental sustainability, and MIS. Two investigators independently performed abstract/full-text reviews. An analysis of disability-adjusted life years (DALYs) averted per ton of carbon dioxide equivalents (CO2e) or waste produced was generated. RESULTS: From the 2456 abstracts identified, 16 studies were selected reporting on 5203 MIS procedures. Greenhouse gas (GHG) emissions ranged from 6 kg to 814 kg CO2e per case. Carbon footprint hotspots included production of disposables and anaesthetics. The material footprint of MIS ranged from 0.25 kg to 14.3 kg per case. Waste-reduction strategies included repackaging disposables, limiting open and unused instruments, and educational interventions. Robotic procedures result in 43.5 per cent higher GHG emissions, 24 per cent higher waste production, fewer DALYs averted per ton of CO2, and less waste than laparoscopic alternatives. CONCLUSION: The increased environmental impact of robotic surgery may not sufficiently of"
+    },
+    {
+     "id": "W4400015997",
+     "doi": "https://doi.org/10.1002/adma.202402530",
+     "title": "Engineered Probiotic Bio‐Heterojunction with Robust Antibiofilm Modality via “Eating” Extracellular Polymeric Substances for Wound Regeneration",
+     "year": 2024,
+     "cited_by": 124,
+     "abstract": "Abstract The compact three‐dimensional (3D) structure of extracellular polymeric substances (EPS) within biofilms significantly hinders the penetration of antimicrobial agents, making biofilm eradication challenging and resulting in persistent biofilm‐associated infections. To address this challenge, a solution is proposed: a probiotic bio‐heterojunction (P‐bioHJ) combining Lactobacillus rhamnosus with MXene (Ti 3 C 2 ) quantum dots (MQDs)/FeS heterojunction. This innovation aims to break down the saccharides in EPS, enabling effective combat against biofilm‐associated infections. Initially, the P‐bioHJ targets saccharides through metabolic processes, causing the collapse of EPS and allowing infiltration into bacterial colonies. Simultaneously, upon exposure to near‐infrared (NIR) irradiation, the P‐bioHJ produces reactive oxygen species (ROS) and thermal energy, deploying physical mechanisms to combat bacterial biofilms effectively. Following antibiofilm treatment, the P‐bioHJ adjusts the oxidative environment, reduces wound inflammation by scavenging ROS, boosts antioxidant enzyme activity, and mitigates the NF‐κB inflammatory pathway, thereby accelerating wound healing. In vitro and in vivo experiments confirm the exceptional antibiofilm, antioxidant/anti‐inflammatory, and wound‐regeneration properties of P‐bioHJ. In conclusion, this study provides a promising approach for treating biofilm‐related infections."
+    },
+    {
+     "id": "W4307870429",
+     "doi": "https://doi.org/10.3389/fmicb.2022.1028560",
+     "title": "pH variation in medical implant biofilms: Causes, measurements, and its implications for antibiotic resistance",
+     "year": 2022,
+     "cited_by": 95,
+     "abstract": "The advent of implanted medical devices has greatly improved the quality of life and increased longevity. However, infection remains a significant risk because bacteria can colonize device surfaces and form biofilms that are resistant to antibiotics and the host's immune system. Several factors contribute to this resistance, including heterogeneous biochemical and pH microenvironments that can affect bacterial growth and interfere with antibiotic biochemistry; dormant regions in the biofilm with low oxygen, pH, and metabolites; slow bacterial growth and division; and poor antibody penetration through the biofilm, which may also be regions with poor acid product clearance. Measuring pH in biofilms is thus key to understanding their biochemistry and offers potential routes to detect and treat latent infections. This review covers the causes of biofilm pH changes and simulations, general findings of metabolite-dependent pH gradients, methods for measuring pH in biofilms, effects of pH on biofilms, and pH-targeted antimicrobial-based approaches."
+    },
+    {
+     "id": "W4309246416",
+     "doi": "https://doi.org/10.1002/adma.202208069",
+     "title": "A Highly Efficacious Electrical Biofilm Treatment System for Combating Chronic Wound Bacterial Infections",
+     "year": 2022,
+     "cited_by": 94,
+     "abstract": "Abstract Biofilm infection has a high prevalence in chronic wounds and can delay wound healing. Current treatment using debridement and antibiotic administration imposes a significant burden on patients and healthcare systems. To address their limitations, a highly efficacious electrical antibiofilm treatment system is described in this paper. This system uses high‐intensity current (75 mA cm −2 ) to completely debride biofilm above the wound surface and enhance antibiotic delivery into biofilm‐infected wounds simultaneously. Combining these two effects, this system uses short treatments (≤2 h) to reduce bacterial count of methicillin‐resistant S. aureus (MRSA) biofilm‐infected ex vivo skin wounds from 10 10 to 10 5.2 colony‐forming units (CFU) g −1 . Taking advantage of the hydrogel ionic circuit design, this system enhances the in vivo safety of high‐intensity current application compared to conventional devices. The in vivo antibiofilm efficacy of the system is tested using a diabetic mouse‐based wound infection model. MRSA biofilm bacterial count decreases from 10 9.0 to 10 4.6 CFU g −1 at 1 day post‐treatment and to 10 3.3 CFU g −1 at 7 days post‐treatment, both of which are below the clinical threshold for infection. Overall, this novel technology provides a quick, safe, yet highly efficacious treatment to chronic wound biofilm infections."
+    },
+    {
+     "id": "W4210629508",
+     "doi": "https://doi.org/10.1016/j.tibtech.2022.01.003",
+     "title": "Biomimetic 3D living materials powered by microorganisms",
+     "year": 2022,
+     "cited_by": 70,
+     "abstract": ""
+    },
+    {
+     "id": "W4403492031",
+     "doi": "https://doi.org/10.1007/s40820-024-01536-9",
+     "title": "Unleashing the Potential of Electroactive Hybrid Biomaterials and Self-Powered Systems for Bone Therapeutics",
+     "year": 2024,
+     "cited_by": 69,
+     "abstract": "The incidence of large bone defects caused by traumatic injury is increasing worldwide, and the tissue regeneration process requires a long recovery time due to limited self-healing capability. Endogenous bioelectrical phenomena have been well recognized as critical biophysical factors in bone remodeling and regeneration. Inspired by bioelectricity, electrical stimulation has been widely considered an external intervention to induce the osteogenic lineage of cells and enhance the synthesis of the extracellular matrix, thereby accelerating bone regeneration. With ongoing advances in biomaterials and energy-harvesting techniques, electroactive biomaterials and self-powered systems have been considered biomimetic approaches to ensure functional recovery by recapitulating the natural electrophysiological microenvironment of healthy bone tissue. In this review, we first introduce the role of bioelectricity and the endogenous electric field in bone tissue and summarize different techniques to electrically stimulate cells and tissue. Next, we highlight the latest progress in exploring electroactive hybrid biomaterials as well as self-powered systems such as triboelectric and piezoelectric-based nanogenerators and photovoltaic cell-based devices and their implementation in bone tissue engineering. Finally, we emphasize the significance of simulating the target tissue's electrophysiological microenvironment and propose the opportunities and challenges faced by electroactive hybrid bio"
+    },
+    {
+     "id": "W4296564757",
+     "doi": "https://doi.org/10.1038/s41467-022-33191-2",
+     "title": "A de novo matrix for macroscopic living materials from bacteria",
+     "year": 2022,
+     "cited_by": 66,
+     "abstract": "Abstract Engineered living materials (ELMs) embed living cells in a biopolymer matrix to create materials with tailored functions. While bottom-up assembly of macroscopic ELMs with a de novo matrix would offer the greatest control over material properties, we lack the ability to genetically encode a protein matrix that leads to collective self-organization. Here we report growth of ELMs from Caulobacter crescentus cells that display and secrete a self-interacting protein. This protein formed a de novo matrix and assembled cells into centimeter-scale ELMs. Discovery of design and assembly principles allowed us to tune the composition, mechanical properties, and catalytic function of these ELMs. This work provides genetic tools, design and assembly rules, and a platform for growing ELMs with control over both matrix and cellular structure and function."
+    },
+    {
+     "id": "W4406120298",
+     "doi": "https://doi.org/10.1038/s44222-024-00262-6",
+     "title": "Integrating bioelectronics with cell-based synthetic biology",
+     "year": 2025,
+     "cited_by": 61,
+     "abstract": ""
+    },
+    {
+     "id": "W3206183079",
+     "doi": "https://doi.org/10.1016/j.xcrp.2022.100807",
+     "title": "Taxonomy for engineered living materials",
+     "year": 2022,
+     "cited_by": 53,
+     "abstract": "Engineered living materials (ELMs) are the most relevant contemporary revolution in materials science and engineering and aim to outperform current examples of “smart,” active, or multifunctional materials, enabling countless industrial and societal applications. The “living” materials facilitate unique properties, including autonomy, intelligent responses, self-repair, and even self-replication. Within this dawning field, current literature has classified ELMs mainly into biological ELMs (bio-ELMs), which are solely made of cells, and hybrid living materials (HLMs), consisting of abiotic scaffold and living cells. Considering that the most relevant feature of ELMs is the living cell colonies or micro-organisms, we consider that ELMs should be classified and presented differently, more related to life taxonomies than to materials science disciplines. Toward solving the current need for the classification of ELMs, this study presents the first complete proposal of taxonomy for these ELMs. Here, life taxonomies and materials classifications are hybridized hierarchically. Once the proposed taxonomy is explained, its applicability is illustrated by classifying several examples of bio-ELMs and HLMs, and its utility for guiding research in this field is analyzed. Finally, possible modifications and improvements are discussed, and a call for collaboration is launched for progressing in this complex and multidisciplinary field."
+    }
+   ],
+   "card": {
+    "area_name": "Sustainable Surgery and Living Biomaterials",
+    "connection": "Environmental engineering principles intersect with surgery by measuring and reducing the carbon and material waste footprints of surgical procedures like minimally invasive operations. Additionally, engineered living materials and bio-electric systems from environmental and synthetic biology domain are applied to treat surgical wound biofilms, deliver targeted therapies, and enhance tissue regeneration.",
+    "why_now": "This interdisciplinary focus is accelerating due to the rising carbon footprint of modern surgical interventions alongside recent breakthroughs in synthetic biology that enable living and electroactive materials to resolve chronic wound infections and tissue defects.",
+    "open_questions": [
+     "How can surgical teams effectively reduce greenhouse gas emissions and material waste in robotic and laparoscopic procedures without compromising clinical outcomes?",
+     "What genetic and material design strategies best allow probiotic bio-heterojunctions and living materials to penetrate extracellular polymeric substances to eradicate implant and wound biofilms?",
+     "How can high-intensity electrical stimulation systems and electroactive hybrid biomaterials be safely translated to clinical settings for chronic wound debridement and bone defect regeneration?"
+    ],
+    "bridge_paper_ids": [
+     "W4283208378",
+     "W4400015997",
+     "W4309246416"
+    ]
+   },
+   "model": "gemini-3.6-flash"
   }
  ]
 }

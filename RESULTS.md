@@ -119,3 +119,33 @@ Each subfield may appear at most twice. Without the cap, Condensed Matter Physic
 10. Animal Science and Zoology × Materials Chemistry
 
 The main driver for every one of them is the recent rise in association.
+
+## Phase 6: App (done)
+
+`streamlit run app/streamlit_app.py` runs offline from `data/processed/`. It has five tabs: Map (fixed layout, period slider, domain or community colours, highlighted bridges), Emerging, Bridges, Next big things (Gemini cards) and Proof (take-offs in the top k, all methods, the list of hits).
+- The map uses SVG, not WebGL, so it renders on machines without WebGL.
+- A cached rebuild with `python run_all.py --skip-explain` takes seconds, costs $0 and gives byte-identical outputs.
+
+## Phase 5: Gemini explanations (done, 02:53)
+
+- Bridge papers are the 10 most-cited 2022–25 journal papers tagged with **both** subfields. A repeated filter key means AND: Aquatic Science × EEE returns 1,041, exactly our c_ij.
+- Models are listed with `models.list()` and tried newest first: gemini-3.8-flash, then 3.7, 3.6, 3.5 and 2.5. Each gets two tries with backoff. The API was busy (many 503s and 429s); 9 cards came from 3.8-flash and 4 from 3.6-flash.
+- **13/13 cards saved; every cited paper id is in the fetched list** (checked in code).
+
+| # | Pair | Gemini area name |
+| --- | --- | --- |
+| 1 | Surgery × Condensed Matter Physics | Medical Microrobotics and Autonomous Surgical Systems |
+| 2 | Environmental Engineering × Condensed Matter Physics | Magnetic Nanorobots for Water Remediation |
+| 3 | Aquatic Science × Electrical and Electronic Engineering | IoT Water Quality and Aquaculture Instrumentation |
+| 4 | Nutrition and Dietetics × Atomic and Molecular Physics, and Optics | Cold Plasma Food Starch Modification |
+| 5 | Pediatrics, Perinatology and Child Health × Geography, Planning and Development | Decentralized Planning and Child Health |
+| 6 | Oncology × Library and Information Sciences | Bibliometric Knowledge Mapping in Oncology |
+| 7 | Surgery × Library and Information Sciences | Bibliometric Analysis of Surgical Research |
+| 8 | Religious studies × Pediatrics, Perinatology and Child Health | Religious Frameworks in Pediatric Health |
+| 9 | Pollution × Atomic and Molecular Physics, and Optics | Optical and Plasma-Driven Pollutant Remediation |
+| 10 | Animal Science and Zoology × Materials Chemistry | Advanced Materials for Meat Science |
+| backtest hit | Plant Science × Health Information Management | ML-Driven Plant Health and Crop Recommendation |
+| backtest hit | Renewable Energy, Sustainability and the Environment × Surgery | Photocatalytic Nanomaterials for Surgical Wound Healing |
+| backtest hit | Environmental Engineering × Surgery | Sustainable Surgery and Living Biomaterials |
+
+Pitch note: forecasts 6 and 7 (Oncology/Surgery × Library and Information Sciences) are the boom in bibliometric-analysis papers. That's a real trend in publishing, but a weak "next big thing", so demo cards 1–4 instead.

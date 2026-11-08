@@ -51,7 +51,7 @@ def base_layout(fig: go.Figure, height=420, **kw):
 
 # ---------------------------------------------------------------- data
 @st.cache_data
-def load():
+def load(stamp: float):
     sm = pd.read_parquet(D / "subfield_metrics.parquet")
     yc = pd.read_parquet(D / "subfield_year_counts.parquet")
     nodes = {p: pd.read_parquet(D / f"nodes_{p}.parquet") for p in PERIODS}
@@ -67,7 +67,8 @@ def load():
     return sm, yc, nodes, edges, bridges, layout, preds, bt, bt_top, rising, expl, totals
 
 
-sm, yc, nodes, edges, bridges, layout, preds, bt, bt_top, rising, expl, totals = load()
+_stamp = max(f.stat().st_mtime for f in D.glob("*") if f.is_file())  # reload when files change
+sm, yc, nodes, edges, bridges, layout, preds, bt, bt_top, rising, expl, totals = load(stamp=_stamp)
 names = sm.set_index("subfield_id").subfield.to_dict()
 metrics = pd.DataFrame(bt["metrics"])
 strict = metrics[metrics.split.str.startswith("strict (")].set_index("model")
@@ -229,7 +230,7 @@ with tabs[3]:
             h2.metric("Take-off score", f"{r.score:.2f}")
             m1, m2, m3 = st.columns(3)
             m1.metric("Shared papers 2022–24", f"{r.c:,}")
-            m2.metric("Association vs expected", f"×{r.AS:.2f}")
+            m2.metric("Overlap vs expected from field sizes", f"{r.AS:.0%}" if r.AS >= 0.01 else f"{r.AS:.1%}")
             m3.metric("Change since 2019–21", f"×{np.exp(r.d_logAS):.1f}")
             if c:
                 cd = c["card"]
