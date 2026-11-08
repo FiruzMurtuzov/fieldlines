@@ -87,7 +87,8 @@ def main():
     br = []
     for p in P[1:]:
         e = pd.read_parquet(config.PROCESSED / f"edges_{p}.parquet")
-        e = e[e.cross_comm & ~e.same_field & e.d_logAS.notna()]
+        art = list(config.ARTIFACT_SUBFIELDS)
+        e = e[e.cross_comm & ~e.same_field & e.d_logAS.notna() & ~e.i.isin(art) & ~e.j.isin(art)]
         e = e.nlargest(50, "d_logAS").assign(period=p)
         br.append(e)
     br = pd.concat(br)

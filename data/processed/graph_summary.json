@@ -1,0 +1,37 @@
+[
+ {
+  "period": "P1",
+  "nodes": 250,
+  "edges": 4070,
+  "communities": 6,
+  "modularity": 0.505
+ },
+ {
+  "period": "P2",
+  "nodes": 250,
+  "edges": 4103,
+  "communities": 6,
+  "modularity": 0.502
+ },
+ {
+  "period": "P3",
+  "nodes": 250,
+  "edges": 4062,
+  "communities": 6,
+  "modularity": 0.503
+ },
+ {
+  "period": "P4",
+  "nodes": 250,
+  "edges": 4099,
+  "communities": 6,
+  "modularity": 0.491
+ },
+ {
+  "period": "P5",
+  "nodes": 250,
+  "edges": 4107,
+  "communities": 6,
+  "modularity": 0.501
+ }
+]

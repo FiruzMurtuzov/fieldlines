@@ -71,3 +71,10 @@ Caveat: Business growth is mostly the topic "SMEs and Digital Marketing" (7k →
 | Oncology × Library and Information Sciences | 80 → 581 | +1.77 |
 | Health Informatics × Education | 229 → 9,334 | +1.74 |
 | Artificial Intelligence × Oral Surgery | 50 → 604 | +1.66 |
+
+## Phase 3: Network, communities, bridges (done)
+
+- Each period's graph has 250 nodes and about 4,100 edges (c ≥ 20, AS > 1). Louvain finds **6 communities** with modularity ≈ 0.50 in every period.
+- P5 communities: biomedicine (77), social sciences and humanities (54), engineering and physical sciences (49), earth, environment and agriculture (29), CS and maths (23), health professions (18).
+- **Top bridge subfields, P5** (participation and betweenness ranks): Statistics, Probability and Uncertainty · Medical Terminology · Chemical Health and Safety · Human-Computer Interaction · Acoustics and Ultrasonics · Complementary and Manual Therapy · Human Factors and Ergonomics · Anatomy.
+- **Top rising cross-community pairs, P5:** Health Informatics × Education (Δ log AS +1.58, 9,334 papers) · Virology × Emergency Medical Services · Ocean Engineering × Statistical and Nonlinear Physics · Signal Processing × Transportation · Health Informatics × Library and Information Sciences.
